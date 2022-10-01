@@ -1,7 +1,5 @@
 # Knowledge Unlearning for Mitigating Privacy Risks in Langauge Models
 
-Target Veune: ICLR 2023 (Due 9.28.2022)
-
 In order to reproduce our results, take the following steps:
 ### 1. Create conda environment and install requirements
 ```
