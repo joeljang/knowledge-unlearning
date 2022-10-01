@@ -1,0 +1,123 @@
+doc_id,corpus,text
+1670,github,"</name>
+	<description></description>
+	<!-- TODO <organization> <name>company name</name> <url>company url</url> 
+		</organization> -->
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	
+	<dependencies>
+		<!-- WICKET DEPENDENCIES -->
+		<dependency>
+			<groupId>org.apache.wicket</groupId>
+			<artifactId>wicket-core</artifactId>
+		"
+13379,github," Corbin Simpson <MostAwesomeDude@gmail.com>
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the ""Software""),
+ * to deal in the Software without restriction, including without limitation
+ * on the rights to use, copy, modify, merge, publish, distribute, sub
+ * license, and/or sell copies of the Software, and to permit persons to whom
+ * the Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice (including the next
+ * paragraph) shall be included in all copies or substantial portions of the
+ * Software.
+ *
+ * THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR"
+10234,github,"al_searchbar
+msgid ""<span class=\""small mr-1 navbar-text\"">Sort By:</span>""
+msgstr """"
+
+#. module: portal
+#: model_terms:ir.ui.view,arch_db:portal.portal_share_template
+msgid ""<strong>Open </strong>""
+msgstr """"
+
+#. module: portal
+#: model:mail.template,body_html:portal.mail_template_data_portal_welcome
+msgid """"
+""<table border=\""0\"" cellpadding=\""0\"" cellspacing=\""0\"" style=\""padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\""><tr><td align=\""center"
+4719,github,"px;
+}
+h3 {
+  font-size: 20px;
+  line-height: 28px;
+}
+.large-h1 {
+  font-size: 42px;
+  line-height: 48px;
+  font-weight: 300;
+}
+p {
+  font-size: 14px;
+  line-height: 24px;
+}
+p:last-child {
+  margin-bottom: 0px;
+}
+p.lead {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+}
+span.lead {
+  font-weight: 400;
+}
+.uppercase {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin-right: -1px;
+}
+strong"
+7003,github," class=""separator:a25fe4a28bd22016ef2a6cf10db5d649d inherit pub_methods_class_emojicode_compiler_1_1_a_s_t_unary""><td class=""memSeparator"" colspan=""2"">&#160;</td></tr>
+<tr class=""inherit_header pub_methods_class_emojicode_compiler_1_1_a_s_t_expr""><td colspan=""2"" onclick=""javascript:toggleInherit('pub_methods_class_emojicode_compiler_1_1_a_s_t_expr')""><img src=""closed.png"" alt=""-""/>&#160;Public Member Functions inherited from <a class=""el"" href=""class_emojicode_compiler_1_1_a"
+2831,openwebtext2," to.
+
+Thank you for reading this Techdirt post. With so many things competing for everyone’s attention these days, we really appreciate you giving us your time. We work hard every day to put quality content out there for our community. Techdirt is one of the few remaining truly independent media outlets. We do not have a giant corporation behind us, and we rely heavily on our community to support us, in an age when advertisers are increasingly uninterested in sponsoring small, independent sites — especially a site like ours that is unwilling to pull punches in its reporting and analysis. While other websites have resorted to paywalls, registration requirements, and increasingly annoying/intrusive advertising, we have always kept Techdirt open and available to anyone. But in order to continue doing so, we need your support. We offer a variety of ways for our readers to support us, from direct donations to special subscriptions and cool merchandise — and every little bit helps. Thank you."
+13014,github,"
+	req, err := client.DeletePreparer(ctx, resourceGroupName, gatewayName)
+	if err!= nil {
+		err = autorest.NewErrorWithError(err, ""network.VpnGatewaysClient"", ""Delete"", nil, ""Failure preparing request"")
+		return
+	}
+
+	result, err = client.DeleteSender(req)
+	if err!= nil {
+		err = autorest.NewErrorWithError(err, ""network.VpnGatewaysClient"", ""Delete"", result.Response(), ""Failure sending request"")
+		return
+	}
+
+	return
+}
+
+// DeletePreparer prepares the Delete request.
+func (client VpnGatewaysClient) DeletePreparer(ctx context.Context, resourceGroupName string, gatewayName string) (*http.Request, error) {
+	pathParameters := map[string]interface{}{
+		"
+11979,pile-cc,"
+
+Content Continues Below
+
+Download this free guide
+
+Unified Communications: the key to prospering in the new working reality of Covid-19
+
+The coronavirus is changing everything about how people work, and will do so permanently. It added that even though the working world was experiencing unprecedented uncertainty, there were two things that should be borne in mind: the virus will pass, and at the other side of the pandemic, the world of work will look very different.
+
+I agree to TechTarget’s Terms of Use, Privacy Policy, and the transfer of my information to the United States for processing to provide me with relevant information as described in our Privacy Policy.
+
+Please check the box if you want to proceed.
+
+I agree to my information being processed by TechTarget and its Partners to contact me via phone, email, or other means regarding information relevant to my professional interests. I may unsubscribe at any time.
+
+Please"

@@ -1,0 +1,1809 @@
+doc_id,corpus,text
+13249,github,".xcconfig */,
+			);
+			name = Pods;
+			sourceTree = ""<group>"";
+		};
+		9740EEB11CF90186004384FC /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				3B80C3931E831B6300D905FE /* App.framework */,
+				3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */,
+				9740EEBA1CF902C7004384FC /* Flutter.framework */,
+				9740EEB21CF90195004384FC /* Debug.xcconfig */,
+				7AFA3C8E1D35360C0083082E /* Release"
+8335,github,"
+
+f 1/1/1 2/2/2 3/3/3
+f 1/4/4 3/5/5 4/6/6
+f 5/7/7 6/8/8 7/9/9
+f 5/10/10 7/11/11 8/12/12
+f 9/13/13 10/14/14 11/15/15
+f 9/16/16 11/17/17 12/18/18
+f 13/19/19 14/20/20 15/21/21
+f 13/22/22 15/23/23 16/24/24
+f 17/25/25 18/26/26 19/27/27
+f 17/28/28 19/29/29 20/30/30
+f 21/31/31 22/32/32 23/33/33"
+13075,github,"Options.html"" target=""_top"">No&nbsp;Frames</a></li>
+</ul>
+<ul class=""navList"" id=""allclasses_navbar_top"">
+<li><a href=""../../../../../allclasses-noframe.html"">All&nbsp;Classes</a></li>
+</ul>
+<ul class=""navListSearch"">
+<li><span>SEARCH:&nbsp;</span>
+<input type=""text"" id=""search"" value="" "" disabled=""disabled"">
+<input type=""reset"" id=""reset"" value="" "" disabled=""disabled"">
+</li>
+</ul>
+<div>
+<script type=""text/javascript""><!--
+  allClassesLink = document.getElementById(""allclasses_navbar_top"");
+  if(window==top) {
+    allClassesLink"
+2764,pile-cc,".
+
+Page last modified 2019-02-28
+
+Why is FinancesOnline free?
+
+FinancesOnline is available for free for all business professionals interested in an efficient way to find top-notch SaaS solutions. We are able to keep our service free of charge thanks to cooperation with some of the vendors, who are willing to pay us for traffic and sales opportunities provided by our website.
+
+Our rankings can be filtered by:
+
+Sponsored: vendors bid for position here and products are sorted based on the amount of that bid.
+
+SmartScore: products are sorted based on our SmartScore rating.
+
+User Reviews: products are sorted based on ratings from user reviews.
+
+Please note, that FinancesOnline lists all vendors, we’re not limited only to the ones that pay us, and all software providers have an equal opportunity to get featured in our rankings and comparisons, win awards, gather user reviews, all in an effort"
+279,github,"/*
+ *
+ *  Copyright (C) 1993-2005, OFFIS
+ *
+ *  This software and supporting documentation were developed by
+ *
+ *    Kuratorium OFFIS e.V.
+ *    Healthcare Information and Communication Systems
+ *    Escherweg 2
+ *    D-26121 Oldenburg, Germany
+ *
+ *  THIS SOFTWARE IS MADE AVAILABLE,  AS IS,  AND OFFIS MAKES NO  WARRANTY
+ *  REGARDING  THE  SOFTWARE,  ITS  PERFORMANCE,  ITS  MERCHANTABILITY  OR
+ *  FITNESS FOR ANY PARTICULAR USE, FREEDOM FROM ANY COMPUTER DISEASES  OR
+ *  ITS CONFORMITY TO ANY SPECIFICATION. THE ENTIRE RISK AS TO QUALITY AND
+ *  PERFORMANCE OF THE SOFTWARE IS WITH THE US"
+6713,github,"/*
+ * Copyright © 2008 Chris Wilson
+ *
+ * Permission to use, copy, modify, distribute, and sell this software
+ * and its documentation for any purpose is hereby granted without
+ * fee, provided that the above copyright notice appear in all copies
+ * and that both that copyright notice and this permission notice
+ * appear in supporting documentation, and that the name of
+ * Chris Wilson not be used in advertising or publicity pertaining to
+ * distribution of the software without specific, written prior
+ * permission. Chris Wilson makes no representations about the
+ * suitability of this software for any purpose.  It is provided ""as
+ * is"" without express or implied warranty.
+ *
+ * CHRIS WILSON DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS
+ * SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
+ * FITNESS, IN NO EVENT SHALL CHRIS WILSON BE LIABLE FOR ANY SPECIAL,
+ *"
+2319,pile-cc,".
+
+Your Rating:
+
+Your Recommendations:
+
+Barnes & Noble.com Review Rules
+
+Our reader reviews allow you to share your comments on titles you liked,
+or didn't, with others. By submitting an online review, you are representing to
+Barnes & Noble.com that all information contained in your review is original
+and accurate in all respects, and that the submission of such content by you
+and the posting of such content by Barnes & Noble.com does not and will not
+violate the rights of any third party. Please follow the rules below to help
+ensure that your review can be posted.
+
+Reviews by Our Customers Under the Age of 13
+
+We highly value and respect everyone's opinion concerning the titles we offer.
+However, we cannot allow persons under the age of 13 to have accounts at BN.com or
+to post customer reviews. Please see our Terms of Use for more details.
+
+"
+1959,github,"<?xml version=""1.0"" encoding=""utf-8""?>
+<!--
+     Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the ""License"");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an ""AS IS"" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language"
+702,github,".Data.Migrations
+{
+    [DbContext(typeof(ApplicationDbContext))]
+    [Migration(""00000000000000_CreateIdentitySchema"")]
+    partial class CreateIdentitySchema
+    {
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        {
+            modelBuilder
+               .HasAnnotation(""ProductVersion"", ""1.0.0-rc3"")
+               .HasAnnotation(""SqlServer:ValueGenerationStrategy"", SqlServerValueGenerationStrategy.IdentityColumn);
+
+            modelBuilder.Entity(""Microsoft.Asp"
+8052,github,"// Copyright (c) 2008 Groundspeak, Inc.
+
+// Permission is hereby granted, free of charge, to any person
+// obtaining a copy of this software and associated documentation
+// files (the ""Software""), to deal in the Software without
+// restriction, including without limitation the rights to use,
+// copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the
+// Software is furnished to do so, subject to the following
+// conditions:
+
+// The above copyright notice and this permission notice shall be
+// included in all copies or substantial portions of the Software.
+
+// THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND,
+// EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+// OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+// NON"
+5099,github," Sony Computer Entertainment Inc.
+   All rights reserved.
+
+   Redistribution and use in source and binary forms,
+   with or without modification, are permitted provided that the
+   following conditions are met:
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in the
+      documentation and/or other materials provided with the distribution.
+    * Neither the name of the Sony Computer Entertainment Inc nor the names
+      of its contributors may be used to endorse or promote products derived
+      from this software without specific prior written permission.
+
+   THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS"
+2992,github,"E0CF8BB73A
+:10FCD0008E7FF8CF863579F49ED08D3451F49BD049
+:10FCE000CBB799D0C170880F8C2B8BBF81E0ADD082
+:10FCF000CCCF83E0FCCF843609F046C08CD0C82F2F
+:10FD0000D0E0DC2FCC2787D0C82B85D0D82E5E0141
+:10FD10008EEFB81A00E012E04801EFEF8E1A9E0A4B
+:10FD20007AD0F801808384018A149B04A9F785D0D6
+:10FD3000F5E410E000E0DF1609F"
+1448,github,"') {
+    _.isFunction = function(obj) {
+      return typeof obj == 'function' || false;
+    };
+  }
+
+  // Is a given object a finite number?
+  _.isFinite = function(obj) {
+    return isFinite(obj) &&!isNaN(parseFloat(obj));
+  };
+
+  // Is the given value `NaN`? (NaN is the only number which does not equal itself).
+  _.isNaN = function(obj) {
+    return _.isNumber(obj) && obj!== +obj;
+  };
+
+  // Is a given value a boolean?
+  _.isBoolean = function(obj) {
+    return obj === true || obj === false || toString.call(obj) === '[object Boolean]';
+"
+11480,github,"S)
+all: all-am
+
+.SUFFIXES:
+.SUFFIXES:.c.lo.o.obj
+$(srcdir)/Makefile.in: @MAINTAINER_MODE_TRUE@ $(srcdir)/Makefile.am  $(am__configure_deps)
+	@for dep in $?; do \
+	  case '$(am__configure_deps)' in \
+	    *$$dep*) \
+	      ( cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh ) \
+	        && { if test -f $@; then exit 0; else break; fi; }; \
+	      exit 1;; \
+	  esac; \
+	done; \
+	echo'cd"
+14906,github,"
+:10FC60003DEF91E0309385002093840096BBB09BDC
+:10FC7000FECF1D9AA8954091C80047FD02C0815053
+:10FC800089F7CDD0813479F4CAD0C82FDAD0C23800
+:10FC900011F480E004C088E0C13809F083E0B8D0F6
+:10FCA00080E1B6D0EECF823419F484E1D2D0F8CF1F
+:10FCB000853411F485E0FACF853581F4B0D0E82E93
+:10FCC000AED0F82E87FF07C08BB781608BBFEE0CDC
+:10FC"
+2454,github," (CQEngine 3.5.0 API)"";
+        }
+    }
+    catch(err) {
+    }
+//-->
+var pathtoroot = ""../../../../"";
+var useModuleDirectories = true;
+loadScripts(document,'script');</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+<header role=""banner"">
+<nav role=""navigation"">
+<div class=""fixedNav"">
+<!-- ========= START OF TOP NAVBAR ======= -->
+<div class=""topNav""><a id=""navbar.top"">
+<!--   -->
+</a>
+<div class=""skipNav""><a href=""#skip.navbar.top"" title=""Skip navigation links"">Skip navigation links</a></div>
+<a"
+6320,github,""">Serialized Form</a></dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class=""summary"">
+<ul class=""blockList"">
+<li class=""blockList"">
+<!-- ======== NESTED CLASS SUMMARY ======== -->
+<ul class=""blockList"">
+<li class=""blockList""><a name=""nested.class.summary"">
+<!--   -->
+</a>
+<h3>Nested Class Summary</h3>
+<table class=""memberSummary"" border=""0"" cellpadding=""3"" cellspacing=""0"" summary=""Nested Class Summary table, listing nested classes, and an explanation"">
+<caption><span>Nested Classes</span><span class=""tabEnd"">&nbsp;</span></caption>
+<tr>
+<th class=""colFirst"" scope=""col"">Modifier and Type"
+1374,github,"</code></font></A></nobr>  </TD>
+  <TD VALIGN=""TOP"" WIDTH=""30%"">
+<b>Now deprecated</b>.<br>
+  </TD>
+  <TD>&nbsp;</TD>
+</TR>
+</TABLE>
+&nbsp;
+      </div>	
+      <div id=""footer"">
+        <div id=""copyright"">
+        Except as noted, this content is licensed under 
+        <a href=""//creativecommons.org/licenses/by/2.5/""> Creative Commons Attribution 2.5</a>.
+        For details and restrictions, see the <a href=""/license.html"">Content License</a>.
+    "
+14897,github,".
+     Version: 2.12
+    
+    Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
+    Inc. (""Apple"") in consideration of your agreement to the following
+    terms, and your use, installation, modification or redistribution of
+    this Apple software constitutes acceptance of these terms.  If you do
+    not agree with these terms, please do not use, install, modify or
+    redistribute this Apple software.
+    
+    In consideration of your agreement to abide by the following terms, and
+    subject to these terms, Apple grants you a personal, non-exclusive
+    license, under Apple's copyrights in this original Apple software (the
+    ""Apple Software""), to use, reproduce, modify and redistribute the Apple
+    Software, with"
+7562,pile-cc," Kit
+
+Order online and have your items delivered by truck from a local Home Depot store. Select the delivery time that is most convenient for you.
+
+How Does It Work?
+
+Start by building your Shopping Cart. Select items for Express Delivery from Store and check availability for the
+delivery ZIP.
+
+During Checkout, choose an available delivery date and time window from the scheduling calendar.
+
+Place your order. Your items will arrive during the delivery window selected.
+
+How Much Does Delivery Cost?
+
+The delivery fee is the same regardless of the size, weight or number of items in your order. Your final price will be based on the delivery options you select during Checkout.
+
+Standard service includes an All Day time window on the date of your choosing. Items will be delivered to an area outside the house or job site.
+
+2-hour and 4-hour time windows and Threshold delivery service are available for an additional cost.
+
+"
+1445,enron_emails,"TD></TR>
+</TABLE><TABLE WIDTH=100% BORDER=0 CELLPADDING=1 CELLSPACING=0 BGCOLOR=""#000099""><TR><TD ALIGN=left><FONT FACE=arial color=ffffff SIZE=><B>Transactions,&nbsp;View&nbsp;</B></FONT></TD></TR></TABLE><!-- Pizzahut Presenting Logo Spotlight tag - Do not remove until 12-31-01 -->
+<SCRIPT language=""JavaScript"">
+if (!random) {if (parent.random) {var random = parent.random} else {var abc = Math.random() + """"; var random = abc.substring(2,abc.length);}}
+document.write('<IMG SRC=""http://ad.doubleclick.net/ad/N1549.sportsline.com/B"
+6250,stackexchange,". General Provisions</span></div>
+     <div class=""faq-block"">
+     <div class=""gender-faq-inner-block"">
+     <div class=""gender-faq-content"">
+      <ul class=""gender-faq-content"">
+      <li>Answer 1.1.</li>
+      <li>These Terms shall be governed and construed in accordance with the laws of Delaware, United States, without regard to its conflict of law provisions.</li>
+      <li>Our failure to enforce any right or provision of these Terms will not be considered a waiver of those rights. If any provision of these Terms is held to be invalid or unenforceable by a court, the remaining provisions of these Terms will remain in effect. These Terms constitute the"
+10021,pile-cc,".”
+
+Please review our Comment Policy before posting a comment
+
+Thank you for joining the discussion at The New American. We value our readers and encourage their participation, but in order to ensure a positive experience for our readership, we have a few guidelines for commenting on articles. If your post does not follow our policy, it will be deleted.
+
+No profanity, racial slurs, direct threats, or threatening language.
+
+No product advertisements.
+
+Please post comments in English.
+
+Please keep your comments on topic with the article. If you wish to comment on another subject, you may search for a relevant article and join or start a discussion there.
+
+Comments that we consider abusive, spammy, off-topic, or harassing will be removed.
+
+If our filtering system detects that you may have violated our policy, your comment will be placed in a queue for moderation. It will then be either approved or deleted. Once your comment is approved"
+7672,pile-cc,"1976 South Carolina Code of Laws
+Unannotated
+Updated through the end of the 2011 Session
+
+DISCLAIMER
+
+The South Carolina Legislative Council is offering access to the unannotated South Carolina Code of Laws on the Internet as a service to the public. The unannotated South Carolina Code on the General Assembly's website is now current through the 2011 session. The unannotated South Carolina Code, consisting only of Code text, numbering, and history, may be copied from this website at the reader's expense and effort without need for permission.
+
+The Legislative Council is unable to assist users of this service with legal questions. Also, legislative staff cannot respond to requests for legal advice or the application of the law to specific facts. Therefore, to understand and protect your legal rights, you should consult your own private lawyer regarding all legal questions.
+
+While every effort was made to ensure the accuracy and completeness of the unannotated South Carolina Code available on the South Carolina General"
+6684,github,"er
+   </div>
+   <div id=""projectbrief"">Dependency manager library that supports decentralization</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.8.12 -->
+<script type=""text/javascript"">
+var searchBox = new SearchBox(""searchBox"", ""search"",false,'Search');
+</script>
+<script type=""text/javascript"" src=""menudata.js""></script>
+<script type=""text/javascript"" src=""menu.js""></script>
+<script type=""text/javascript"">
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id=""main"
+11962,pile-cc,"ürzburg and the author of the blog, The Turbulent World of Middle East Soccer, and a forthcoming book with the
+same title.
+
+No comments:
+
+Post a Comment
+
+Sporticos
+
+Ads
+
+Soccer Results
+
+The Turbulent World of Middle East Soccer does not promote, link to or provide videos from any online sources who distribute illegal streaming content over the Internet with domains registered in the United States of America
+
+Top 100 Soccer Sites
+
+Subscribe To
+
+Subscribe by Email
+
+About Me
+
+James M DorseyWelcome to The Turbulent World of Middle East Soccer by James M. Dorsey, a senior fellow at Nanyang Technological University’s S. Rajaratnam School of International Studies. Soccer in the Middle East and North Africa is played as much on as off the pitch. Stadiums are a symbol of the battle for political freedom; economic opportunity; ethnic, religious and national identity"
+4669,github,"/*
+ * Copyright 2001-2004 Sun Microsystems, Inc.  All Rights Reserved.
+ * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+ *
+ * This code is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License version 2 only, as
+ * published by the Free Software Foundation.  Sun designates this
+ * particular file as subject to the ""Classpath"" exception as provided
+ * by Sun in the LICENSE file that accompanied this code.
+ *
+ * This code is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+ * version 2 for more details (a copy is included in the LICENSE file that
+ * accompanied this code).
+"
+4054,github,"FEC
+:10FC500044E050E23DBD2CBD46BF06B602FEFDCFDE
+:10FC600098B3952798BBA8955F9902C0815091F7EA
+:10FC7000CDD0813479F4CAD0C82FD3D0C23811F492
+:10FC800080E004C088E0C13809F083E0BBD080E1A7
+:10FC9000B9D0EECF823419F484E1CBD0F8CF8534DB
+:10FCA00011F485E0FACF853581F4B0D0E82EAED0DE
+:10FCB000F82E87FF07C08BB781608BBFEE0CFF1C4F
+:"
+13274,books3,": A Very Short Introduction**
+**Very Short Introductions available now:**
+
+ADVERTISING • Winston Fletcher
+
+AFRICAN HISTORY • John Parker and Richard Rathbone
+
+AGNOSTICISM • Robin Le Poidevin
+
+AMERICAN POLITICAL PARTIES AND ELECTIONS • L. Sandy Maisel
+
+THE AMERICAN PRESIDENCY • Charles O. Jones
+
+ANARCHISM • Colin Ward
+
+ANCIENT EGYPT • Ian Shaw
+
+ANCIENT PHILOSOPHY • Julia Annas
+
+ANCIENT WARFARE • Harry Sidebottom
+
+ANGLICANISM • Mark Chapman
+
+THE ANGLO-SAXON AGE • John Blair
+
+ANIMAL RIGHTS • David DeGrazia
+
+ANTISEMITISM • Steven Beller
+
+THE APOCRYPHAL GOSPELS • Paul Foster
+
+ARCHAEOLOGY • Paul Bahn
+
+ARCHITECT"
+14990,pile-cc,"
+
+When it comes to street food Asia is without a doubt the leader in terms of top notch delectable and inexpensive bite sized delights. Prior to teaching English in South Korea, having grown up in Canada, I really didn't know what street food was all about. Over the past decade, having focused most of my time living and traveling in Asia, I've become such a huge fan of street food that I feel as though I'm being robbed whenever I visit a country or city where I'm unable to get it.
+GEAR WE USEOlympus OM-D E-M5 II: http://amzn.to/1OchS7t
+Canon G7X: http://amzn.to/1YdjsYX
+Olympus 14-150mm II Lens: http://amzn.to/1Y79zeM
+Rode Video Mic GO: http://amzn.to/1WDKtVM
+"
+1455,github,"8""
+        },
+        ""blocks"" : [
+            {
+                ""blockHeader"" : {
+                    ""bloom"" : ""0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"",
+                    ""coinbase"" : ""0x945304eb96065b2a98b57a48a06ae28d285a71b5"",
+                    ""difficulty"" : ""0"
+8136,github," Laurent Gomila (laurent.gom@gmail.com)
+//
+// This software is provided 'as-is', without any express or implied warranty.
+// In no event will the authors be held liable for any damages arising from the use of this software.
+//
+// Permission is granted to anyone to use this software for any purpose,
+// including commercial applications, and to alter it and redistribute it freely,
+// subject to the following restrictions:
+//
+// 1. The origin of this software must not be misrepresented;
+//    you must not claim that you wrote the original software.
+//    If you use this software in a product, an acknowledgment
+//    in the product documentation would be appreciated but is not required.
+//
+// 2. Altered source versions must be plainly marked as such,
+//    and must not be misrepresented as being the original software.
+"
+1200,github,".json;
+
+/*
+ Copyright (c) 2002 JSON.org
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the ""Software""), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+
+ The Software shall be used for Good, not Evil.
+
+ THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT"
+4375,github,".
++ *
++ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
++ * ""AS IS"" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
++ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
++ * A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
++ * OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
++ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
++ * LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
++ * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
++ * THEORY OF LIABILITY"
+9588,github," 
+    123, 124, 125, 126, 127, -128, -127, -126, -125, -124, -123, -122, -121, 
+    -120, -119, -118, -117, -116, -115, -114, -113, -112, -111, -110, -109, 
+    -108, -107, -106, -105, -104, -103, -102, -101, -100, -99, -98, -97, -96, 
+    -95, -94, -93, -92, -91, -90, -89, -88, -87, -86, -85, -84, -83, -82, 
+    -81, -80, -79, -78, -77, -76, -75, -74,"
+3900,github," language governing permissions and limitations
+@REM under the License.
+@REM ----------------------------------------------------------------------------
+
+@REM ----------------------------------------------------------------------------
+@REM Maven2 Start Up Batch script
+@REM
+@REM Required ENV vars:
+@REM JAVA_HOME - location of a JDK home dir
+@REM
+@REM Optional ENV vars
+@REM M2_HOME - location of maven2's installed home dir
+@REM MAVEN_BATCH_ECHO - set to 'on' to enable the echoing of the batch commands
+@REM MAVEN_BATCH_PAUSE - set to 'on' to wait for a key stroke before ending
+@REM MAVEN_OPTS - parameters passed to the Java VM when running Maven
+@REM     e.g. to debug Maven itself, use
+@REM set MAVEN_OPTS=-Xdebug -Xrunjdwp:transport=dt"
+7639,github,"ft/gpl.html
+ *
+ * You can contact Ascensio System SIA by email at sales@onlyoffice.com
+ *
+ * The interactive user interfaces in modified source and object code versions of ONLYOFFICE must display 
+ * Appropriate Legal Notices, as required under Section 5 of the GNU GPL version 3.
+ *
+ * Pursuant to Section 7 § 3(b) of the GNU GPL you must retain the original ONLYOFFICE logo which contains 
+ * relevant author attributions when distributing the software. If the display of the logo in its graphic 
+ * form is not reasonably feasible for technical reasons, you must include the words ""Powered by ONLYOFFICE"" 
+ * in every copy of the program you distribute. 
+ * Pursuant to Section 7 § 3(e) we decline to grant you any rights under trademark law for use of our trademarks."
+4026,github," dron Exp $ */
+
+/*
+ * Copyright (c) 1991-1997 Sam Leffler
+ * Copyright (c) 1991-1997 Silicon Graphics, Inc.
+ *
+ * Permission to use, copy, modify, distribute, and sell this software and 
+ * its documentation for any purpose is hereby granted without fee, provided
+ * that (i) the above copyright notices and this permission notice appear in
+ * all copies of the software and related documentation, and (ii) the names of
+ * Sam Leffler and Silicon Graphics may not be used in any advertising or
+ * publicity relating to the software without the specific, prior written
+ * permission of Sam Leffler and Silicon Graphics.
+ * 
+ * THE SOFTWARE IS PROVIDED ""AS-IS"" AND WITHOUT WARRANTY OF ANY KIND, 
+ * EXPRESS, IMPLIED OR OTHERWISE, INCLUDING WITHOUT LIMITATION, ANY 
+ * WARRANTY OF MERCH"
+8161,github,".
+
+# Scilab ( http://www.scilab.org/ ) - This file is part of Scilab
+# Copyright (C) 2006-2008 - INRIA - Sylvestre LEDRU <sylvestre.ledru@inria.fr>
+# Copyright (C) 2008      - INRIA - Pierre MARECHAL <pierre.marechal@inria.fr>
+#
+# Copyright (C) 2012 - 2016 - Scilab Enterprises
+#
+# This file is hereby licensed under the terms of the GNU GPL v2.0,
+# pursuant to article 5.3.4 of the CeCILL v.2.1.
+# This file was originally licensed under the terms of the CeCILL v2.1,
+# and continues to be available under such terms.
+# For more information, see the COPYING file which you should have received"
+9097,github,"/*
+ * #%L
+ * BroadleafCommerce Common Libraries
+ * %%
+ * Copyright (C) 2009 - 2016 Broadleaf Commerce
+ * %%
+ * Licensed under the Broadleaf Fair Use License Agreement, Version 1.0
+ * (the ""Fair Use License"" located  at http://license.broadleafcommerce.org/fair_use_license-1.0.txt)
+ * unless the restrictions on use therein are violated and require payment to Broadleaf in which case
+ * the Broadleaf End User License Agreement (EULA), Version 1.1
+ * (the ""Commercial License"" located at http://license.broadleafcommerce.org/commercial_license-1.1.txt)
+ * shall apply.
+ * 
+ * Alternatively, the Commercial License may be replaced with a mutually agreed upon license (the ""Custom License"")
+ * between you and Broadleaf Commerce. You may not use this file except in compliance with the applicable license"
+13261,pile-cc,".
+
+Die letzten 5 Focus-News des innovations-reports im Überblick:
+
+Physicists of the University of Würzburg have made an astonishing discovery in a specific type of topological insulators. The effect is due to the structure of the materials used. The researchers have now published their work in the journal Science.
+
+Topological insulators are currently the hot topic in physics according to the newspaper Neue Zürcher Zeitung. Only a few weeks ago, their importance was...
+
+In recent years, lasers with ultrashort pulses (USP) down to the femtosecond range have become established on an industrial scale. They could advance some applications with the much-lauded “cold ablation” – if that meant they would then achieve more throughput. A new generation of process engineering that will address this issue in particular will be discussed at the “4th UKP Workshop – Ultrafast Laser Technology"
+8560,pile-cc," all.
+
+The Content on this Site is presented in a summary fashion, and is intended to be used for educational and entertainment purposes only. It is not intended to be and should not be interpreted as medical advice or a diagnosis of any health or fitness problem, condition or disease; or a recommendation for a specific test, doctor, care provider, procedure, treatment plan, product, or course of action. Med Help International, Inc. is not a medical or healthcare provider and your use of this Site does not create a doctor / patient relationship. We disclaim all responsibility for the professional qualifications and licensing of, and services provided by, any physician or other health providers posting on or otherwise referred to on this Site and/or any Third Party Site. Never disregard the medical advice of your physician or health professional, or delay in seeking such advice, because of something you read on this Site. We offer this Site AS IS and without any warranties. By using this Site you agree to the following Terms and"
+6362,github,".
+//
+//  Permission is hereby granted, free of charge, to any person obtaining
+//  a copy of this software and associated documentation files (the
+//  ""Software""), to deal in the Software without restriction, including
+//  without limitation the rights to use, copy, modify, merge, publish,
+//  distribute, sublicense, and/or sell copies of the Software, and to
+//  permit persons to whom the Software is furnished to do so, subject to
+//  the following conditions:
+//
+//  The above copyright notice and this permission notice shall be
+//  included in all copies or substantial portions of the Software.
+//
+//  THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND,
+//  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+//  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND"
+807,github,"</a>
+  
+  </ul>
+</nav>
+
+  </div>
+</nav>
+
+<div id=""documentation"">
+  <h1 class=""module"">module Jekyll::Converters</h1>
+
+  <div id=""description"" class=""description"">
+    
+  </div><!-- description -->
+
+  
+  
+  
+  <section id=""5Buntitled-5D"" class=""documentation-section"">
+    
+
+    
+
+    
+
+    
+
+    <!-- Methods -->
+    
+  </section><!-- 5Buntitled-5D -->
+
+</div><!-- documentation -->
+
+
+<footer id=""validator-badges"">
+  <p><a href=""http://validator.w3.org/check/referer"">["
+10171,github,"################################################################################
+#
+# Copyright 1993-2015 NVIDIA Corporation.  All rights reserved.
+#
+# NOTICE TO USER:
+#
+# This source code is subject to NVIDIA ownership rights under U.S. and
+# international Copyright laws.
+#
+# NVIDIA MAKES NO REPRESENTATION ABOUT THE SUITABILITY OF THIS SOURCE
+# CODE FOR ANY PURPOSE.  IT IS PROVIDED ""AS IS"" WITHOUT EXPRESS OR
+# IMPLIED WARRANTY OF ANY KIND.  NVIDIA DISCLAIMS ALL WARRANTIES WITH
+# REGARD TO THIS SOURCE CODE, INCLUDING ALL IMPLIED WARRANTIES OF
+# MERCHANTABILITY, NONINFRINGEMENT, AND FITNESS FOR A PARTICULAR PURPOSE.
+# IN NO EVENT SHALL NVIDIA BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL,
+# OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES WHATSO"
+4140,github,"/*
+ Copyright (c) 2020, Apple Inc. All rights reserved.
+ 
+ Redistribution and use in source and binary forms, with or without modification,
+ are permitted provided that the following conditions are met:
+ 
+ 1.  Redistributions of source code must retain the above copyright notice, this
+ list of conditions and the following disclaimer.
+ 
+ 2.  Redistributions in binary form must reproduce the above copyright notice,
+ this list of conditions and the following disclaimer in the documentation and/or
+ other materials provided with the distribution.
+ 
+ 3. Neither the name of the copyright holder(s) nor the names of any contributors
+ may be used to endorse or promote products derived from this software without
+ specific prior written permission. No license is granted to the trademarks of
+ the copyright holders even if such marks are included in this software.
+ 
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTR"
+7467,freelaw,")(7)(C)(ii); see also 8 C.F.R. § 1003.2(c)(3).
+
+11           For the foregoing reasons, these petitions for review
+
+12   are DENIED.      As we have completed our review, any stay of
+
+13   removal that the Court previously granted in these petitions
+
+14   is VACATED, and any pending motion for a stay of removal in
+
+15   these petitions is DISMISSED as moot.      Any pending request
+
+16   for oral argument in these petitions is DENIED in accordance
+
+17   with Federal Rule of Appellate Procedure 34(a)(2), and
+
+18   Second Circuit Local Rule 34.1(b).
+
+19                 "
+6588,github,"
+% Author: Javier Lopez-Calderon
+% Center for Mind and Brain
+% University of California, Davis,
+% Davis, CA
+% 2009
+
+%b8d3721ed219e65100184c6b95db209bb8d3721ed219e65100184c6b95db209b
+%
+% ERPLAB Toolbox
+% Copyright © 2007 The Regents of the University of California
+% Created by Javier Lopez-Calderon and Steven Luck
+% Center for Mind and Brain, University of California, Davis,
+% javlopez@ucdavis.edu, sjluck@ucdavis.edu
+%
+% This program is free software: you can redistribute it and/or modify
+% it under the terms of the GNU General Public License as published by
+% the Free Software Foundation,"
+10531,github,"    
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id=""/cn/user-manual/elasticjob-lite/operation/dump/"" title=""导出作业信息"" class=""dd-item "">
+        <a href=""https://shardingsphere.apache.org/elasticjob/current/cn/user-manual/elasticjob-lite/operation/dump/"">
+          <svg  viewBox=""0 0 1024 1024"" version=""1.1"" xmlns=""http://www.w3.org/2000/svg"" p-id=""5375"" width=""20"" height="""
+5276,enron_emails," > This e-mail is the property of Enron Corp. and/or its relevant
+>    affiliate and may contain confidential and privileged material for the
+>    sole use of the intended recipient (s). Any review, use, distribution or
+>    disclosure by others is strictly prohibited. If you are not the intended
+>    recipient (or authorized to receive for the recipient), please contact
+>    the sender or reply to Enron Corp. at
+>    enron.messaging.administration@enron.com and delete all copies of the
+>    message. This e-mail (and any attachments hereto) are not intended to be
+>    an offer (or an acceptance) and do not create or evidence a binding and
+>    enforceable contract between Enron Corp. (or any of its affiliates) and
+>    the intended"
+12131,github,"
+
+all: all-am
+
+.SUFFIXES:
+.SUFFIXES:.c.lo.o.obj
+$(srcdir)/Makefile.in:  $(srcdir)/Makefile.am  $(am__configure_deps)
+	@for dep in $?; do \
+	  case '$(am__configure_deps)' in \
+	    *$$dep*) \
+	      ( cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh ) \
+	        && { if test -f $@; then exit 0; else break; fi; }; \
+	      exit 1;; \
+	  esac; \
+	done; \
+	echo'cd $(top_srcdir) && $(AUTOMA"
+12514,github,"-1997 Silicon Graphics, Inc.
+ *
+ * Permission to use, copy, modify, distribute, and sell this software and 
+ * its documentation for any purpose is hereby granted without fee, provided
+ * that (i) the above copyright notices and this permission notice appear in
+ * all copies of the software and related documentation, and (ii) the names of
+ * Sam Leffler and Silicon Graphics may not be used in any advertising or
+ * publicity relating to the software without the specific, prior written
+ * permission of Sam Leffler and Silicon Graphics.
+ * 
+ * THE SOFTWARE IS PROVIDED ""AS-IS"" AND WITHOUT WARRANTY OF ANY KIND, 
+ * EXPRESS, IMPLIED OR OTHERWISE, INCLUDING WITHOUT LIMITATION, ANY 
+ * WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.  "
+4779,pile-cc,".
+
+Tips and Support Are Always Welcome
+
+Who is Chauncey DeVega?
+
+I have been a guest on the BBC, National Public Radio, Ring of Fire Radio, Ed Schultz, Sirius XM's Make it Plain, Joshua Holland's Alternet Radio Hour, the Thom Hartmann radio show, the Burt Cohen show, and Our Common Ground.
+
+I have also been interviewed on the RT Network and Free Speech TV.
+
+I am a contributing writer for Salon and Alternet.
+
+My writing has also been featured by Newsweek, The New York Daily News, The Huffington Post, and the Daily Kos.
+
+My work has also been referenced by MSNBC, The Washington Post, The Christian Science Monitor, the Associated Press, Chicago Sun-Times, Raw Story, The Washington Spectator, Media Matters, The Gothamist, Fader, XOJane, The National Memo, The Root, Detroit Free Press, San Diego Free Press,"
+2231,pile-cc," said.
+
+MacIntyre says the completed project will be best in Pac-12There were bulldozers, hard hats, mud, concrete trucks, blueprints, mud, cranes, lots of noise and, uh, mud, during the last recruiting cycle when Colorado football coach Mike MacIntyre brought recruits to campus. Full Story
+
+MacIntyre says the completed project will be best in Pac-12There were bulldozers, hard hats, mud, concrete trucks, blueprints, mud, cranes, lots of noise and, uh, mud, during the last recruiting cycle when Colorado football coach Mike MacIntyre brought recruits to campus. Full Story
+
+Most people don't play guitar like Grayson Erhard does. That's because most people can't play guitar like he does. The guitarist for Fort Collins' Aspen Hourglass often uses a difficult two-hands-on-the-fretboard technique that Eddie Van Halen first popularized but which players such as"
+6499,openwebtext2,"
+
+Notices and Disclaimers To sign up for RSS updates, paste this link (https://stillnessinthestorm.com/feed/) into the search field of your preferred RSS Reader or Service (such as Feedly or gReader). Subscribe to Stillness in the Storm Newsletter “It is the mark of an educated mind to be able to entertain a thought without accepting it.” – Aristotle This website is supported by readers like you. If you find our work of value, consider making a Contribution via Paypal, Patreon, or Cryptocurrencies. Stillness in the Storm DISCLAIMER: All articles, videos, statements, claims, views and opinions that appear anywhere on this site, whether stated as theories or absolute facts, are always presented by Stillness in the Storm as unverified—and should be personally fact checked and discerned by you, the reader. Any opinions or statements herein presented are not necessarily promoted, endorsed, or agreed to by Stillness"
+2169,github,".
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor]("
+6231,github,"/*
+ * Sun RPC is a product of Sun Microsystems, Inc. and is provided for
+ * unrestricted use provided that this legend is included on all tape
+ * media and as a part of the software program in whole or part.  Users
+ * may copy or modify Sun RPC without charge, but are not authorized
+ * to license or distribute it to anyone else except as part of a product or
+ * program developed by the user or with the express written consent of
+ * Sun Microsystems, Inc.
+ *
+ * SUN RPC IS PROVIDED AS IS WITH NO WARRANTIES OF ANY KIND INCLUDING THE
+ * WARRANTIES OF DESIGN, MERCHANTIBILITY AND FITNESS FOR A PARTICULAR
+ * PURPOSE, OR ARISING FROM A COURSE OF DEALING, USAGE OR TRADE PRACTICE.
+ *
+ * Sun RPC is provided with no support and without any obligation on the
+ * part of Sun Micro"
+7156,github," BASIS,
+     WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING,
+     WITHOUT LIMITATION, WARRANTIES THAT THE COVERED CODE IS FREE OF
+     DEFECTS, MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING.
+     THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE COVERED CODE
+     IS WITH YOU. SHOULD ANY COVERED CODE PROVE DEFECTIVE IN ANY RESPECT,
+     YOU (NOT THE INITIAL DEVELOPER OR ANY OTHER CONTRIBUTOR) ASSUME THE
+     COST OF ANY NECESSARY SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER
+     OF WARRANTY CONSTITUTES AN ESS"
+7145,github,"-2018, Stephane Sudre
+ All rights reserved.
+ 
+ Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+ 
+ - Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+ - Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+ - Neither the name of the WhiteBox nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+ 
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ""AS IS"" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTIC"
+11729,github," written permission.
+//
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+// ""AS IS"" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+// LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+// FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+// COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+// INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+// (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+// SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+// HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,"
+4184,arxiv,"nol[ó]{}gico and the Minist[é]{}rio da Ci[ê]{}ncia, Tecnologia e Inova[ç]{}[ã]{}o, the Deutsche Forschungsgemeinschaft, and the Collaborating Institutions in the Dark Energy Survey. The Collaborating Institutions are Argonne National Laboratory, the University of California at Santa Cruz, the University of Cambridge, Centro de Investigaciones Energ[é]{}ticas, Medioambientales y Tecnol[ó]{}gicas-Madrid, the University of Chicago, University College London, the DES-Brazil Consortium, the University of Edinburgh, the Eidgen[ö]{}ssische Technische Hochschule (ETH) Z[ü]{}rich, Fermi National Accelerator Laboratory, the University of Illinois at Urbana-Champaign, the"
+4443,openwebtext2," UK news in pictures 14 September 2020 Early morning light bathes the skyscrapers of the City of London, at the start of a week in which the UK is expected to bask in temperatures of more than 30 degrees PA UK news in pictures 13 September 2020 England celebrate after they dismissed Australia's Alex Carey to win the second ODI match of the series at Emirates Old Trafford, Manchester PA UK news in pictures 12 September 2020 Protesters outside BBC Broadcasting House in central London, as marches and rallies form across the country calling for a 15% pay rise for NHS workers and an increase in NHS funding PA UK news in pictures 11 September 2020 An empty migrant dinghy floats off the beach at St Margaret's Bay after the occupants landed from France in Dover Getty UK news in pictures 10 September 2020 A view of small boats thought to be used in migrant crossings across the Channel at a storage facility in Dover, Kent PA UK news in pictures 9 September 2020 EU's chief negotiator Michel Barnier, left, arriving from the Euro"
+12613,pile-cc,";
+
+Correspondence
+
+The American Medical Association is accredited by the Accreditation Council for Continuing Medical Education to provide continuing medical education for physicians.
+The AMA designates this journal-based CME activity for a maximum of 1 AMA PRA Category 1 CreditTM per course. Physicians should claim only the credit commensurate with
+the extent of their participation in the activity. Physicians who complete the CME course and score at least 80% correct on the quiz are eligible for AMA PRA Category 1 CreditTM.
+
+Indicate what change(s) you will implement in your practice, if any, based on this CME course.
+
+Your quiz results:
+
+The filled radio buttons indicate your responses. The preferred responses are highlighted
+
+For CME Course:
+A Proposed Model for Initial Assessment and Management of Acute Heart Failure Syndromes
+
+Indicate what changes(s) you will implement in your practice, if any, based on this"
+6275,pile-cc," Inc. is also a component of the Russell 2000 Index, which is generally viewed as the most reliable indicator of the health of the broader small-cap market. Using a rules-based methodology, it creates a simple, unbiased view of how America's stable of smaller publicly traded companies are performing in the stock markets.
+
+The index consists of the 2,000 smallest companies of the 3,000 largest publicly-traded companies in the country as judged by market cap. It's constructed by Russell Investments, which also builds and maintains the Russell 3000 (an index consisting of all 3,000 biggest companies by market cap) and the large-cap Russell 1000 (which has the 1,000 largest companies from the Russell 3000).
+
+DISCLOSURE:
+The views and opinions expressed in this article are those of the authors, and do not represent the views of equities.com. Readers should not consider statements made by the author as formal recommendations and should consult their financial advisor before making"
+11886,github,"/**
+ *  Licensed to the Apache Software Foundation (ASF) under one
+ *  or more contributor license agreements.  See the NOTICE file
+ *  distributed with this work for additional information
+ *  regarding copyright ownership.  The ASF licenses this file
+ *  to you under the Apache License, Version 2.0 (the
+ *  ""License""); you may not use this file except in compliance
+ *  with the License.  You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing,
+ *  software distributed under the License is distributed on an
+ *  ""AS IS"" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ *  KIND, either express or implied.  See the License for the
+ *  specific language governing permissions and limitations"
+9360,github,""", 
+  ""acquisitionYear"": 1856, 
+  ""all_artists"": ""Joseph Mallord William Turner"", 
+  ""catalogueGroup"": {
+    ""accessionRanges"": ""D27940-D28041; D41107; D41127"", 
+    ""completeStatus"": ""COMPLETE"", 
+    ""finbergNumber"": ""CCLXXXVI"", 
+    ""groupType"": ""Turner Sketchbook"", 
+    ""id"": 65912, 
+    ""shortTitle"": ""Oxford and Bruges Sketchbook""
+  }, 
+  ""classification"": ""on paper, unique"", 
+  ""contributorCount"": 1, 
+  ""contributors"": [
+    {
+      ""birthYear"": 1775, 
+     "
+1745,openwebtext2," accountability.
+
+Thank you for reading this Techdirt post. With so many things competing for everyone’s attention these days, we really appreciate you giving us your time. We work hard every day to put quality content out there for our community. Techdirt is one of the few remaining truly independent media outlets. We do not have a giant corporation behind us, and we rely heavily on our community to support us, in an age when advertisers are increasingly uninterested in sponsoring small, independent sites — especially a site like ours that is unwilling to pull punches in its reporting and analysis. While other websites have resorted to paywalls, registration requirements, and increasingly annoying/intrusive advertising, we have always kept Techdirt open and available to anyone. But in order to continue doing so, we need your support. We offer a variety of ways for our readers to support us, from direct donations to special subscriptions and cool merchandise — and every little bit helps. Thank you."
+1738,github,")""; do \
+	  test -z ""$$dir"" || $(MKDIR_P) ""$$dir""; \
+	done
+install: $(BUILT_SOURCES)
+	$(MAKE) $(AM_MAKEFLAGS) install-recursive
+install-exec: install-exec-recursive
+install-data: install-data-recursive
+uninstall: uninstall-recursive
+
+install-am: all-am
+	@$(MAKE) $(AM_MAKEFLAGS) install-exec-am install-data-am
+
+installcheck: installcheck-recursive
+install-strip:
+	if test -z '$(STRIP)'; then \
+	  $(MAKE) $(AM_MAKEFLAGS) INSTALL_PROGRAM=""$(INSTALL_STRIP_PROGRAM)"" \
+	    install_sh_"
+7088,github,"# encoding: utf-8
+# Copyright (C) 2011-2013  The Redmine LDAP Sync Authors
+#
+# This file is part of Redmine LDAP Sync.
+#
+# Redmine LDAP Sync is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# Redmine LDAP Sync is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with Redmine LDAP Sync.  If not, see <http"
+9257,openwebtext2," facility is located in Moncton, New Brunswick and the Company is regulated by the Access to Cannabis for Medical Purposes Regulations (""ACMPR"").
+
+Neither TSX Venture Exchange nor its Regulation Services Provider (as that term is defined in policies of the TSX Venture Exchange) accepts responsibility for the adequacy or accuracy of this release.
+
+This news release contains forward-looking information which involves known and unknown risks, uncertainties and other factors that may cause actual events to differ materially from current expectations. Important factors - including the availability of funds, consummation of definitive documentation, the results of financing efforts, crop yields - that could cause actual results to differ materially from the Company's expectations are disclosed in the Company's documents filed from time to time on SEDAR (see www.sedar.com). Readers are cautioned not to place undue reliance on these forward-looking statements, which speak only as of the date of this press release. The Company disclaims any intention or obligation"
+9224,github,"
+            }
+            #pragma warning restore CS0618, CS0612 //A class member was marked with the Obsolete attribute
+            context.DirectoryId = this.DirectoryId;
+            #if MODULAR
+            if (this.DirectoryId == null && ParameterWasBound(nameof(this.DirectoryId)))
+            {
+                WriteWarning(""You are passing $null as a value for parameter DirectoryId which is marked as required. In case you believe this parameter was incorrectly marked as required, report this by opening an issue at https://github.com/aws/aws-"
+2513,github,"
+	ld d, 08
+	ld a, 10
+	ld b, 11
+lfill_sram:
+	ld(hl++), a
+	add a, b
+	dec d
+	jrnz lfill_sram
+	ld a, 90
+	ldff(45), a
+	ld a, 40
+	ldff(41), a
+	xor a, a
+	ldff(0f), a
+	ld a, 02
+	ldff(ff), a
+	ei
+	halt
+
+.text@7000
+lprint4:
+	ld b, 90
+	call lwaitly_b
+	xor a, a
+	ldff(40), a
+	ld bc, 7a00
+	ld hl, 8000
+	ld d, 00
+lprint_copytiles:
+	ld a, (bc)
+	inc bc"
+11898,github," by the input RegExp.
+   * Since it matches globally, if the input strings have a start-of-input
+   * anchor (/^.../), it is ignored for the purposes of unioning.
+   * @param {Array.<RegExp>} regexs non multiline, non-global regexs.
+   * @return {RegExp} a global regex.
+   */
+  function combinePrefixPatterns(regexs) {
+    var capturedGroupIndex = 0;
+
+    var needToFoldCase = false;
+    var ignoreCase = false;
+    for (var i = 0, n = regexs.length; i < n; ++i) {
+      var regex = regexs[i];
+      if (regex.ignoreCase) {
+      "
+11789,github,"</A></FONT></TH>
+</TR>
+<TR BGCOLOR=""white"" CLASS=""TableRowColor"">
+<TD><A HREF=""#org.apache.fop.complexscripts.fonts""><B>org.apache.fop.complexscripts.fonts</B></A></TD>
+<TD>&nbsp;&nbsp;</TD>
+</TR>
+</TABLE>
+&nbsp;
+<P>
+<A NAME=""org.apache.fop.complexscripts.fonts""><!-- --></A>
+<TABLE BORDER=""1"" WIDTH=""100%"" CELLPADDING=""3"" CELLSPACING=""0"" SUMMARY="""">
+<TR BGCOLOR=""#CCCCFF"" CLASS=""TableHeadingColor"">
+<TH ALIGN=""left"" COLSPAN=""2""><FONT SIZE=""+"
+9672,github,"#
+# This file is part of Dragonfly.
+# (c) Copyright 2007, 2008 by Christo Butcher
+# Licensed under the LGPL.
+#
+#   Dragonfly is free software: you can redistribute it and/or modify it 
+#   under the terms of the GNU Lesser General Public License as published 
+#   by the Free Software Foundation, either version 3 of the License, or 
+#   (at your option) any later version.
+#
+#   Dragonfly is distributed in the hope that it will be useful, but 
+#   WITHOUT ANY WARRANTY; without even the implied warranty of 
+#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU 
+#   Lesser General Public License for more details.
+#
+# "
+13007,github,"て適切な URL をコピーします。
+
+   ![構成 URL のコピー](common/copy-configuration-urls.png)
+
+### <a name=""create-an-azure-ad-test-user""></a>Azure AD のテスト ユーザーの作成
+
+このセクションでは、Azure portal 内で B.Simon というテスト ユーザーを作成します。
+
+1. Azure portal の左側のウィンドウから、 **[Azure Active Directory]** 、 **[ユーザー]** 、 **[すべてのユーザー]** の順に選択します。
+"
+535,github,". All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+  * Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+
+  * Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the
+    distribution.
+
+  * Neither the name of Google nor the names of its contributors may
+    be used to endorse or promote products derived from this software
+    without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+""AS IS"" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIM"
+8168,github,"),
+		autorest.ByUnmarshallingJSON(&result),
+		autorest.ByClosing())
+	result.Response = autorest.Response{Response: resp}
+	return
+}
+
+// SupportedSecurityProviders gives the supported security providers for the virtual wan.
+// Parameters:
+// resourceGroupName - the resource group name.
+// virtualWANName - the name of the VirtualWAN for which supported security providers are needed.
+func (client BaseClient) SupportedSecurityProviders(ctx context.Context, resourceGroupName string, virtualWANName string) (result VirtualWanSecurityProviders, err error) {
+	if tracing.IsEnabled() {
+		ctx = tracing.StartSpan(ctx, fqdn+""/BaseClient.SupportedSecurityProviders"")
+		defer func() {
+			sc := -1
+			if result."
+5474,pile-cc,". See general information about how to correct material in RePEc.
+
+For technical questions regarding this item, or to correct its authors, title, abstract, bibliographic or download information, contact: (Joachim Winter)
+
+If you have authored this item and are not yet registered with RePEc, we encourage you to do it here. This allows to link your profile to this item. It also allows you to accept potential citations to this item that we are uncertain about.
+
+If the full references list an item that is present in RePEc, but the system did not link to it, you can help with this form.
+
+If you know of missing items citing this one, you can help us creating those links by adding the relevant references in the same way as above, for each refering item. If you are a registered author of this item, you may also want to check the ""citations"" tab in your profile, as there may"
+4224,github,"/*---
+
+    iGeo - http://igeo.jp
+
+    Copyright (c) 2002-2013 Satoru Sugihara
+
+    This file is part of iGeo.
+
+    iGeo is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Lesser General Public License as
+    published by the Free Software Foundation, version 3.
+
+    iGeo is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public
+    License along with iGeo.  If not, see"
+574,github,"))
+	use(unsafe.Pointer(_p0))
+	if e1!= 0 {
+		err = errnoErr(e1)
+	}
+	return
+}
+
+// THIS FILE IS GENERATED BY THE COMMAND AT THE TOP; DO NOT EDIT
+
+func Umask(newmask int) (oldmask int) {
+	r0, _, _ := Syscall(SYS_UMASK, uintptr(newmask), 0, 0)
+	oldmask = int(r0)
+	return
+}
+
+// THIS FILE IS GENERATED BY THE COMMAND AT THE TOP; DO NOT EDIT
+
+func Undelete(path string) (err error) {
+	var _p0 *byte
+	_p0, err = BytePtrFromString(path)
+	if err!= nil {
+		return
+	}
+	_,"
+12491,github,".clustering"">Class</a></li>
+<li class=""navBarCell1Rev"">Use</li>
+<li><a href=""../package-tree.html"">Tree</a></li>
+<li><a href=""../../../../../../../deprecated-list.html"">Deprecated</a></li>
+<li><a href=""../../../../../../../index-all.html"">Index</a></li>
+<li><a href=""../../../../../../../help-doc.html"">Help</a></li>
+</ul>
+<div class=""aboutLanguage""><em><script type=""text/javascript"" src=""http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML""></script></em></div>
+</div>
+<div class="""
+14697,github,"
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, field.type);
+            }
+            break;
+          default:
+            org.apache.thrift.protocol.TProtocolUtil.skip(iprot, field.type);
+        }
+        iprot.readFieldEnd();
+      }
+      iprot.readStructEnd();
+
+      // check for required fields of primitive type, which can't be checked in the validate method
+"
+7095,pile-cc,"
+
+Contact this property
+
+All reviews have been thoroughly reviewed before posting, however if you feel this review meets the following criteria we want to know. Please select the criteria below that describes why you feel this content should be reviewed
+
+We use specific standards when reviewing all content that is listed on Rent.com. These rules include, but are not limited to:
+
+Inappropriate comments directed at companies: a user directs a derogatory comment at the client or any other company
+
+Discriminatory statements: includes derogatory comments based on physical attributes, national origin, religion, gender, sexual orientation, disability or age
+
+Directing business away from Client/Property: if content clearly directs business away from the client/property
+
+Profanity: any profanity (including creative spellings such as #$%, but not including euphemisms such as ""freaking"", ""fricking"", ""dang"", ""darn"", etc.), obscenity, or inappropriate slang
+
+Resp"
+187,github," value (as text); if the flag is on the command line without any options
+	Deprecated          string              // If this flag is deprecated, this string is the new or now thing to use
+	Hidden              bool                // used by cobra.Command to allow flags to be hidden from help/usage text
+	ShorthandDeprecated string              // If the shorthand of this flag is deprecated, this string is the new or now thing to use
+	Annotations         map[string][]string // used by cobra.Command bash autocomple code
+}
+
+// Value is the interface to the dynamic value stored in a flag.
+"
+266,pile-cc,"
+
+Next In Funds News
+
+KINSHASA, Dec 9 The appointment of a temporary
+administrator to run the Tenke copper mine has been blocked by
+an appeals body, the mine said on Friday, removing a hurdle to a
+takeover by China Molybdenum.
+
+COPENHAGEN, Dec 9 Stock exchange operator Nasdaq
+will replace Denmark's main C20 CAP index with a new
+index of 25 companies to reflect a higher market capitalisation
+and turnover following two of the world's biggest IPOs in
+Copenhagen this year.
+
+Reuters is the news and media division of Thomson Reuters. Thomson Reuters is the world's largest international multimedia news agency, providing investing news, world news, business news, technology news, headline news, small business news, news alerts, personal finance, stock market, and mutual funds information available on Reuters.com, video, mobile, and interactive television platforms. Learn more about"
+11238,github," nil when completing a task in the background
+    if (delegate) {
+        [delegate URLSession:session task:task didCompleteWithError:error];
+
+        [self removeDelegateForTask:task];
+    }
+
+    if (self.taskDidComplete) {
+        self.taskDidComplete(session, task, error);
+    }
+
+}
+
+#pragma mark - NSURLSessionDataDelegate
+
+- (void)URLSession:(NSURLSession *)session
+          dataTask:(NSURLSessionDataTask *)dataTask
+didReceiveResponse:(NSURLResponse *)response
+ completionHandler:(void (^)(NSURLSessionResponseDisposition disposition))completionHandler
+{
+    NSUR"
+2673,github,"// Copyright (c) 2015 The Connectal Project
+
+// Permission is hereby granted, free of charge, to any person
+// obtaining a copy of this software and associated documentation
+// files (the ""Software""), to deal in the Software without
+// restriction, including without limitation the rights to use, copy,
+// modify, merge, publish, distribute, sublicense, and/or sell copies
+// of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+
+// The above copyright notice and this permission notice shall be
+// included in all copies or substantial portions of the Software.
+
+// THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND,
+// EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+// NONINFRING"
+2922,github,"x18	0x0018	#	CANCEL
+0x19	0x0019	#	END OF MEDIUM
+0x1A	0x001A	#	SUBSTITUTE
+0x1B	0x001B	#	ESCAPE
+0x1C	0x001C	#	FILE SEPARATOR
+0x1D	0x001D	#	GROUP SEPARATOR
+0x1E	0x001E	#	RECORD SEPARATOR
+0x1F	0x001F	#	UNIT SEPARATOR
+0x20	0x0020	#	SPACE
+0x21	0x0021	#	EXCLAMATION MARK
+0x22	0x0022	#	QUOTATION MARK
+0x23	0x0023	#	NUMBER SIGN
+0x24	"
+8150,github,"
+:10FC6000840096BBB09BFECF189AA8954091C8001F
+:10FC700047FD02C0815089F7CDD0813479F4CAD0D4
+:10FC8000C82FDAD0C23811F480E004C088E0C1384F
+:10FC900009F083E0B8D080E1B6D0EECF823419F419
+:10FCA00084E1D2D0F8CF853411F485E0FACF8535E0
+:10FCB00081F4B0D0E82EAED0F82E87FF07C08BB706
+:10FCC00081608BBFEE0CFF1CB7D0E5CF8BB78E7F6"
+2658,pile-cc,"
+
+Unconstitutional Powers By Repetition
+
+Usurpations by one branch of government, of powers entrusted to a coequal branch, are not rendered constitutional by repetition.
+
+The United States Supreme Court held unconstitutional hundreds of laws enacted by Congress over the course of five decades that included a legislative veto of executive actions in INS v. Chada, 462 U.S. 919 (1982).
+
+Constitutional Republic Of The United States
+
+True Federalism.
+
+“The way to have good and safe government is not to trust it all to one, but to divide it among the many, distributing to every one exactly the functions he is competent to.
+
+Let the national government be entrusted with the defense of the nation, and its foreign and federal relations; the State governments with the civil rights, law, police, and administration of what concerns the State generally; the counties with the local concerns of the counties, and each ward direct the interests within itself"
+12975,github," component supports 3 options, which are listed below.
+
+
+
+[width=""100%"",cols=""2,5,^1,2"",options=""header""]
+|===
+| Name | Description | Default | Type
+| *bridgeErrorHandler* (consumer) | Allows for bridging the consumer to the Camel routing Error Handler, which mean any exceptions occurred while the consumer is trying to pickup incoming messages, or the likes, will now be processed as a message and handled by the routing Error Handler. By default the consumer will use the org.apache.camel.spi.ExceptionHandler to deal with exceptions, that will be logged at WARN or ERROR level and ignored. | false | boolean
+| *lazyStartProducer* (producer) | Whether the producer should be started lazy (on the first message). By starting lazy you can use this to allow CamelContext and routes to startup in situations where a producer may otherwise fail during starting and cause the"
+3035,github,"
+*
+* Target Processor: Cortex-M4/Cortex-M3
+*
+* Redistribution and use in source and binary forms, with or without
+* modification, are permitted provided that the following conditions
+* are met:
+*   - Redistributions of source code must retain the above copyright
+*     notice, this list of conditions and the following disclaimer.
+*   - Redistributions in binary form must reproduce the above copyright
+*     notice, this list of conditions and the following disclaimer in
+*     the documentation and/or other materials provided with the
+*     distribution.
+*   - Neither the name of ARM LIMITED nor the names of its contributors
+*     may be used to endorse or promote products derived from this
+*     software without"
+13291,github,"
+
+  <script type=""text/javascript"" src=""//use.typekit.net/wnc7ioh.js""></script>
+  <script type=""text/javascript"">try{Typekit.load();}catch(e){}</script>
+
+  <script type=""text/javascript"">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30136587-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol? 'https://ssl' : 'http://www') + '.google-analytics"
+10338,github,")
+
+Environment:
+    kernel mode only
+
+Notes:
+
+    THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+    IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+    OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+    IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+    INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+    NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+    DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+    THEORY OF LIABILITY, WH"
+7186,github,"xamarin.com)
+//
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the ""Software""), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+//
+// The above copyright notice and this permission notice shall be included in
+// all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PART"
+4977,github,"works/{virtualNetworkName}/subnets/{subnetName}"", pathParameters),
+		autorest.WithJSON(subnetParameters),
+		autorest.WithQueryParameters(queryParameters))
+	return preparer.Prepare((&http.Request{}).WithContext(ctx))
+}
+
+// CreateOrUpdateSender sends the CreateOrUpdate request. The method will close the
+// http.Response Body if it receives an error.
+func (client SubnetsClient) CreateOrUpdateSender(req *http.Request) (future SubnetsCreateOrUpdateFuture, err error) {
+	var resp *http.Response
+	resp, err = client.Send(req, azure.DoRetryWithRegistration(client.Client))
+	if err!= nil {
+		return
+	}
+	future.Future, err = azure.NewFutureFromResponse(resp)
+"
+14917,pile-cc," etexts and any
+medium they may be on may contain ""Defects"". Among other
+things, Defects may take the form of incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other
+intellectual property infringement, a defective or damaged
+disk or other etext medium, a computer virus, or computer
+codes that damage or cannot be read by your equipment.
+LIMITED WARRANTY; DISCLAIMER OF DAMAGES
+But for the ""Right of Replacement or Refund"" described below,
+[1] the Project (and any other party you may receive this
+etext from as a PROJECT GUTENBERG-tm etext) disclaims all
+liability to you for damages, costs and expenses, including
+legal fees, and [2] YOU HAVE NO REMEDIES FOR NEGLIGENCE OR
+UNDER STRICT LIABILITY, OR FOR BREACH OF WARRANTY OR CONTRACT,"
+14640,github,", J. David Bryan
+
+   Permission is hereby granted, free of charge, to any person obtaining a copy
+   of this software and associated documentation files (the ""Software""), to deal
+   in the Software without restriction, including without limitation the rights
+   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+   copies of the Software, and to permit persons to whom the Software is
+   furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included in
+   all copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+"
+3064,pile-cc,",...
+
+Recommended for you
+
+At the end of the Pleistocene period, approximately 12,800 years ago—give or take a few centuries—a cosmic impact triggered an abrupt cooling episode that earth scientists refer to as the Younger Dryas.
+
+In a new assessment of nine state-of-the-art climate model simulations provided by major international modeling centers, Michael Rawlins at the University of Massachusetts Amherst and colleagues found broad disagreement in...
+
+New research confirms that the land under the Chesapeake Bay is sinking rapidly and projects that Washington, D.C., could drop by six or more inches in the next century—adding to the problems of sea-level rise.
+
+The world's deserts may be storing some of the climate-changing carbon dioxide emitted by human activities, a new study suggests. Massive aquifers underneath deserts could hold more carbon than all the plants on land, according...
+
+Wildfires in California's fabled Sierra Nevada mountain"
+10837,github," ""Int64: ""+valueToGoStringCasttype(this.Int64, ""int64"")+"",\n"")
+	}
+	if this.XXX_unrecognized!= nil {
+		s = append(s, ""XXX_unrecognized:""+fmt.Sprintf(""%#v"", this.XXX_unrecognized)+"",\n"")
+	}
+	s = append(s, ""}"")
+	return strings.Join(s, """")
+}
+func valueToGoStringCasttype(v interface{}, typ string) string {
+	rv := reflect.ValueOf(v)
+	if rv.IsNil() {
+		return ""nil""
+	}
+	pv := reflect.Indirect(rv).Interface()
+	return fmt.Sprintf(""func(v %v) *%v { return &v } ( %#v"
+14636,github,"/*
+ * Copyright (C) 2014-2018  Andrew Gunnerson <andrewgunnerson@gmail.com>
+ *
+ * This file is part of DualBootPatcher
+ *
+ * DualBootPatcher is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * DualBootPatcher is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with DualBootPatcher.  If not, see <http://www.gnu"
+1461,github,"</a></td><td class=""entry""></td></tr>
+</table></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.4-->
+<!-- start footer part (NON TREEVIEW ONLY!!) -->
+<!--BEGIN GENERATE_TREEVIEW-->
+<div id=""FooterMainContainer"">
+	<div id=""FooterContainer"">
+		<div class=""footerlogo"">
+			<a href=""http://www.imgtec.com"" target=""_blank""><img src=""img-footer-logo-grey.png"" width=""20%"" height=""20%"" border=""none"" /></a>
+		</div>
+		<div class=""copyright""><p>&copy; Imagination Technologies Limited<br> All rights reserved</p></div>
+	</div>
+</div>
+"
+3895,github,"."", ""août"", ""sept."", ""oct."", ""nov."", ""déc.""},
+		monthsNarrow:           []string{"""", ""J"", ""F"", ""M"", ""A"", ""M"", ""J"", ""J"", ""A"", ""S"", ""O"", ""N"", ""D""},
+		monthsWide:             []string{"""", ""janvier"", ""février"", ""mars"", ""avril"", ""mai"", ""juin"", ""juillet"", ""août"", ""septembre"", ""octobre"", ""novembre"", ""décembre""},
+		daysAbbreviated:        []string{""dim."", ""lun."", ""mar."", ""mer."", ""jeu."", ""ven."", ""sam"
+1296,openwebtext2," final at the U.S. Open Reuters President Donald Trump life in pictures Donald Trump and his friend Melania Knauss pose for photographers as they arrive at the New York premiere of Star Wars Episode : 'The Phantom Menace,' Reuters President Donald Trump life in pictures Billionaire real estate developer Donald Trump talks with host Larry King. Trump told King that he was moving toward a possible bid for the United States presidency with the formation of a presidential exploratory committee Reuters President Donald Trump life in pictures Donald Trump answers questions as Minnesota Governor Jesse Ventura looks on in Brooklyn Park. Trump said on Friday he'very well might' make a run for president under the Reform Party banner but had not made a final decision Reuters President Donald Trump life in pictures Billionaire Donald Trump makes a face at a friend as he sits next to Panamanian President Mireya Moscoso before the start of the 2003 Miss Universe pageant in Panama City Reuters President Donald Trump life in pictures Entrepreneur Donald Trump is greeted by a Marilyn"
+11772,github,n\n## Usage\n\n```js\nvar isArray = require('isarray');\n\nconsole.log(isArray([])); // => true\nconsole.log(isArray({})); // => false\n```\n\n## Installation\n\nWith [npm](http://npmjs.org) do\n\n```bash\n$ npm install isarray\n```\n\nThen bundle for the browser with\n[browserify](https://github.com/substack/browserify).\n\nWith [component](http://component.io) do\n\n```bash\n$ component install juliangruber/isarray\n```\n\n## License\n\n(MIT)\n\nCopyright (c) 2013 Julian Gruber &lt;julian@juliang
+11445,github,".ListMonitoredResourceDescriptors(ctx, req, settings.GRPC...)
+			return err
+		}, opts...)
+		if err!= nil {
+			return nil, """", err
+		}
+		return resp.ResourceDescriptors, resp.NextPageToken, nil
+	}
+	fetch := func(pageSize int, pageToken string) (string, error) {
+		items, nextPageToken, err := it.InternalFetch(pageSize, pageToken)
+		if err!= nil {
+			return """", err
+		}
+		it.items = append(it.items, items...)
+		return nextPageToken, nil
+	}
+	it.pageInfo, it.nextFunc = iterator.NewPageInfo(fetch, it.bufLen, it.takeBuf)
+	"
+3156,github,".c
+
+  Universal 8bit Graphics Library
+  
+  Copyright (c) 2011, olikraus@gmail.com
+  All rights reserved.
+
+  Redistribution and use in source and binary forms, with or without modification, 
+  are permitted provided that the following conditions are met:
+
+  * Redistributions of source code must retain the above copyright notice, this list 
+    of conditions and the following disclaimer.
+    
+  * Redistributions in binary form must reproduce the above copyright notice, this 
+    list of conditions and the following disclaimer in the documentation and/or other 
+    materials provided with the distribution.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND 
+  CONTRIBUTORS ""AS IS"" AND ANY EXPRESS OR IMPLIED WARRANTIES, 
+  INCLUDING, BUT NOT LIMITED TO, THE IM"
+373,github," sequence"",
+	86: ""not supported"",
+	87: ""operation Canceled"",
+	88: ""bad or Corrupt message"",
+	89: ""no message available"",
+	90: ""no STREAM resources"",
+	91: ""not a STREAM"",
+	92: ""STREAM ioctl timeout"",
+	93: ""attribute not found"",
+	94: ""multihop attempted"",
+	95: ""link has been severed"",
+	96: ""protocol error"",
+}
+
+// Signal table
+var signals = [...]string{
+	1:  ""hangup"",
+	2:  ""interrupt"",
+	3:  ""quit"",
+	4:  ""illegal instruction"",
+	5:  ""trace/BPT trap"",
+	6:  ""abort trap"",
+	7:  ""EMT trap"",
+	8:  ""floating point exception"","
+714,openwebtext2," Los Angeles (1999-2002) and the Phoenix New Times (1995-1999)
+
+Learn about Scientology with our numerous series with experts…
+
+BLOGGING DIANETICS: We read Scientology’s founding text cover to cover with the help of L.A. attorney and former church member Vance Woodward
+
+UP THE BRIDGE: Claire Headley and Bruce Hines train us as Scientologists
+
+GETTING OUR ETHICS IN: Jefferson Hawkins explains Scientology’s system of justice
+
+SCIENTOLOGY MYTHBUSTING: Historian Jon Atack discusses key Scientology concepts
+
+Other links: Shelly Miscavige, ten years gone | The Lisa McPherson story told in real time | The Cathriona White stories | The Leah Remini ‘Knowledge Reports’ | Hear audio of a Scientology excommunication | Scientology’s little day care of horrors | Whatever happened to Steve Fishman? | Felony charges"
+1235,github," should have received a copy of the GNU General Public License
+// along with this program; if not, write to the Free Software
+// Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+//
+// Linking this library statically or dynamically with other modules is
+// making a combined work based on this library.  Thus, the terms and
+// conditions of the GNU General Public License cover the whole
+// combination.
+// 
+// As a special exception, the copyright holders of this library give you
+// permission to link this library with independent modules to produce an
+// executable, regardless of the license terms of these independent
+// modules, and to copy and distribute the resulting executable under
+// terms of your choice, provided that you also meet, for each linked
+// independent module, the terms and conditions of the license of that"
+324,github,"	hfs_btree_close(sbi->cat_tree);
+	hfs_btree_close(sbi->ext_tree);
+	iput(sbi->alloc_file);
+	iput(sbi->hidden_dir);
+	kfree(sbi->s_vhdr_buf);
+	kfree(sbi->s_backup_vhdr_buf);
+	unload_nls(sbi->nls);
+	kfree(sb->s_fs_info);
+	sb->s_fs_info = NULL;
+}
+
+static int hfsplus_statfs(struct dentry *dentry, struct kstatfs *buf)
+{
+	struct super_block *sb = dentry->d_sb;
+	struct hfsplus_sb_info *sbi = HFSPLUS_SB(sb);
+"
+10686,pile-cc,"gotten America
+
+This one’s a “Serial” killer…everything both right and wrong about true crime podcasts.
+
+Wedding Planners
+
+The only bad wedding is a boring wedding.
+
+Disaster Hut
+
+It’s only the end of the world if your doomsday kit doesn’t include rosé.
+
+Catch up on Portlandia’s final episodes on demand and at IFC.com
+
+Advertisement
+
+Videos
+
+Your Portlandia Personality Test
+
+Carrie and Fred understand that although we have so much in common, we’re each so beautifully unique and different. To help us navigate those differences, Portlandia has found an easy and honest way to embrace our special selves in the form of a progressive new traffic system: a specific lane for every kind of driver. It’s all in honor of the show’s 8th and final season, and it�"
+3019,pile-cc,".
+
+Copyright in the material you requested is held by the American College of Chest Physicians (unless otherwise noted).
+This email ability is provided as a courtesy, and by using it you agree that that you are requesting the material
+solely for personal, non-commercial use, and that it is subject to the American College of Chest Physicians’ Terms of Use.
+The information provided in order to email this topic will not be used to send unsolicited email, nor will it be
+furnished to third parties. Please refer to the American College of Chest Physicians’ Privacy Policy for further information.
+
+Forgot your password?
+
+Enter your username and email address. We'll send you a reminder to the email address on record.
+
+Username
+(required)
+
+Email Address
+(required)
+
+Athens and Shibboleth are access management services that provide single sign-on to protected resources. They replace the multiple user names and passwords necessary"
+2463,github,"""/>
+                </Property>
+                <Property name=""mnemonic"" type=""int"" value=""50""/>
+                <Property name=""toolTipText"" type=""java.lang.String"" value=""Alt+2""/>
+                <Property name=""name"" type=""java.lang.String"" value=""btnPetugas"" noResource=""true""/>
+                <Property name=""preferredSize"" type=""java.awt.Dimension"" editor=""org.netbeans.beaninfo.editors.DimensionEditor"">
+                 "
+2661,pile-cc,".
+
+""This isnít stats vs scouts - this is stats and scouts working together, building an organization that blends the best of both worlds. This is the blueprint for how a baseball organization should be run. And, whether the baseball men of the 20th century like it or not, this is where baseball is going.""---Dave Cameron, U.S.S. Mariner
+
+Board Moderators may, at their discretion and judgment, delete and/or edit any messages that violate any of the following guidelines: 1. Explicit references to alleged illegal or unlawful acts. 2. Graphic sexual descriptions. 3. Racial or ethnic slurs. 4. Use of edgy language (including masked profanity). 5. Direct personal attacks, flames, fights, trolling, baiting, name-calling, general nuisance, excessive player criticism or anything along those lines. 6. Posting spam. 7. Each person may have only one user account. It is fine to be critical here -"
+4098,github,"           </td>
+          <td class=""md"" valign=""top"">(&nbsp;</td>
+          <td class=""mdname1"" valign=""top"" nowrap>          </td>
+          <td class=""md"" valign=""top"">&nbsp;)&nbsp;</td>
+          <td class=""md"" nowrap> const</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing=""5"" cellpadding=""0"" border=""0"">
+  <tr>
+    <td"
+10922,github,"  Internet Systems Consortium, Inc. (""ISC"")
+ * Copyright (C) 1999-2001, 2003  Internet Software Consortium.
+ *
+ * Permission to use, copy, modify, and/or distribute this software for any
+ * purpose with or without fee is hereby granted, provided that the above
+ * copyright notice and this permission notice appear in all copies.
+ *
+ * THE SOFTWARE IS PROVIDED ""AS IS"" AND ISC DISCLAIMS ALL WARRANTIES WITH
+ * REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+ * AND FITNESS.  IN NO EVENT SHALL ISC BE LIABLE FOR ANY SPECIAL, DIRECT,
+ * INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+ * LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE
+ * OR OTHER T"
+7609,openwebtext2," at all.
+
+Thank you for reading this Techdirt post. With so many things competing for everyone’s attention these days, we really appreciate you giving us your time. We work hard every day to put quality content out there for our community. Techdirt is one of the few remaining truly independent media outlets. We do not have a giant corporation behind us, and we rely heavily on our community to support us, in an age when advertisers are increasingly uninterested in sponsoring small, independent sites — especially a site like ours that is unwilling to pull punches in its reporting and analysis. While other websites have resorted to paywalls, registration requirements, and increasingly annoying/intrusive advertising, we have always kept Techdirt open and available to anyone. But in order to continue doing so, we need your support. We offer a variety of ways for our readers to support us, from direct donations to special subscriptions and cool merchandise — and every little bit helps. Thank you"
+6873,freelaw," U. S. ____ (2011)                              1
+
+                             Opinion of the Court
+
+     NOTICE: This opinion is subject to formal revision before publication in the
+     preliminary print of the United States Reports. Readers are requested to
+     notify the Reporter of Decisions, Supreme Court of the United States, Wash­
+     ington, D. C. 20543, of any typographical or other formal errors, in order
+     that corrections may be made before the preliminary print goes to press.
+
+
+SUPREME COURT OF THE UNITED STATES
+                 "
+2819,github,".ru
+
+  This library is free software; you can redistribute it and/or modify it
+  under the terms of the GNU Library General Public License as published by
+  the Free Software Foundation; either version 2 of the License, or (at your
+  option) any later version with the following modification:
+
+  As a special exception, the copyright holders of this library give you
+  permission to link this library with independent modules to produce an
+  executable, regardless of the license terms of these independent modules,and
+  to copy and distribute the resulting executable under terms of your choice,
+  provided that you also meet, for each linked independent module, the terms
+  and conditions of the license of that module. An independent module is a
+  module which is not derived from or based on this library. If you modify
+  this library, you may extend this exception to your version of the library,
+  but you are not obligated to do so."
+13407,pile-cc,".
+
+An anatomy of startup ventures for the Internet of Things market. Like GE describes in their white paper Pushing the Boundaries of Mind and Machine, this is basically a process of innovating through more intelligent machines to reinvent workflow models.
+For a useful overview as to what constitutes an ‘IoT startup’, check out one example for some key characteristics: Hutgrip. Hutgrip is a SaaS solution that replaces VPNs with the Cloud and real time analytics, with the headline points being:
+Clear description of the business benefit the new technology will bring – Smarter automation of bi...
+
+Containers and microservices have become topics of intense interest throughout the cloud developer and enterprise IT communities.
+Accordingly, attendees at the upcoming 16th Cloud Expo at the Javits Center in New York June 9-11 will find fresh new content in a new track called PaaS | Containers & Microservices
+Containers are not being considered for"
+5176,github,"
+{
+    struct inflate_state FAR *state;
+    unsigned long id;
+
+    /* check state */
+    if (strm == Z_NULL || strm->state == Z_NULL) return Z_STREAM_ERROR;
+    state = (struct inflate_state FAR *)strm->state;
+    if (state->wrap!= 0 && state->mode!= DICT)
+        return Z_STREAM_ERROR;
+
+    /* check for correct dictionary id */
+    if (state->mode == DICT) {
+        id = adler32(0L, Z_NULL, 0);
+        id = adler32(id, dictionary, dictLength);
+        if (id!= state->check)"
+10462,github,"/* -*- mode: C++; c-basic-offset: 2; indent-tabs-mode: nil -*- */
+/*
+ *  Main authors:
+ *     Christian Schulte <schulte@gecode.org>
+ *
+ *  Copyright:
+ *     Christian Schulte, 2008
+ *
+ *  This file is part of Gecode, the generic constraint
+ *  development environment:
+ *     http://www.gecode.org
+ *
+ *  Permission is hereby granted, free of charge, to any person obtaining
+ *  a copy of this software and associated documentation files (the
+ *  ""Software""), to deal in the Software without restriction, including
+ *  without limitation the rights to use, copy, modify, merge, publish,
+ *  distribute, sublicense, and/or sell copies of the Software, and to
+ * "
+12743,github,"﻿//
+// The Open Toolkit Library License
+//
+// Copyright (c) 2006 - 2009 the Open Toolkit library.
+//
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the ""Software""), to deal
+// in the Software without restriction, including without limitation the rights to
+// use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+// the Software, and to permit persons to whom the Software is furnished to do
+// so, subject to the following conditions:
+//
+// The above copyright notice and this permission notice shall be included in all
+// copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND,
+// EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+// OF MERCH"
+3645,github,"
+              # @param [Integer] limit Upper limit for the number of records to return. stream()
+              #    guarantees to never return more than limit.  Default is no limit
+              # @param [Integer] page_size Number of records to fetch per request, when
+              #    not set will use the default value of 50 records.  If no page_size is defined
+              #    but a limit is defined, stream() will attempt to read the limit with the most
+              #    efficient page size, i.e. min(limit, 1000)"
+11880,github," multiplication
+ *
+ * $Date:        27. January 2017
+ * $Revision:    V.1.5.1
+ *
+ * Target Processor: Cortex-M cores
+ * -------------------------------------------------------------------- */
+/*
+ * Copyright (C) 2010-2017 ARM Limited or its affiliates. All rights reserved.
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ *
+ * Licensed under the Apache License, Version 2.0 (the License); you may
+ * not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an AS IS BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express"
+8673,github," 
+ FOR A PARTICULAR PURPOSE, REGARDING THE APPLE SOFTWARE OR ITS USE AND 
+ OPERATION ALONE OR IN COMBINATION WITH YOUR PRODUCTS. 
+  
+ IN NO EVENT SHALL APPLE BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL 
+ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF 
+ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS 
+ INTERRUPTION) ARISING IN ANY WAY OUT OF THE USE, REPRODUCTION, 
+ MODIFICATION AND/OR DISTRIBUTION OF THE APPLE SOFTWARE, HOWEVER CAUSED 
+ AND WHETHER UNDER THEORY OF CONTRACT, TORT (INCLUDING NEGLIGENCE), 
+ STRICT LIABILITY OR OTHERWISE, EVEN IF APPLE HAS"

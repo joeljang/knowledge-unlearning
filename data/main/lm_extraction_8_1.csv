@@ -1,0 +1,116 @@
+doc_id,corpus,text
+7576,pile-cc,".
+
+Cloud Expo, Inc. has announced today that Andi Mann returns to 'DevOps at Cloud Expo 2017' as Conference Chair
+The @DevOpsSummit at Cloud Expo will take place on June 6-8, 2017, at the Javits Center in New York City, NY.
+""DevOps is set to be one of the most profound disruptions to hi...
+
+20th Cloud Expo, taking place June 6-8, 2017, at the Javits Center in New York City, NY, will feature technical sessions from a rock star conference faculty and the leading industry players in the world.
+Cloud computing is now being embraced by a majority of enterprises of all sizes....
+
+With major technology companies and startups seriously embracing IoT strategies, now is the perfect time to attend @ThingsExpo 2016 in New York. Learn what is going on, contribute to the discussions, and ensure that your enterprise is as ""IoT-Ready"" as it can be"
+10509,github,"_PATIENT_VISIT - this is probably a bug in the source code generator."", e);
+	   }
+	}
+
+	///<summary>
+	/// Returns PV1 (Patient visit) - creates it if necessary
+	///</summary>
+	public PV1 PV1 { 
+get{
+	   PV1 ret = null;
+	   try {
+	      ret = (PV1)this.GetStructure(""PV1"");
+	   } catch(HL7Exception e) {
+	      HapiLogFactory.GetHapiLog(GetType()).Error(""Unexpected error accessing data - this is probably a bug in the source code generator."", e);
+	      throw new System.Exception(""An unexpected error ocurred"",e"
+4253,github,"
+ *
+ * Based on libqrencode C library distributed under LGPL 2.1
+ * Copyright (C) 2006, 2007, 2008, 2009 Kentaro Fukuchi <fukuchi@megaui.net>
+ *
+ * PHP QR Code is distributed under LGPL 3
+ * Copyright (C) 2010 Dominik Dzienia <deltalab at poczta dot fm>
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 3 of the License, or any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser"
+5150,github,"</B>()</PRE>
+        <DL>
+        <DD>
+        </DD>
+        <P>
+        </DL>
+        <HR>
+    
+    &nbsp;
+
+
+<!-- ============ METHOD DETAIL ========== -->
+
+<A NAME=""method_detail""><!-- --></A>
+
+    <TABLE BORDER=""1"" WIDTH=""100%"" CELLPADDING=""3"" CELLSPACING=""0"" SUMMARY="""">
+    <TR BGCOLOR=""#CCCCFF"" CLASS=""TableHeadingColor"">
+    <TH ALIGN=""left"" COLSPAN=""1""><FONT SIZE="""
+506,github,"': [
+\ ['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'div', 'ul', 'ol', 'dl','menu', 'dir', 'pre', 'hr', 'blockquote', 'address', 'center', 'isindex', 'fieldset', 'table', 'form', 'a', 'br','span', 'bdo', 'object', 'applet', 'img','map', 'iframe', 'tt', 'i', 'b', 'u','s','strike', 'big','small', 'font', 'basefont', 'em','strong', 'dfn', 'code', 'q','samp', 'kbd', 'var', 'cite', 'abbr', 'acronym','sub','sup', 'input','select', 'textarea', 'label', 'button"
+1622,pile-cc,".”
+
+Copyright 2016 The Arsenal Football Club plc. Permission to use quotations from this article is granted subject to appropriate credit being given to www.arsenal.com as the source
+
+Please ensure you enter the correct Date of Birth as it will be required if you need to reset your password
+
+Please ensure that you enter your parents email address and click here to review our privacy policy for those who are under 13. Please note that an email address can only be used once to register as a Digital Member so you cannot register for both an adult and junior membership under the same email address.
+
+Mobile Number
+
+* Country
+
+* State
+
+Language Preference
+
+* Postcode
+
+* Email Address
+
+* Confirm Email Address
+
+* Password
+
+* Confirm Password
+
+Get all the news from Arsenal.com
+
+Weekly E-Newsletter (only in English)I would like to receive the weekly e-news"
+13684,github,"
+
+  This file is part of DeclarativeWidgets, library and tools for creating QtWidget UIs with QML.
+
+  Copyright (C) 2017-2020 Klarälvdalens Datakonsult AB, a KDAB Group company, info@kdab.com
+  Author: Nathan Collins <nathan.collins@kdab.com>
+
+  Licensees holding valid commercial KDAB DeclarativeWidgets licenses may use this file in
+  accordance with DeclarativeWidgets Commercial License Agreement provided with the Software.
+
+  Contact info@kdab.com if any conditions of this licensing are not clear to you.
+
+  This program is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 2 of the License, or
+  (at your option) any later version"
+2145,freelaw,"
+                             UNITED STATES COURT OF APPEALS
+                                 FOR THE SECOND CIRCUIT
+
+                                    SUMMARY ORDER
+     RULINGS BY SUMMARY ORDER DO NOT HAVE PRECEDENTIAL EFFECT.     CITATION TO SUMMARY ORDERS
+     FILED AFTER JANUARY 1, 2007, IS PERMITTED AND IS GOVERNED BY THIS COURT’S LOCAL RULE 32.1
+    "

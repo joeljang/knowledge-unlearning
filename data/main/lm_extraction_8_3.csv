@@ -1,0 +1,99 @@
+doc_id,corpus,text
+11584,github,"/devel/api-conventions.md#spec-and-status
+  // +optional
+  optional CronJobStatus status = 3;
+}
+
+// CronJobList is a collection of cron jobs.
+message CronJobList {
+  // Standard list metadata.
+  // More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata
+  // +optional
+  optional k8s.io.apimachinery.pkg.apis.meta.v1.ListMeta metadata = 1;
+
+  // items is the list of CronJobs.
+  repeated CronJob items = 2;
+}
+
+// CronJobSpec describes how the job execution will look like and when it will actually run.
+message CronJobSpec {
+  // The schedule in Cron format, see https://en.wikipedia.org/wiki/Cron"
+5034,github,"-apache-stretch
+
+# make Apt non-interactive
+RUN echo 'APT::Get::Assume-Yes ""true"";' > /etc/apt/apt.conf.d/90circleci \
+  && echo 'DPkg::Options ""--force-confnew"";' >> /etc/apt/apt.conf.d/90circleci
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Debian Jessie is EOL'd and original repos don't work.
+# Switch to the archive mirror until we can get people to
+# switch to Stretch.
+RUN if grep -q Debian /etc/os-release && grep -q jessie /etc/os-release; then \
+	rm /etc/apt/sources.list \
+    && echo ""deb http://archive.debian.org/debian/ jessie main"" >> /"
+12282,github,"
+    },
+    ""PrivateEndpointConnectionProperties"": {
+      ""type"": ""object"",
+      ""properties"": {
+        ""privateEndpoint"": {
+          ""oneOf"": [
+            {
+              ""$ref"": ""#/definitions/PrivateEndpoint""
+            },
+            {
+              ""$ref"": ""https://schema.management.azure.com/schemas/common/definitions.json#/definitions/expression""
+            }
+     "
+28,github,"// Copyright (c) 2014, Ryan Lewis All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+// 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+// 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+// 3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.  
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ""AS IS"" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR"
+9702,pile-cc,".
+
+*Number of views in last 30 days
+
+† Based on 2018 EPA mileage ratings. Use for comparison purposes only. Your actual mileage will vary depending on how you drive and maintain your vehicle.
+
+*Price listed does not include a $35 electronic filing fee for titling (custom plates do not apply) or $115 Documentation fee. Price listed does not include, tax, title, license, registration or state emission fees. ""Instant Savings"" includes Kendall Discount that all customers qualify for. Please call or visit Kendall Volkswagen of Bend to see if you qualify for any additional discounts that are not included in ""Instant Savings"". While every reasonable effort is made to ensure the accuracy of the vehicle description displayed on this page, dealer makes no warranties, express or implied, with regard to the vehicle or vehicle description. Please verify all vehicle information before entering into a purchase agreement. If the vehicle being purchased is to be financed, the annual percentage rate may be negotiated with the dealer. The"
+11437,github,"ef-0d81-4d96-af62-32ba7e181dc2"",
+            ""5ae01620-6217-429c-a6ee-f3c90a1813fe"",
+            ""cea43ac2-635b-47f0-8e22-31dd43944c2b"",
+            ""80ed906b-d3d8-4eff-a382-f3ccfe770fbd"",
+            ""a6284cb9-0ec4-4644-ac38-9df2c430d565"",
+            ""0e61b3b3-d822-42b9-"
+6193,github," ""HISTORY.md"",
+    ""LICENSE"",
+    ""README.md"",
+    ""index.js""
+  ],
+  ""homepage"": ""https://github.com/stream-utils/unpipe#readme"",
+  ""license"": ""MIT"",
+  ""name"": ""unpipe"",
+  ""repository"": {
+    ""type"": ""git"",
+    ""url"": ""git+https://github.com/stream-utils/unpipe.git""
+  },
+  ""scripts"": {
+    ""test"": ""mocha --reporter spec --bail --check-leaks test/"",
+    ""test-cov"": ""istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/"",
+    """
+10573,github,"<?xml version=""1.0"" encoding=""UTF-8""?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  ""License""); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  ""AS IS"" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific"

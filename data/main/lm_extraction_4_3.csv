@@ -1,0 +1,53 @@
+doc_id,corpus,text
+11584,github,"/devel/api-conventions.md#spec-and-status
+  // +optional
+  optional CronJobStatus status = 3;
+}
+
+// CronJobList is a collection of cron jobs.
+message CronJobList {
+  // Standard list metadata.
+  // More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata
+  // +optional
+  optional k8s.io.apimachinery.pkg.apis.meta.v1.ListMeta metadata = 1;
+
+  // items is the list of CronJobs.
+  repeated CronJob items = 2;
+}
+
+// CronJobSpec describes how the job execution will look like and when it will actually run.
+message CronJobSpec {
+  // The schedule in Cron format, see https://en.wikipedia.org/wiki/Cron"
+5034,github,"-apache-stretch
+
+# make Apt non-interactive
+RUN echo 'APT::Get::Assume-Yes ""true"";' > /etc/apt/apt.conf.d/90circleci \
+  && echo 'DPkg::Options ""--force-confnew"";' >> /etc/apt/apt.conf.d/90circleci
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Debian Jessie is EOL'd and original repos don't work.
+# Switch to the archive mirror until we can get people to
+# switch to Stretch.
+RUN if grep -q Debian /etc/os-release && grep -q jessie /etc/os-release; then \
+	rm /etc/apt/sources.list \
+    && echo ""deb http://archive.debian.org/debian/ jessie main"" >> /"
+12282,github,"
+    },
+    ""PrivateEndpointConnectionProperties"": {
+      ""type"": ""object"",
+      ""properties"": {
+        ""privateEndpoint"": {
+          ""oneOf"": [
+            {
+              ""$ref"": ""#/definitions/PrivateEndpoint""
+            },
+            {
+              ""$ref"": ""https://schema.management.azure.com/schemas/common/definitions.json#/definitions/expression""
+            }
+     "
+28,github,"// Copyright (c) 2014, Ryan Lewis All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+// 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+// 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+// 3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.  
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ""AS IS"" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR"

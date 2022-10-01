@@ -1,0 +1,133 @@
+doc_id,corpus,text
+6681,github,"ype
+	sa.raw.Pkttype = sa.Pkttype
+	sa.raw.Halen = sa.Halen
+	for i := 0; i < len(sa.Addr); i++ {
+		sa.raw.Addr[i] = sa.Addr[i]
+	}
+	return unsafe.Pointer(&sa.raw), SizeofSockaddrLinklayer, nil
+}
+
+type SockaddrNetlink struct {
+	Family uint16
+	Pad    uint16
+	Pid    uint32
+	Groups uint32
+	raw    RawSockaddrNetlink
+}
+
+func (sa *SockaddrNetlink) sockaddr() (unsafe.Pointer, _Socklen, error) {
+	sa.raw.Family = AF_NETLINK
+	sa.raw.Pad = sa.Pad"
+199,github,"/Deployment. See the release notes for
+// more information.
+// Deployment enables declarative updates for Pods and ReplicaSets.
+message Deployment {
+  // Standard object metadata.
+  // +optional
+  optional k8s.io.apimachinery.pkg.apis.meta.v1.ObjectMeta metadata = 1;
+
+  // Specification of the desired behavior of the Deployment.
+  // +optional
+  optional DeploymentSpec spec = 2;
+
+  // Most recently observed status of the Deployment.
+  // +optional
+  optional DeploymentStatus status = 3;
+}
+
+// DeploymentCondition describes the state of a deployment at a certain point.
+message DeploymentCondition {
+  // Type of deployment condition.
+  optional string type = 1;
+
+  // Status of the condition, one of True, False, Unknown.
+  optional string status = 2;"
+3420,github,"097CF813509F0A9CF88E024D0DA
+:107F7000A6CFFC010A0167BFE895112407B600FCF3
+:107F8000FDCF667029F0452B19F481E187BFE89594
+:107F900008959091C00095FFFCCF8093C60008958E
+:107FA0008091C00087FFFCCF8091C00084FD01C09C
+:107FB000A8958091C6000895E0E6F0E098E19083EE
+:107FC00080830895EDDF803219F088E0F5DFFFCF80
+:107FD00084E1DFCFCF93C82FE3DFC150E9F7CF9122"
+14881,github,"UBDIRS)
+DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
+am__relativize = \
+  dir0=`pwd`; \
+  sed_first='s,^\([^/]*\)/.*$$,\1,'; \
+  sed_rest='s,^[^/]*/*,,'; \
+  sed_last='s,^.*/\([^/]*\)$$,\1,'; \
+  sed_butlast='s,/*[^/]*$$,,'; \
+  while test -n ""$$dir1""; do \
+    first=`echo ""$$dir1"" | sed -e ""$$sed_first""`; \
+    if test ""$$first""!= """
+2980,github," :ios, '9.0'
+
+# CocoaPods analytics sends network stats synchronously affecting flutter build latency.
+ENV['COCOAPODS_DISABLE_STATS'] = 'true'
+
+def parse_KV_file(file, separator='=')
+  file_abs_path = File.expand_path(file)
+  if!File.exists? file_abs_path
+    return [];
+  end
+  pods_ary = []
+  skip_line_start_symbols = [""#"", ""/""]
+  File.foreach(file_abs_path) { |line|
+      next if skip_line_start_symbols.any? { |symbol| line =~ /^\s*#{symbol}/ }
+      plugin = line.split(pattern="
+3303,github," {
+  background-color: #2aabd2;
+  background-image: none;
+}
+.btn-warning {
+  background-image: -webkit-linear-gradient(top, #f0ad4e 0%, #eb9316 100%);
+  background-image:      -o-linear-gradient(top, #f0ad4e 0%, #eb9316 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f0ad4e), to(#eb9316));
+  background-image:         linear-gradient(to bottom, #f0ad4e 0%, #eb9316 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e', endColorstr='#ffeb9316', Grad"
+9428,github,"       HapiLogFactory.GetHapiLog(GetType()).Error(message, e); 
+	        throw new System.Exception(message);
+	    } 
+	    return reps; 
+	}
+	} 
+
+	/** 
+	 * Enumerate over the UAC results 
+	 */ 
+	public IEnumerable<UAC> UACs 
+	{ 
+		get
+		{
+			for (int rep = 0; rep < UACRepetitionsUsed; rep++)
+			{
+				yield return (UAC)this.GetStructure(""UAC"", rep);
+			}
+		}
+	}
+
+	///<summary>
+	///Adds a new UAC
+	///</summary>
+	public UAC"
+14262,github,"DIRNAME([""$file""])`
+    AS_MKDIR_P([$dirpart/$fdir])
+    # echo ""creating $dirpart/$file""
+    echo '# dummy' > ""$dirpart/$file""
+  done
+done
+])# _AM_OUTPUT_DEPENDENCY_COMMANDS
+
+
+# AM_OUTPUT_DEPENDENCY_COMMANDS
+# -----------------------------
+# This macro should only be invoked once -- use via AC_REQUIRE.
+#
+# This code is only required when automatic dependency tracking
+# is enabled.  FIXME.  This creates each `.P' file that we will
+# need in order to bootstrap the dependency handling code.
+AC_DEFUN([AM_OUTPUT_DEPENDENCY_COMMANDS],
+[AC_CONFIG_COMMANDS([depfiles],
+ "

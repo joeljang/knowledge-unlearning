@@ -1,0 +1,457 @@
+doc_id,corpus,text
+7576,pile-cc,".
+
+Cloud Expo, Inc. has announced today that Andi Mann returns to 'DevOps at Cloud Expo 2017' as Conference Chair
+The @DevOpsSummit at Cloud Expo will take place on June 6-8, 2017, at the Javits Center in New York City, NY.
+""DevOps is set to be one of the most profound disruptions to hi...
+
+20th Cloud Expo, taking place June 6-8, 2017, at the Javits Center in New York City, NY, will feature technical sessions from a rock star conference faculty and the leading industry players in the world.
+Cloud computing is now being embraced by a majority of enterprises of all sizes....
+
+With major technology companies and startups seriously embracing IoT strategies, now is the perfect time to attend @ThingsExpo 2016 in New York. Learn what is going on, contribute to the discussions, and ensure that your enterprise is as ""IoT-Ready"" as it can be"
+10509,github,"_PATIENT_VISIT - this is probably a bug in the source code generator."", e);
+	   }
+	}
+
+	///<summary>
+	/// Returns PV1 (Patient visit) - creates it if necessary
+	///</summary>
+	public PV1 PV1 { 
+get{
+	   PV1 ret = null;
+	   try {
+	      ret = (PV1)this.GetStructure(""PV1"");
+	   } catch(HL7Exception e) {
+	      HapiLogFactory.GetHapiLog(GetType()).Error(""Unexpected error accessing data - this is probably a bug in the source code generator."", e);
+	      throw new System.Exception(""An unexpected error ocurred"",e"
+4253,github,"
+ *
+ * Based on libqrencode C library distributed under LGPL 2.1
+ * Copyright (C) 2006, 2007, 2008, 2009 Kentaro Fukuchi <fukuchi@megaui.net>
+ *
+ * PHP QR Code is distributed under LGPL 3
+ * Copyright (C) 2010 Dominik Dzienia <deltalab at poczta dot fm>
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 3 of the License, or any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser"
+5150,github,"</B>()</PRE>
+        <DL>
+        <DD>
+        </DD>
+        <P>
+        </DL>
+        <HR>
+    
+    &nbsp;
+
+
+<!-- ============ METHOD DETAIL ========== -->
+
+<A NAME=""method_detail""><!-- --></A>
+
+    <TABLE BORDER=""1"" WIDTH=""100%"" CELLPADDING=""3"" CELLSPACING=""0"" SUMMARY="""">
+    <TR BGCOLOR=""#CCCCFF"" CLASS=""TableHeadingColor"">
+    <TH ALIGN=""left"" COLSPAN=""1""><FONT SIZE="""
+506,github,"': [
+\ ['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'div', 'ul', 'ol', 'dl','menu', 'dir', 'pre', 'hr', 'blockquote', 'address', 'center', 'isindex', 'fieldset', 'table', 'form', 'a', 'br','span', 'bdo', 'object', 'applet', 'img','map', 'iframe', 'tt', 'i', 'b', 'u','s','strike', 'big','small', 'font', 'basefont', 'em','strong', 'dfn', 'code', 'q','samp', 'kbd', 'var', 'cite', 'abbr', 'acronym','sub','sup', 'input','select', 'textarea', 'label', 'button"
+1622,pile-cc,".”
+
+Copyright 2016 The Arsenal Football Club plc. Permission to use quotations from this article is granted subject to appropriate credit being given to www.arsenal.com as the source
+
+Please ensure you enter the correct Date of Birth as it will be required if you need to reset your password
+
+Please ensure that you enter your parents email address and click here to review our privacy policy for those who are under 13. Please note that an email address can only be used once to register as a Digital Member so you cannot register for both an adult and junior membership under the same email address.
+
+Mobile Number
+
+* Country
+
+* State
+
+Language Preference
+
+* Postcode
+
+* Email Address
+
+* Confirm Email Address
+
+* Password
+
+* Confirm Password
+
+Get all the news from Arsenal.com
+
+Weekly E-Newsletter (only in English)I would like to receive the weekly e-news"
+13684,github,"
+
+  This file is part of DeclarativeWidgets, library and tools for creating QtWidget UIs with QML.
+
+  Copyright (C) 2017-2020 Klarälvdalens Datakonsult AB, a KDAB Group company, info@kdab.com
+  Author: Nathan Collins <nathan.collins@kdab.com>
+
+  Licensees holding valid commercial KDAB DeclarativeWidgets licenses may use this file in
+  accordance with DeclarativeWidgets Commercial License Agreement provided with the Software.
+
+  Contact info@kdab.com if any conditions of this licensing are not clear to you.
+
+  This program is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 2 of the License, or
+  (at your option) any later version"
+2145,freelaw,"
+                             UNITED STATES COURT OF APPEALS
+                                 FOR THE SECOND CIRCUIT
+
+                                    SUMMARY ORDER
+     RULINGS BY SUMMARY ORDER DO NOT HAVE PRECEDENTIAL EFFECT.     CITATION TO SUMMARY ORDERS
+     FILED AFTER JANUARY 1, 2007, IS PERMITTED AND IS GOVERNED BY THIS COURT’S LOCAL RULE 32.1
+    "
+9296,github,"# Copyright (c) 2018, Oracle and/or its affiliates. All rights reserved.
+# DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+#
+# The Universal Permissive License (UPL), Version 1.0
+#
+# Subject to the condition set forth below, permission is hereby granted to any
+# person obtaining a copy of this software, associated documentation and/or
+# data (collectively the ""Software""), free of charge and under any and all
+# copyright rights in the Software, and any and all patent rights owned or
+# freely licensable by each licensor hereunder covering either (i) the
+# unmodified Software as contributed to or provided by such licensor, or (ii)
+# the Larger Works (as defined below), to deal in both
+#
+# (a) the Software, and
+#
+# (b) any piece of software and/or hardware"
+6900,openwebtext2,""".
+
+Gadget and tech news: In pictures Show all 25 1 /25 Gadget and tech news: In pictures Gadget and tech news: In pictures Gun-toting humanoid robot sent into space Russia has launched a humanoid robot into space on a rocket bound for the International Space Station (ISS). The robot Fedor will spend 10 days aboard the ISS practising skills such as using tools to fix issues onboard. Russia's deputy prime minister Dmitry Rogozin has previously shared videos of Fedor handling and shooting guns at a firing range with deadly accuracy. Dmitry Rogozin/Twitter Gadget and tech news: In pictures Google turns 21 Google celebrates its 21st birthday on September 27. The The search engine was founded in September 1998 by two PhD students, Larry Page and Sergey Brin, in their dormitories at California’s Stanford University. Page and Brin chose the name google as it recalled the mathematic term 'googol', meaning 10 raised to the power of 100 Google"
+6331,github,"/*
+ * *
+ *  * Licensed to the Apache Software Foundation (ASF) under one
+ *  * or more contributor license agreements.  See the NOTICE file
+ *  * distributed with this work for additional information
+ *  * regarding copyright ownership.  The ASF licenses this file
+ *  * to you under the Apache License, Version 2.0 (the
+ *  * ""License""); you may not use this file except in compliance
+ *  * with the License.  You may obtain a copy of the License at
+ *  *
+ *  *     http://www.apache.org/licenses/LICENSE-2.0
+ *  *
+ *  * Unless required by applicable law or agreed to in writing, software
+ *  * distributed under the License is distributed on an ""AS IS"" BASIS,
+ *  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or"
+13897,github,"orest.NewErrorWithError(err, ""network.LoadBalancersClient"", ""listAllNextResults"", resp, ""Failure responding to next results request"")
+	}
+	return
+}
+
+// ListAllComplete enumerates all values, automatically crossing page boundaries as required.
+func (client LoadBalancersClient) ListAllComplete(ctx context.Context) (result LoadBalancerListResultIterator, err error) {
+	if tracing.IsEnabled() {
+		ctx = tracing.StartSpan(ctx, fqdn+""/LoadBalancersClient.ListAll"")
+		defer func() {
+			sc := -1
+			if result.Response().Response.Response!= nil {
+				sc = result.page.Response().Response.Response.StatusCode
+			}
+			tracing.EndSpan(ctx, sc, err)
+	"
+2316,github,">
+
+<p>&ldquo;Additional permissions&rdquo; are terms that supplement the terms of this
+License by making exceptions from one or more of its conditions.
+Additional permissions that are applicable to the entire Program shall
+be treated as though they were included in this License, to the extent
+that they are valid under applicable law.  If additional permissions
+apply only to part of the Program, that part may be used separately
+under those permissions, but the entire Program remains governed by
+this License without regard to the additional permissions.</p>
+
+<p>When you convey a copy of a covered work, you may at your option
+remove any additional permissions from that copy, or from any part of
+it.  (Additional permissions may be written to require their own
+removal in certain cases when you modify the work.)  You may place
+additional permissions on material, added by you to a covered work,
+for which you"
+10734,github," href=""https://shardingsphere.apache.org/document/legacy/4.x/document/cn/manual/sharding-jdbc/configuration/"">
+         <i class=""collapse"" style=""display:inline; font-family:'courier';"">
+         
+             <svg  class=""icon icon-down"" 
+              style=""display: none;""
+              viewBox=""0 0 1024 1024"" version=""1.1"" xmlns=""http://www.w3.org/2000/svg""   width=""20"" height=""20"" fill=""#777"">
+             "
+10441,pile-cc,"
+
+Shipping and handling
+
+If your vehicle is near you, just make arrangements with the seller to pick it up. If it's further away, you can either fly or drive to the car's location, or you can hire a shipping service to get it delivered to your door. The seller may have additional options available, so check their description for more information
+
+By placing a bid, you are giving your express consent to share your contact information with the seller and authorizing the seller to contact you regarding this vehicle or similar vehicles. For more information see our eBay Motors Bidding Policy.
+
+By submitting your bid, you are committing to buy this item from the seller if you are the winning bidder. You have read and agree to the Global Shipping Program terms and conditions - opens in a new window or tab. Import charges previously quoted are subject to change if you increase you maximum bid amount.
+
+By clicking Confirm, you commit to buy this item from the seller if you are"
+6799,github,"-2003 Michael David Adams.
+ * All rights reserved.
+ */
+
+/* __START_OF_JASPER_LICENSE__
+ * 
+ * JasPer License Version 2.0
+ * 
+ * Copyright (c) 2001-2006 Michael David Adams
+ * Copyright (c) 1999-2000 Image Power, Inc.
+ * Copyright (c) 1999-2000 The University of British Columbia
+ * 
+ * All rights reserved.
+ * 
+ * Permission is hereby granted, free of charge, to any person (the
+ * ""User"") obtaining a copy of this software and associated documentation
+ * files (the ""Software""), to deal in the Software without restriction,
+ * including without limitation the rights to use, copy, modify, merge,
+ * publish, distribute, and/or sell copies of the Software, and to permit
+ * persons to whom the Software is furnished to do so, subject to the
+ * following conditions:"
+14768,github,"
+.\"" 
+.\"" Permission to use, copy, modify, and/or distribute this software for any
+.\"" purpose with or without fee is hereby granted, provided that the above
+.\"" copyright notice and this permission notice appear in all copies.
+.\"" 
+.\"" THE SOFTWARE IS PROVIDED ""AS IS"" AND ISC DISCLAIMS ALL WARRANTIES WITH
+.\"" REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+.\"" AND FITNESS. IN NO EVENT SHALL ISC BE LIABLE FOR ANY SPECIAL, DIRECT,
+.\"" INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+.\"" LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE
+.\"" OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONN"
+6992,github," /* BUTTON PLUGIN DEFINITION
+  * ======================== */
+
+  $.fn.button = function (option) {
+    return this.each(function () {
+      var $this = $(this)
+       , data = $this.data('button')
+       , options = typeof option == 'object' && option
+      if (!data) $this.data('button', (data = new Button(this, options)))
+      if (option == 'toggle') data.toggle()
+      else if (option) data.setState(option)
+    })
+  }
+
+  $.fn.button.defaults = {
+    loadingText: 'loading...'
+  }
+
+  $.fn.button.Constructor = Button"
+2114,github,"/*
+ *
+ *   Nextcloud Talk application
+ *
+ *   @author Mario Danic
+ *   Copyright (C) 2017 Mario Danic (mario@lovelyhq.com)
+ *
+ *   This program is free software: you can redistribute it and/or modify
+ *   it under the terms of the GNU General Public License as published by
+ *   the Free Software Foundation, either version 3 of the License, or
+ *   at your option) any later version.
+ *
+ *   This program is distributed in the hope that it will be useful,
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *   GNU General Public License for more details.
+ *
+ *   You should have received a copy of the GNU General Public License"
+9994,github,"     other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+    "
+502,uspto_backgrounds,"×B)×(C×D).
+The development of a hybrid corn variety involves three steps: (1) the selection of plants from various germplasm pools; (2) the selfing of the selected plants for several generations to produce a series of inbred plants, which, although different from each other, each breed true and are highly uniform; and (3) crossing the selected inbred plants with unrelated inbred plants to produce the hybrid progeny (F1). During the inbreeding process in corn, the vigor of the plants decreases. Vigor is restored when two unrelated inbred plants are crossed to produce the hybrid progeny (F1). An important consequence of the homozygosity and homogeneity of the inbred plants is that the hybrid between any two inbreds is always the same. Once the inbreds that give a superior hybrid have been identified, hybrid seed can be reproduced indefinitely as long as the homogeneity of the inbred parents is maintained"
+3399,github,"/InspectorBackendDispatcher.h>
+#include <wtf/text/WTFString.h>
+
+namespace Inspector {
+
+typedef String ErrorString;
+
+
+
+} // namespace Inspector
+### End File: TestBackendDispatchers.h
+
+### Begin File: TestBackendDispatchers.cpp
+/*
+ * Copyright (C) 2013 Google Inc. All rights reserved.
+ * Copyright (C) 2013-2016 Apple Inc. All rights reserved.
+ * Copyright (C) 2014 University of Washington. All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form"
+7374,github,"   text: '\n' + indent + '\n' + next_indent + closing,
+                selection: [1, indent.length, 1, indent.length]
+            };
+        } else {
+            CstyleBehaviour.clearMaybeInsertedClosing();
+        }
+    });
+
+    this.add(""braces"", ""deletion"", function(state, action, editor, session, range) {
+        var selected = session.doc.getTextRange(range);
+        if (!range.isMultiLine() && selected == '{') {
+          "
+5794,github," Ac6</center></h2>
+**
+** Redistribution and use in source and binary forms, with or without modification,
+** are permitted provided that the following conditions are met:
+**   1. Redistributions of source code must retain the above copyright notice,
+**      this list of conditions and the following disclaimer.
+**   2. Redistributions in binary form must reproduce the above copyright notice,
+**      this list of conditions and the following disclaimer in the documentation
+**      and/or other materials provided with the distribution.
+**   3. Neither the name of Ac6 nor the names of its contributors
+**      may be used to endorse or promote products derived from this software
+**      without specific prior written permission.
+**
+** THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND"
+13281,pile-cc,".
+
+ABOUT DOCTORS HEALTH PRESS
+
+HEALTHY LIVING
+
+CONNECT WITH US
+
+Disclaimer: The information contained herein is for information purposes only and is not to be construed as a diagnosis, treatment, preventive, or cure for any disease, disorder, or abnormal physical state, nor should it be considered a substitute for medical care from your doctor. On any matter relating to your health or well-being—and prior to undertaking any health-related activity—consult an appropriate health professional. The opinions herein are exactly that, they are the opinions of the author. Doctors Health Press and its employees are not responsible for medically unsupervised activities that could be harmful to your health. Results are not guaranteed*** and may vary from person to person***. All of the Doctors Health Press publications come with a 100% satisfaction guarantee. If you’re not satisfied with your newsletter, you can simply cancel your subscription and receive a pro-rated refund on"
+1186,github,"/*
+** Copyright (c) 2007 The Khronos Group Inc.
+** 
+** Permission is hereby granted, free of charge, to any person obtaining a
+** copy of this software and/or associated documentation files (the
+** ""Materials""), to deal in the Materials without restriction, including
+** without limitation the rights to use, copy, modify, merge, publish,
+** distribute, sublicense, and/or sell copies of the Materials, and to
+** permit persons to whom the Materials are furnished to do so, subject to
+** the following conditions:
+** 
+** The above copyright notice and this permission notice shall be included
+** in all copies or substantial portions of the Materials.
+** 
+** THE MATERIALS ARE PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND,
+** EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+** MERCHANTABILITY,"
+4355,github,",
+
+             0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
+             10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+             20, 21, 22, 23, 24, 25, 26, 27, 28, 29,
+             30, 31, 32, 33, 34, 35, 36, 37, 38, 39,
+             40, 41, 42, 43, 44, 45, 46, 47, 48, 49,
+             50, 51, 52, 53, 54, 55, 56, 57, 58, 59,
+"
+11526,github,"text/javascript"">
+  setToRoot(""../../../../../../"", ""../../../../../../../assets/"");
+</script>
+<script src=""../../../../../../../assets/doclava-developer-reference.js"" type=""text/javascript""></script>
+<script src=""../../../../../../../assets/navtree_data.js"" type=""text/javascript""></script>
+<script src=""../../../../../../../assets/customizations.js"" type=""text/javascript""></script>
+<noscript>
+  <style type=""text/css"">
+    html,body{overflow:auto;}
+    #body-content{position:relative; top:0;}
+    #doc-content{overflow:visible;border-left:3px solid #666;}
+    #side-nav{padding"
+2779,github,"><span class=""tsd-signature-symbol"">&gt;</span><span class=""tsd-signature-symbol"">&gt;</span></h5>
+								</li>
+							</ul>
+							<h4 class=""tsd-returns-title"">Returns <span class=""tsd-signature-type"">void</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class=""col-4 col-menu menu-sticky-wrap menu-highlight"">
+			<nav class=""tsd-navigation primary"">
+				<ul>
+					<li class"
+11885,github,"""
+   ]
+  },
+  {
+   ""cell_type"": ""markdown"",
+   ""metadata"": {},
+   ""source"": [
+    ""# Great Job!""
+   ]
+  }
+ ],
+ ""metadata"": {
+  ""kernelspec"": {
+   ""display_name"": ""Python 3"",
+   ""language"": ""python"",
+   ""name"": ""python3""
+  },
+  ""language_info"": {
+   ""codemirror_mode"": {
+    ""name"": ""ipython"",
+    ""version"": 3
+   },
+   ""file_extension"": "".py"",
+   ""mimetype"": ""text/x-python"",
+   ""name"": ""python"",
+   ""nbconvert_exporter"": ""python"",
+   """
+6486,github,"CF608143
+:10FD7000C8018E0D9F1D78D00F5F1F4FF801FE5FE9
+:10FD8000C017D107A1F788CF843701F544D0C82F19
+:10FD9000D0E0DC2FCC273FD0C82B3DD0D82E4DD083
+:10FDA0008701F5E4DF120BC0CE0DDF1DC80154D072
+:10FDB0002BD00F5F1F4FC017D107C1F76DCFF801D0
+:10FDC00087918F0121D02197D1F766CF853731F404
+:10FDD00034D08EE119D087E917D05CCF813509"
+5284,github,"
+   ]
+  },
+  {
+   ""cell_type"": ""markdown"",
+   ""metadata"": {},
+   ""source"": [
+    ""## Good Job!""
+   ]
+  }
+ ],
+ ""metadata"": {
+  ""kernelspec"": {
+   ""display_name"": ""Python 2"",
+   ""language"": ""python"",
+   ""name"": ""python2""
+  },
+  ""language_info"": {
+   ""codemirror_mode"": {
+    ""name"": ""ipython"",
+    ""version"": 2
+   },
+   ""file_extension"": "".py"",
+   ""mimetype"": ""text/x-python"",
+   ""name"": ""python"",
+   ""nbconvert_exporter"": ""python"",
+   """

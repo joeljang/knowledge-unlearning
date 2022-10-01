@@ -1,0 +1,81 @@
+doc_id,corpus,text
+1670,github,"</name>
+	<description></description>
+	<!-- TODO <organization> <name>company name</name> <url>company url</url> 
+		</organization> -->
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	
+	<dependencies>
+		<!-- WICKET DEPENDENCIES -->
+		<dependency>
+			<groupId>org.apache.wicket</groupId>
+			<artifactId>wicket-core</artifactId>
+		"
+13379,github," Corbin Simpson <MostAwesomeDude@gmail.com>
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the ""Software""),
+ * to deal in the Software without restriction, including without limitation
+ * on the rights to use, copy, modify, merge, publish, distribute, sub
+ * license, and/or sell copies of the Software, and to permit persons to whom
+ * the Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice (including the next
+ * paragraph) shall be included in all copies or substantial portions of the
+ * Software.
+ *
+ * THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR"
+10234,github,"al_searchbar
+msgid ""<span class=\""small mr-1 navbar-text\"">Sort By:</span>""
+msgstr """"
+
+#. module: portal
+#: model_terms:ir.ui.view,arch_db:portal.portal_share_template
+msgid ""<strong>Open </strong>""
+msgstr """"
+
+#. module: portal
+#: model:mail.template,body_html:portal.mail_template_data_portal_welcome
+msgid """"
+""<table border=\""0\"" cellpadding=\""0\"" cellspacing=\""0\"" style=\""padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\""><tr><td align=\""center"
+4719,github,"px;
+}
+h3 {
+  font-size: 20px;
+  line-height: 28px;
+}
+.large-h1 {
+  font-size: 42px;
+  line-height: 48px;
+  font-weight: 300;
+}
+p {
+  font-size: 14px;
+  line-height: 24px;
+}
+p:last-child {
+  margin-bottom: 0px;
+}
+p.lead {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+}
+span.lead {
+  font-weight: 400;
+}
+.uppercase {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin-right: -1px;
+}
+strong"

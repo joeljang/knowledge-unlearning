@@ -1,0 +1,136 @@
+doc_id,corpus,text
+14163,github,"_uint64
+(
+    GrB_Matrix C,
+    const GrB_Matrix M,
+    const bool Mask_struct,
+    const GrB_Matrix A,
+    const GrB_Matrix B,
+    const bool Ch_is_Mh,
+    const int64_t *GB_RESTRICT C_to_M,
+    const int64_t *GB_RESTRICT C_to_A,
+    const int64_t *GB_RESTRICT C_to_B,
+    const GB_task_struct *GB_RESTRICT TaskList,
+    const int ntasks,
+    const int nthreads
+)
+{ 
+    #if GB_DISABLE
+    return (GrB_NO_VALUE)"
+12113,github,"//
+// Copyright (c) 2013 Mikko Mononen memon@inside.org
+//
+// This software is provided 'as-is', without any express or implied
+// warranty.  In no event will the authors be held liable for any damages
+// arising from the use of this software.
+// Permission is granted to anyone to use this software for any purpose,
+// including commercial applications, and to alter it and redistribute it
+// freely, subject to the following restrictions:
+// 1. The origin of this software must not be misrepresented; you must not
+//    claim that you wrote the original software. If you use this software
+//    in a product, an acknowledgment in the product documentation would be
+//    appreciated but is not required.
+// 2. Altered source versions must be plainly marked as such, and must not be
+//    misrepresented as being the original software.
+"
+7058,github,""" accesskey=""p"" rel=""prev""><span class=""fa fa-arrow-circle-left""></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role=""contentinfo"">
+    <p>
+        
+        &copy; Copyright 2020, Pierre-Alain Chaumeil, Aaron Mussig, and Donovan Parks
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href=""http://sphinx-doc.org/"">Sphinx</a> using a
+    
+    <a href=""https://github.com/rtfd/sphinx_rtd_theme"">theme</a>
+    "
+2957,github,"HighlightRules;
+});
+
+define(""ace/mode/folding/coffee"",[""require"",""exports"",""module"",""ace/lib/oop"",""ace/mode/folding/fold_mode"",""ace/range""], function(require, exports, module) {
+""use strict"";
+
+var oop = require(""../../lib/oop"");
+var BaseFoldMode = require(""./fold_mode"").FoldMode;
+var Range = require(""../../range"").Range;
+
+var FoldMode = exports.FoldMode = function() {};
+oop.inherits(FoldMode, BaseFoldMode);
+
+(function() {
+
+    this.getFoldWidgetRange = function(session, foldStyle, row) {
+        var range = this.indentationBlock(session, row);
+        if ("
+915,github,"[iNdEx]
+			iNdEx++
+			wire |= (uint64(b) & 0x7F) << shift
+			if b < 0x80 {
+				break
+			}
+		}
+		fieldNum := int32(wire >> 3)
+		wireType := int(wire & 0x7)
+		if wireType == 4 {
+			return fmt.Errorf(""proto: JobCondition: wiretype end group for non-group"")
+		}
+		if fieldNum <= 0 {
+			return fmt.Errorf(""proto: JobCondition: illegal tag %d (wire type %d)"", fieldNum, wire)
+		}
+		switch fieldNum {
+		case 1:
+			if wireType!= 2 {
+				return"
+13828,github,"1.c
+ *
+ *
+ * --------------------------------------------------------------------------
+ *
+ *      Pthreads-win32 - POSIX Threads Library for Win32
+ *      Copyright(C) 1998 John E. Bossom
+ *      Copyright(C) 1999,2005 Pthreads-win32 contributors
+ * 
+ *      Contact Email: rpj@callisto.canberra.edu.au
+ * 
+ *      The current list of contributors is contained
+ *      in the file CONTRIBUTORS included with the source
+ *      code distribution. The list can also be seen at the
+ *      following World Wide Web location:
+ *      http://sources.redhat.com/pthread"
+6049,github,"dEx]
+			iNdEx++
+			wire |= (uint64(b) & 0x7F) << shift
+			if b < 0x80 {
+				break
+			}
+		}
+		fieldNum := int32(wire >> 3)
+		wireType := int(wire & 0x7)
+		if wireType == 4 {
+			return fmt.Errorf(""proto: CronJobStatus: wiretype end group for non-group"")
+		}
+		if fieldNum <= 0 {
+			return fmt.Errorf(""proto: CronJobStatus: illegal tag %d (wire type %d)"", fieldNum, wire)
+		}
+		switch fieldNum {
+		case 1:
+			if wireType!= 2 {
+				return fmt"
+14137,github,"=="",
+          ""dev"": true
+        },
+        ""glob"": {
+          ""version"": ""7.1.2"",
+          ""resolved"": ""https://registry.npmjs.org/glob/-/glob-7.1.2.tgz"",
+          ""integrity"": ""sha512-MJTUg1kjuLeQCJ+ccE4Vpa6kKVXkPYJ2mOCQyUuKLcLQsdrMCpBPUi8qVE6+YuaJkozeA9NusTAw3hLr8Xe5EQ=="",
+        "

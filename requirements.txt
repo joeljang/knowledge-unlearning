@@ -1,0 +1,16 @@
+transformers
+pytorch-lightning
+pandas
+numpy
+nlp==0.4.0
+sentencepiece==0.1.94
+wandb
+nltk
+deepspeed
+boto3
+rouge
+lm-eval
+
+#LM-Evaluation
+rouge_score==0.0.4
+datasets==1.15.1

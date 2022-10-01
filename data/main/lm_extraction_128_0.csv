@@ -1,0 +1,1884 @@
+doc_id,corpus,text
+1670,github,"</name>
+	<description></description>
+	<!-- TODO <organization> <name>company name</name> <url>company url</url> 
+		</organization> -->
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	
+	<dependencies>
+		<!-- WICKET DEPENDENCIES -->
+		<dependency>
+			<groupId>org.apache.wicket</groupId>
+			<artifactId>wicket-core</artifactId>
+		"
+13379,github," Corbin Simpson <MostAwesomeDude@gmail.com>
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the ""Software""),
+ * to deal in the Software without restriction, including without limitation
+ * on the rights to use, copy, modify, merge, publish, distribute, sub
+ * license, and/or sell copies of the Software, and to permit persons to whom
+ * the Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice (including the next
+ * paragraph) shall be included in all copies or substantial portions of the
+ * Software.
+ *
+ * THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR"
+10234,github,"al_searchbar
+msgid ""<span class=\""small mr-1 navbar-text\"">Sort By:</span>""
+msgstr """"
+
+#. module: portal
+#: model_terms:ir.ui.view,arch_db:portal.portal_share_template
+msgid ""<strong>Open </strong>""
+msgstr """"
+
+#. module: portal
+#: model:mail.template,body_html:portal.mail_template_data_portal_welcome
+msgid """"
+""<table border=\""0\"" cellpadding=\""0\"" cellspacing=\""0\"" style=\""padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\""><tr><td align=\""center"
+4719,github,"px;
+}
+h3 {
+  font-size: 20px;
+  line-height: 28px;
+}
+.large-h1 {
+  font-size: 42px;
+  line-height: 48px;
+  font-weight: 300;
+}
+p {
+  font-size: 14px;
+  line-height: 24px;
+}
+p:last-child {
+  margin-bottom: 0px;
+}
+p.lead {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+}
+span.lead {
+  font-weight: 400;
+}
+.uppercase {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin-right: -1px;
+}
+strong"
+7003,github," class=""separator:a25fe4a28bd22016ef2a6cf10db5d649d inherit pub_methods_class_emojicode_compiler_1_1_a_s_t_unary""><td class=""memSeparator"" colspan=""2"">&#160;</td></tr>
+<tr class=""inherit_header pub_methods_class_emojicode_compiler_1_1_a_s_t_expr""><td colspan=""2"" onclick=""javascript:toggleInherit('pub_methods_class_emojicode_compiler_1_1_a_s_t_expr')""><img src=""closed.png"" alt=""-""/>&#160;Public Member Functions inherited from <a class=""el"" href=""class_emojicode_compiler_1_1_a"
+2831,openwebtext2," to.
+
+Thank you for reading this Techdirt post. With so many things competing for everyone’s attention these days, we really appreciate you giving us your time. We work hard every day to put quality content out there for our community. Techdirt is one of the few remaining truly independent media outlets. We do not have a giant corporation behind us, and we rely heavily on our community to support us, in an age when advertisers are increasingly uninterested in sponsoring small, independent sites — especially a site like ours that is unwilling to pull punches in its reporting and analysis. While other websites have resorted to paywalls, registration requirements, and increasingly annoying/intrusive advertising, we have always kept Techdirt open and available to anyone. But in order to continue doing so, we need your support. We offer a variety of ways for our readers to support us, from direct donations to special subscriptions and cool merchandise — and every little bit helps. Thank you."
+13014,github,"
+	req, err := client.DeletePreparer(ctx, resourceGroupName, gatewayName)
+	if err!= nil {
+		err = autorest.NewErrorWithError(err, ""network.VpnGatewaysClient"", ""Delete"", nil, ""Failure preparing request"")
+		return
+	}
+
+	result, err = client.DeleteSender(req)
+	if err!= nil {
+		err = autorest.NewErrorWithError(err, ""network.VpnGatewaysClient"", ""Delete"", result.Response(), ""Failure sending request"")
+		return
+	}
+
+	return
+}
+
+// DeletePreparer prepares the Delete request.
+func (client VpnGatewaysClient) DeletePreparer(ctx context.Context, resourceGroupName string, gatewayName string) (*http.Request, error) {
+	pathParameters := map[string]interface{}{
+		"
+11979,pile-cc,"
+
+Content Continues Below
+
+Download this free guide
+
+Unified Communications: the key to prospering in the new working reality of Covid-19
+
+The coronavirus is changing everything about how people work, and will do so permanently. It added that even though the working world was experiencing unprecedented uncertainty, there were two things that should be borne in mind: the virus will pass, and at the other side of the pandemic, the world of work will look very different.
+
+I agree to TechTarget’s Terms of Use, Privacy Policy, and the transfer of my information to the United States for processing to provide me with relevant information as described in our Privacy Policy.
+
+Please check the box if you want to proceed.
+
+I agree to my information being processed by TechTarget and its Partners to contact me via phone, email, or other means regarding information relevant to my professional interests. I may unsubscribe at any time.
+
+Please"
+8610,github,"/*
+ * This file is part of the GROMACS molecular simulation package.
+ *
+ * Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+ * Copyright (c) 2001-2004, The GROMACS development team.
+ * Copyright (c) 2013,2014,2015,2017,2018 by the GROMACS development team.
+ * Copyright (c) 2019,2020, by the GROMACS development team, led by
+ * Mark Abraham, David van der Spoel, Berk Hess, and Erik Lindahl,
+ * and including many others, as listed in the AUTHORS file in the
+ * top-level source directory and at http://www.gromacs.org.
+ *
+ * GROMACS is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public License
+ * as published by the Free Software Foundation; either"
+519,github," the GNU Affero General Public License.
+
+  Notwithstanding any other provision of this License, you have
+permission to link or combine any covered work with a work licensed
+under version 3 of the GNU Affero General Public License into a single
+combined work, and to convey the resulting work.  The terms of this
+License will continue to apply to the part which is the covered work,
+but the special requirements of the GNU Affero General Public License,
+section 13, concerning interaction through a network will apply to the
+combination as such.
+
+  14. Revised Versions of this License.
+
+  The Free Software Foundation may publish revised and/or new versions of
+the GNU General Public License from time to time.  Such new versions will
+be similar in spirit to the present version, but may differ in detail to
+address new problems or concerns.
+"
+13264,freelaw,"        STATE v. WILLIAMS
+                              Cite as 306 Neb. 261
+
+relevant factors customarily considered and applied are the
+defendant’s (1) age, (2) mentality, (3) education and experi-
+ence, (4) social and cultural background, (5) past criminal
+record or record of law-abiding conduct, and (6) motivation for
+the offense, as well as (7) the nature of the offense and (8) the
+amount of violence involved in the commission of the crime. 25
+The appropriateness of a sentence is necessarily a subjective
+judgment and includes the sentencing judge’s observation of
+the defendant’s demeanor and attitude and all the facts and
+circumstances surrounding the defendant’s"
+7329,github,"﻿/*
+* sones GraphDB - Community Edition - http://www.sones.com
+* Copyright (C) 2007-2011 sones GmbH
+*
+* This file is part of sones GraphDB Community Edition.
+*
+* sones GraphDB is free software: you can redistribute it and/or modify
+* it under the terms of the GNU Affero General Public License as published by
+* the Free Software Foundation, version 3 of the License.
+* 
+* sones GraphDB is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU Affero General Public License for more details.
+*
+* You should have received a copy of the GNU Affero General Public License
+* along with sones GraphDB. If not, see"
+452,github,"F91E030938500CB
+:10FC60002093840096BBB09BFECF1D9AA89540912F
+:10FC7000C00047FD02C0815089F7CED0813479F4AD
+:10FC8000CBD0C82FDBD0C23811F480E004C088E0AC
+:10FC9000C13809F083E0B9D080E1B7D0EECF82342B
+:10FCA00019F484E1D3D0F8CF853411F485E0FACF8C
+:10FCB000853581F4B1D0E82EAFD0F82E87FF07C08C
+:10FCC0008BB781608BBFEE0CFF1CB8"
+12374,github,"ing to link in too many shared libraries */
+#define	ELIBEXEC	83	/* Cannot exec a shared library directly */
+#define	EILSEQ		84	/* Illegal byte sequence */
+#define	ERESTART	85	/* Interrupted system call should be restarted */
+#define	ESTRPIPE	86	/* Streams pipe error */
+#define	EUSERS		87	/* Too many users */
+#define	ENOTSOCK	88	/* Socket operation on non-socket */
+#define	EDESTADDRREQ	89	/* Destination address required */
+#define	EMSGSIZE	90	/* Message too long */
+#define	EPROTOTYPE	91	/* Protocol wrong type for socket */
+#define	ENOPROTOOPT	92	/* Protocol not available */
+#define	EPROTONOSUPPORT	"
+4067,github,"
+<html xmlns=""http://www.w3.org/1999/xhtml""
+      xmlns:h=""http://java.sun.com/jsf/html""
+      xmlns:f=""http://java.sun.com/jsf/core"">
+
+<!--
+
+    DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
+
+    Copyright (c) 2017 Oracle and/or its affiliates. All rights reserved.
+
+    The contents of this file are subject to the terms of either the GNU
+    General Public License Version 2 only (""GPL"") or the Common Development
+    and Distribution License(""CDDL"") (collectively, the ""License"").  You
+    may not use this file except in compliance with the License.  You can
+    obtain a copy of the License"
+10783,github,".
+//
+// Copyright (c) 2007, Applied Informatics Software Engineering GmbH.
+// and Contributors.
+//
+// Permission is hereby granted, free of charge, to any person or organization
+// obtaining a copy of the software and accompanying documentation covered by
+// this license (the ""Software"") to use, reproduce, display, distribute,
+// execute, and transmit the Software, and to prepare derivative works of the
+// Software, and to permit third-parties to whom the Software is furnished to
+// do so, all subject to the following:
+// 
+// The copyright notices in the Software and this entire statement, including
+// the above license grant, this restriction and the following disclaimer,
+// must be included in all copies of the Software, in whole or in part, and
+// all derivative works of the Software, unless such copies or derivative
+// works are solely in the form of machine-executable object"
+575,github,"Program</refentrytitle></citerefentry></para>
+    </refsect1>
+    <refsect1 xml:id=""Copyright""><title>Copyright</title>
+        <para>
+            Copyright <trademark class=""copyright""/> 2003-2005 3Dlabs Inc. Ltd.
+            Copyright <trademark class=""copyright""/> 2010-2014 Khronos Group.
+            This material may be distributed subject to the terms and conditions set forth in
+            the Open Publication License, v 1.0, 8 June 1999.
+            <link xmlns:xlink=""http://www.w3.org/1999"
+10280,github,"# Mode: -*- MAKEFILE -*-
+# @BC
+#		                Copyright (c) 1993
+#	    by Microelectronics and Computer Technology Corporation (MCC)
+#				All Rights Reserved
+#
+#	Permission to use, copy, modify, and distribute this software and its
+#	documentation for any purpose and without fee is hereby granted,
+#	provided that this notice be retained unaltered, and that the name of
+#	MCC and its shareholders and participants shall not be used in
+#	advertising or publicity pertaining to distribution of the software
+#	without specific written prior permission.
+#
+#	THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+#	IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+#	WARRANT"
+12986,github,"conventions.md#types-kinds
+  // +optional
+  optional ListMeta metadata = 1;
+
+  // List of objects
+  repeated k8s.io.apimachinery.pkg.runtime.RawExtension items = 2;
+}
+
+// ListMeta describes metadata that synthetic resources must have, including lists and
+// various status objects. A resource may have only one of {ObjectMeta, ListMeta}.
+message ListMeta {
+  // selfLink is a URL representing this object.
+  // Populated by the system.
+  // Read-only.
+  // +optional
+  optional string selfLink = 1;
+
+  // String that identifies the server's internal version of this object that
+  // can be used by clients to determine when objects have changed.
+  // Value must be treated as opaque by clients and passed unmodified back to the server.
+  // Populated by the system.
+ "
+6183,github," job by the schedule command</p>
+
+        <p><strong>Validations:</strong></p>
+        <ul>
+            <li>
+<p>Must be a String</p>
+</li>
+        </ul>
+
+    </td>
+
+  </tr>
+
+  
+
+    </tbody>
+  </table>
+
+
+
+
+</div>
+
+  
+
+        
+      </div>
+    </div>
+    <hr>
+    <footer></footer>
+  </div>
+  <script type='text/javascript' src='../../../apidoc/javascripts/bundled/jquery.js'></script>"
+11135,pile-cc," Read More
+
+Top New Stories
+
+Faced with the uncertainties of life under lockdown, is it any surprise that many people are turning to methods of fortune telling such as tarot cards? Journalists are often tempted to ask whether this is a resurgence of “pseudoscience”. The history of tarot suggests not.
+
+Human Origins
+
+The concept known as “genetic memory” is much less studied and far more controversial than what we know as “regular” memory. Whilst there are a multitude of other examples in animals (see: Gallagher, 2013)
+
+Our Mission
+
+At Ancient Origins, we believe that one of the most important fields of knowledge we can pursue as human beings is our beginnings. And while some people may seem content with the story as it stands, our view is that there exists countless mysteries, scientific anomalies and surprising artifacts that have yet to be discovered and explained.
+
+The goal of Ancient Origins is to highlight recent"
+5890,github,"    
+    this.embedRules(DocCommentHighlightRules, ""doc-"",
+        [ DocCommentHighlightRules.getEndRule(""no_regex"") ]);
+    
+    this.normalizeRules();
+};
+
+oop.inherits(JavaScriptHighlightRules, TextHighlightRules);
+
+exports.JavaScriptHighlightRules = JavaScriptHighlightRules;
+});
+
+define(""ace/mode/matching_brace_outdent"",[""require"",""exports"",""module"",""ace/range""], function(require, exports, module) {
+""use strict"";
+
+var Range = require(""../range"").Range;
+
+var MatchingBraceOutdent = function() {};
+
+(function() {
+
+    this.checkOutdent = function(line, input) {
+  "
+5073,github,"
+# 
+# Permission is hereby granted, free of charge, to any person obtaining
+# a copy of this software and associated documentation files (the
+# ""Software""), to deal in the Software without restriction, including
+# without limitation the rights to use, copy, modify, merge, publish,
+# distribute, sublicense, and/or sell copies of the Software, and to
+# permit persons to whom the Software is furnished to do so, subject to
+# the following conditions:
+#
+# The above copyright notice and this permission notice shall be included
+# in all copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY
+# KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+# WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+# NONINFRINGEMENT. IN NO EVENT SHALL"
+1844,github,"/**
+ * Copyright (C) 2013 by Raphael Michel under the MIT license:
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the ""Software""), 
+ * to deal in the Software without restriction, including without limitation 
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+ * and/or sell copies of the Software, and to permit persons to whom the Software 
+ * is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in 
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+ * FITNESS"
+4019,github,"a href=""http://d.android.com/reference/android/content/Context.html?is-external=true"" title=""class or interface in android.content"">Context</a>&nbsp;context)</code>&nbsp;</td>
+</tr>
+</table>
+</li>
+</ul>
+<!-- ========== METHOD SUMMARY =========== -->
+<ul class=""blockList"">
+<li class=""blockList""><a name=""method.summary"">
+<!--   -->
+</a>
+<h3>Method Summary</h3>
+<table class=""memberSummary"" border=""0"" cellpadding=""3"" cellspacing=""0"" summary=""Method Summary table, listing methods, and an explanation"">
+<caption><span id=""t0"" class=""activeTableTab""><span>All Methods</span><span class=""tabEnd"">&nbsp"
+154,github,"x5fcb6fab3ad6faec,0x6c44198c4a475817
+.quad	0x5fcb6fab3ad6faec,0x6c44198c4a475817
+
+.quad	0x0001020304050607,0x08090a0b0c0d0e0f
+.quad	0x0001020304050607,0x08090a0b0c0d0e0f
+.byte	83,72,65,53,49,50,32,98,108,111,99,107,32,116,114,97,110,115,102,111,114,109,32,102,111,114,32,120,56,54,95,54,52,44,32,67,82,89,80,84,79,71,65,"
+14825,github,"
+ * Copyright (C) 2012 Intel Corporation.
+ *
+ * Permission is hereby granted, free of charge, to any person
+ * obtaining a copy of this software and associated documentation
+ * files (the ""Software""), to deal in the Software without
+ * restriction, including without limitation the rights to use, copy,
+ * modify, merge, publish, distribute, sublicense, and/or sell copies
+ * of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NON"
+5205,github,"(input)
+	if err!= nil {
+		if aerr, ok := err.(awserr.Error); ok {
+			switch aerr.Code() {
+			case autoscaling.ErrCodeInvalidNextToken:
+				fmt.Println(autoscaling.ErrCodeInvalidNextToken, aerr.Error())
+			case autoscaling.ErrCodeResourceContentionFault:
+				fmt.Println(autoscaling.ErrCodeResourceContentionFault, aerr.Error())
+			default:
+				fmt.Println(aerr.Error())
+			}
+		} else {
+			// Print the error, cast err to awserr.Error to get the Code and
+			// Message from an error.
+			f"
+5900,pile-cc,"
+
+Showing 1 through 2 of 2 results
+
+Help
+
+Select your format based upon: 1) how you want to read your book, and
+2) compatibility with your reading tool. To learn more about using
+Bookshare with your device, visit the ""Using
+Bookshare"" page in the Help Center.
+
+Here is an overview of the specialized formats that Bookshare
+offers its members with links that go to the Help Center for more
+information.
+
+Bookshare Web
+Reader - a customized reading tool for Bookshare members offering all
+the features of DAISY with a single click of the ""Read Now"" link.
+
+DAISY
+(Digital Accessible Information System) - a digital book file format.
+DAISY books from Bookshare are DAISY 3.0 text files that work with
+just about every type of access technology that reads text. Books that
+contain images will have the download option of �"
+8910,pile-cc,".
+
+Some comments from our readers…“The articles are extremely timely and highly applicable”“I often find critical information not available elsewhere”“As in-house counsel, Mondaq’s service is of great value”
+
+Mondaq.com (the Website) is owned and managed by Mondaq Ltd and as a user you
+are granted a non-exclusive, revocable license to access the Website under its
+terms and conditions of use. Your use of the Website constitutes your agreement
+to the following terms and conditions of use. Mondaq Ltd may terminate your use
+of the Website if you are in breach of these terms and conditions or if Mondaq
+Ltd decides to terminate your license of use for whatever reason.
+
+Use of www.mondaq.com
+
+You may use the Website but are required to register as a user if you wish to
+read the full text of the content"
+9059,github,"/*
+ * This file is part of the dSploit.
+ *
+ * Copyleft of Simone Margaritelli aka evilsocket <evilsocket@gmail.com>
+ *
+ * dSploit is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * dSploit is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with dSploit.  If not, see <http://www.gnu.org/"
+14291,github," indicated by a
+ *       copyright notice that is included in or attached to the work
+ *       (an example is provided in the Appendix below).
+ *
+ *       ""Derivative Works"" shall mean any work, whether in Source or Object
+ *       form, that is based on (or derived from) the Work and for which the
+ *       editorial revisions, annotations, elaborations, or other modifications
+ *       represent, as a whole, an original work of authorship. For the purposes
+ *       of this License, Derivative Works shall not include works that remain
+ *       separable from, or merely link (or bind by name) to the interfaces of,
+ *       the Work and Derivative Works thereof.
+"
+5873,github,"/*
+ * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
+ *
+ * Copyright (c) 2014-2016 Oracle and/or its affiliates. All rights reserved.
+ *
+ * The contents of this file are subject to the terms of either the GNU
+ * General Public License Version 2 only (""GPL"") or the Common Development
+ * and Distribution License(""CDDL"") (collectively, the ""License"").  You
+ * may not use this file except in compliance with the License.  You can
+ * obtain a copy of the License at
+ * http://glassfish.java.net/public/CDDL+GPL_1_1.html
+ * or packager/legal/LICENSE.txt.  See the License for the specific
+ * language governing permissions and limitations under the License.
+ *
+ * When distributing the software, include this License Header Notice in each
+ * file and include the"
+3719,pile-cc,"
+
+What to Do in Vilnius, Lithuania | 36 Hours Travel Videos | The New York Times
+
+In Vilnius, you can wander through the 13th-centuryOld Town, sample rustic Lithuanian fare and explore galleries and sleek boutiques.
+Produced by: Fritzie Andrade, Max Cantor, Chris Carmichael, Erika Lastovskyte, Will Lloyd and Sarah Brady Voll
+Read the story here: http://nyti.ms/1HkhFI0
+Subscribe to the TimesVideo newsletter for free and get a handpicked selection of the best videos from The New York Times every week: http://bit.ly/timesvideonewsletter
+Subscribe on YouTube: http://bit.ly/U8Ys7n
+Watch more videos at: http://nytimes.com/video
+---------------------------------------------------------------
+Want more from The New York Times?
+Twitter: https://twitter.com/nytvideo
+Instagram: http"
+12620,github,"define IS_USART_BAUDRATE(BAUDRATE) (((BAUDRATE) > 0) && ((BAUDRATE) < 7500001))
+#define IS_USART_ADDRESS(ADDRESS) ((ADDRESS) <= 0xF)
+#define IS_USART_DATA(DATA) ((DATA) <= 0x1FF)
+
+/**
+  * @}
+  */ 
+
+/**
+  * @}
+  */ 
+
+/* Exported macro ------------------------------------------------------------*/
+/* Exported functions --------------------------------------------------------*/  
+
+/*  Function used to set the USART configuration to the default reset state ***/ 
+void USART_DeInit(USART_TypeDef* USARTx);
+
+/* Initialization and Configuration functions *********************************/
+void USART_Init(USART_TypeDef* USARTx, USART_InitTypeDef"
+6842,pile-cc,".
+
+Disclaimer: By providing links to other sites, FatWallet.com does not guarantee, approve or endorse the information or products available at these sites, nor does a link indicate any association with or endorsement by the linked site to FatWallet.com.
+
+Members of our community may attach files to a post in accordance with the User Agreement. FatWallet is not responsible for the content, accuracy, completeness or validity of any information contained in any attached file. Files have *not* been scanned for viruses. Be especially wary of Excel files which may contain malicious content.
+
+FatWallet coupons help you save more when shopping online. Use our Coupons Search to browse coupons and offers from thousands of stores, gathered into one convenient location.
+
+Forums
+As part of our FatWallet Community, you can share deals with almost a million shoppers in our forums. Forum content is generated by consumers for consumers. Share deals, money-saving tips, and more. It's FREE"
+11251,github,"/*[INCLUDE-IF Sidecar18-SE]*/
+/*******************************************************************************
+ * Copyright (c) 2007, 2017 IBM Corp. and others
+ *
+ * This program and the accompanying materials are made available under
+ * the terms of the Eclipse Public License 2.0 which accompanies this
+ * distribution and is available at https://www.eclipse.org/legal/epl-2.0/
+ * or the Apache License, Version 2.0 which accompanies this distribution and
+ * is available at https://www.apache.org/licenses/LICENSE-2.0.
+ *
+ * This Source Code may also be made available under the following
+ * Secondary Licenses when the conditions for such availability set
+ * forth in the Eclipse Public License, v. 2.0 are satisfied: GNU
+ * General Public License, version 2 with the GNU Classpath
+ * Exception [1] and GNU General Public License, version"
+6201,github,"     
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id=""/cn/user-manual/elasticjob-cloud/operation/high-availability/"" title=""高可用"" class=""dd-item "">
+        <a href=""https://shardingsphere.apache.org/elasticjob/current/cn/user-manual/elasticjob-cloud/operation/high-availability/"">
+          <svg  viewBox=""0 0 1024 1024"" version=""1.1"" xmlns=""http://www.w3.org/2000/svg"" p-id=""5375"" width=""20"" height=""20"
+11857,github,"
+:10FC600096BBB09BFECF1F9AA8954091C00047FD60
+:10FC700002C0815089F7B9D0813479F4B6D0C82F49
+:10FC8000C6D0C23811F480E004C088E0C13809F061
+:10FC900083E0A4D080E1A2D0EECF823419F484E1D5
+:10FCA000BED0F8CF853411F485E0FACF853541F424
+:10FCB0009CD0E82E9AD0F82EEE0CFF1CA8D0EACFEC
+:10FCC000863519F484E0ABD0DECF843609F045C028"
+5642,github,"#=
+Copyright (c) 2015, Intel Corporation
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without 
+modification, are permitted provided that the following conditions are met:
+- Redistributions of source code must retain the above copyright notice, 
+  this list of conditions and the following disclaimer.
+- Redistributions in binary form must reproduce the above copyright notice, 
+  this list of conditions and the following disclaimer in the documentation 
+  and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ""AS IS""
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER"
+13582,github,"/*
+    Copyright 2015-2020 Clément Gallet <clement.gallet@ens-lyon.org>
+
+    This file is part of libTAS.
+
+    libTAS is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    libTAS is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with lib"
+5225,github,"
+        },
+        ""topicName"" : ""S2""
+      },
+      ""queryId"" : ""CSAS_S2_0""
+    }
+  } ],
+  ""configs"" : {
+    ""ksql.extension.dir"" : ""ext"",
+    ""ksql.streams.cache.max.bytes.buffering"" : ""0"",
+    ""ksql.security.extension.class"" : null,
+    ""ksql.transient.prefix"" : ""transient_"",
+    ""ksql.persistence.wrap.single.values"" : ""true"",
+    ""ksql.authorization.cache.expiry.time.secs"" : ""30"",
+    """
+14355,github,"/**
+ * Copyright (C) 2013 Aurélien Chabot <aurelien@chabot.fr>
+ * 
+ * This file is part of DroidUPNP.
+ * 
+ * DroidUPNP is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * DroidUPNP is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with DroidUPNP.  If not, see <http://www."
+10004,github,"//  MIT License
+//
+//  Copyright (c) 2020, The Regents of the University of California,
+//  through Lawrence Berkeley National Laboratory (subject to receipt of any
+//  required approvals from the U.S. Dept. of Energy).  All rights reserved.
+//
+//  Permission is hereby granted, free of charge, to any person obtaining a copy
+//  of this software and associated documentation files (the ""Software""), to deal
+//  in the Software without restriction, including without limitation the rights
+//  to use, copy, modify, merge, publish, distribute, sublicense, and
+//  copies of the Software, and to permit persons to whom the Software is
+//  furnished to do so, subject to the following conditions:
+//
+//  The above copyright notice and this permission notice shall be included in all
+//  copies or substantial portions of the Software.
+//
+//  THE SOFTWARE IS PROV"
+1096,github,"
+
+#ifndef GTEST_INCLUDE_GTEST_GTEST_TYPED_TEST_H_
+#define GTEST_INCLUDE_GTEST_GTEST_TYPED_TEST_H_
+
+// This header implements typed tests and type-parameterized tests.
+
+// Typed (aka type-driven) tests repeat the same test for types in a
+// list.  You must know which types you want to test with when writing
+// typed tests. Here's how you do it:
+
+#if 0
+
+// First, define a fixture class template.  It should be parameterized
+// by a type.  Remember to derive it from testing::Test.
+template <typename T>
+class FooTest : public testing::Test {
+ public:
+ ...
+  typedef std::list<T> List;
+  static T shared_"
+10365,github,"Exception, aerr.Error())
+			case organizations.ErrCodeInvalidInputException:
+				fmt.Println(organizations.ErrCodeInvalidInputException, aerr.Error())
+			case organizations.ErrCodeServiceException:
+				fmt.Println(organizations.ErrCodeServiceException, aerr.Error())
+			case organizations.ErrCodeTooManyRequestsException:
+				fmt.Println(organizations.ErrCodeTooManyRequestsException, aerr.Error())
+			default:
+				fmt.Println(aerr.Error())
+			}
+		} else {
+			// Print the error, cast err to awserr.Error to get the Code and
+			// Message from an error.
+			fmt"
+5206,github,"
+//
+//  Created by Keith Harrison http://useyourloaf.com
+//  Copyright (c) 2012 Keith Harrison. All rights reserved.
+//
+//  Redistribution and use in source and binary forms, with or without
+//  modification, are permitted provided that the following conditions are met:
+//
+//  Redistributions of source code must retain the above copyright
+//  notice, this list of conditions and the following disclaimer.
+//
+//  Redistributions in binary form must reproduce the above copyright
+//  notice, this list of conditions and the following disclaimer in the
+//  documentation and/or other materials provided with the distribution.
+//
+//  Neither the name of Keith Harrison nor the names of its contributors
+//  may be used to endorse or promote products derived from this software
+//  without specific prior written permission.
+//
+//  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT"
+14478,pile-cc,".""
+
+About my coverage of Japan Earthquake of March 11
+
+I am Japanese, and I not only read Japanese news sources for information on earthquake and the Fukushima Nuke Plant but also watch press conferences via the Internet when I can and summarize my findings, adding my observations.
+
+About This Site
+
+Well, this was, until March 11, 2011. Now it is taken over by the events in Japan, first earthquake and tsunami but quickly by the nuke reactor accident. It continues to be a one-person (me) blog, and I haven't even managed to update the sidebars after 5 months... Thanks for coming, spread the word.------------------This is an aggregator site of blogs coming out of SKF (double-short financials ETF) message board at Yahoo.
+
+Along with commentary on day's financial news, it also provides links to the sites with financial and economic news, market data, stock technical analysis, and other relevant information that could potentially"
+14385,github,"  Universal 8bit Graphics Library (https://github.com/olikraus/u8g2/)
+
+  Copyright (c) 2017, olikraus@gmail.com
+  All rights reserved.
+
+  Redistribution and use in source and binary forms, with or without modification, 
+  are permitted provided that the following conditions are met:
+
+  * Redistributions of source code must retain the above copyright notice, this list 
+    of conditions and the following disclaimer.
+    
+  * Redistributions in binary form must reproduce the above copyright notice, this 
+    list of conditions and the following disclaimer in the documentation and/or other 
+    materials provided with the distribution.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND 
+  CONTRIBUTORS ""AS IS"" AND ANY EXPRESS OR IMPLIED WARRANTIES, 
+"
+10267,github," WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+16. Limitation of Liability.
+IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT"
+13077,github,", Private Octopus, Inc.
+* All rights reserved.
+*
+* Permission to use, copy, modify, and distribute this software for any
+* purpose with or without fee is hereby granted, provided that the above
+* copyright notice and this permission notice appear in all copies.
+*
+* THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ""AS IS"" AND
+* ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+* WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+* DISCLAIMED. IN NO EVENT SHALL Private Octopus, Inc. BE LIABLE FOR ANY
+* DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+* (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOOD"
+14174,github," Ofer Kashayov <oferkv@live.com>
+ *  This file is part of Phototonic Image Viewer.
+ *
+ *  Phototonic is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  Phototonic is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with Phototonic.  If not, see <http://www.gnu.org"
+9163,github," SMI"" */
+
+/*
+ * Copyright 1996 by Sun Microsystems, Inc.
+ *
+ * Permission to use, copy, modify, distribute, and sell this software
+ * and its documentation for any purpose is hereby granted without fee,
+ * provided that the above copyright notice appears in all copies and
+ * that both that copyright notice and this permission notice appear in
+ * supporting documentation, and that the name of Sun Microsystems not be used
+ * in advertising or publicity pertaining to distribution of the software
+ * without specific, written prior permission. Sun Microsystems makes no
+ * representations about the suitability of this software for any
+ * purpose.  It is provided ""as is"" without express or implied warranty.
+ *
+ * SUN MICROSYSTEMS DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
+ * INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO
+ * EVENT"
+9725,github,".php.
+ * Author: Ulrich Block
+ * Contact: <ulrich.block@easy-wi.com>
+ *
+ * This file is part of Easy-WI.
+ *
+ * Easy-WI is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * Easy-WI is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Easy-WI.  If not, see <http://www.gnu.org"
+5911,github,"% *** This function is part of ERPLAB Toolbox ***
+% Author: Javier Lopez-Calderon
+% Center for Mind and Brain
+% University of California, Davis,
+% Davis, CA
+% 2009
+
+%b8d3721ed219e65100184c6b95db209bb8d3721ed219e65100184c6b95db209b
+%
+% ERPLAB Toolbox
+% Copyright © 2007 The Regents of the University of California
+% Created by Javier Lopez-Calderon and Steven Luck
+% Center for Mind and Brain, University of California, Davis,
+% javlopez@ucdavis.edu, sjluck@ucdavis.edu
+%
+% This program is free software: you can redistribute it and/or modify
+% it under the terms of the GNU General Public License as published by
+% the Free Software Foundation, either version 3 of"
+4919,github," (weblogic-kubernetes-operator 2.3.0 API)"";
+        }
+    }
+    catch(err) {
+    }
+//-->
+var pathtoroot = ""../../../../../../"";
+var useModuleDirectories = true;
+loadScripts(document,'script');</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+<header role=""banner"">
+<nav role=""navigation"">
+<div class=""fixedNav"">
+<!-- ========= START OF TOP NAVBAR ======= -->
+<div class=""topNav""><a id=""navbar.top"">
+<!--   -->
+</a>
+<div class=""skipNav""><a href=""#skip.navbar.top"" title=""Skip navigation links"">Skip navigation"
+3879,github,"<!--
+
+    DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
+
+    Copyright (c) 2009-2017 Oracle and/or its affiliates. All rights reserved.
+
+    The contents of this file are subject to the terms of either the GNU
+    General Public License Version 2 only (""GPL"") or the Common Development
+    and Distribution License(""CDDL"") (collectively, the ""License"").  You
+    may not use this file except in compliance with the License.  You can
+    obtain a copy of the License at
+    https://oss.oracle.com/licenses/CDDL+GPL-1.1
+    or LICENSE.txt.  See the License for the specific
+    language governing permissions and limitations under the License.
+
+    When distributing the software, include this License"
+486,pile-cc,".
+
+Who Can You Trust?
+
+In a world beleaguered by spin and confused messages, there's never been more need for diverse, trustworthy, independent journalism in Canberra.
+
+Who can you trust? Well, for more than 25 years, ""CityNews"" has proudly been an independent, free, family-owned news magazine, serving the national capital with quality, integrity and authority. Through our weekly magazine and daily through our digital platforms, we constantly and reliably deliver high-quality and diverse opinion, news, arts, socials and lifestyle columns.
+
+If you trust our work online and believe in the power of independent voices, I encourage you to make a small contribution.
+
+Every dollar of support will be invested back into our journalism so we can continue to provide a valuably different view of what's happening around you and keep citynews.com.au free.
+
+Click here to make your donation and you will be supporting the future of journalism and media"
+13813,github,"//
+//	 ______    ______    ______
+//	/\  __ \  /\  ___\  /\  ___\
+//	\ \  __<  \ \  __\_ \ \  __\_
+//	 \ \_____\ \ \_____\ \ \_____\
+//	  \/_____/  \/_____/  \/_____/
+//
+//
+//	Copyright (c) 2014-2015, Geek Zoo Studio
+//	http://www.bee-framework.com
+//
+//
+//	Permission is hereby granted, free of charge, to any person obtaining a
+//	copy of this software and associated documentation files (the ""Software""),
+//	to deal in the Software without restriction, including without limitation
+//	the rights to use, copy, modify, merge, publish, distribute, sublicense,
+//	and/or sell copies of the"
+6879,uspto_backgrounds,"The present invention generally relates to devices and methods to treat an eye of a patient, and more specifically to intraocular implants that provide extended release of a therapeutic agent to an eye in which the implant is placed to treat ocular hypertension, such as by reducing or at least maintaining intraocular pressure, and to methods of making and using such implants.
+Ocular hypotensive agents are useful in the treatment of a number of various ocular hypertensive conditions, such as post-surgical and post-laser trabeculectomy ocular hypertensive episodes, glaucoma, and as presurgical adjuncts.
+Glaucoma is a disease of the eye characterized by increased intraocular pressure. On the basis of its etiology, glaucoma has been classified as primary or secondary. For example, primary glaucoma in adults (congenital glaucoma) may be either open-angle or acute or chronic angle-closure. Secondary glau"
+13953,github,"-2013  Internet Systems Consortium, Inc. (""ISC"")
+//
+// Permission to use, copy, modify, and/or distribute this software for any
+// purpose with or without fee is hereby granted, provided that the above
+// copyright notice and this permission notice appear in all copies.
+//
+// THE SOFTWARE IS PROVIDED ""AS IS"" AND ISC DISCLAIMS ALL WARRANTIES WITH
+// REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+// AND FITNESS.  IN NO EVENT SHALL ISC BE LIABLE FOR ANY SPECIAL, DIRECT,
+// INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+// LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE
+// OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONN"
+12030,pile-cc,"p>
+<div>
+<h1></h1>
+<blockquote class=""instagram-media"" data-instgrm-version=""3"" style="" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; width:100%; max-width:100%; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px); width:658px"">
+<div style=""padding:8px;"">
+<div style="" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:"
+5590,github,"﻿/*
+* Copyright (c) 2012-2014 AssimpNet - Nicholas Woodfield
+* 
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this software and associated documentation files (the ""Software""), to deal
+* in the Software without restriction, including without limitation the rights
+* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the Software is
+* furnished to do so, subject to the following conditions:
+* 
+* The above copyright notice and this permission notice shall be included in
+* all copies or substantial portions of the Software.
+* 
+* THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS"
+8664,github,"-method • ompr</title>
+
+<!-- jquery -->
+<script src=""https://code.jquery.com/jquery-3.1.0.min.js"" integrity=""sha384-nrOSfDHtoPMzJHjVTdCopGqIqeYETSXhZDFyniQ8ZHcVy08QesyHcnOUpMpqnmWq"" crossorigin=""anonymous""></script>
+<!-- Bootstrap -->
+
+<link href=""https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"" rel=""stylesheet"" integrity=""sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4"
+3144,github," copyright notice, this list
+ *    of conditions and the following disclaimer in the documentation and/or
+ *    other materials provided with the distribution.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ""AS
+ * IS"" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+ * TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+ * PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER
+ * OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ * EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ * PROFITS; OR"
+10018,github,"
+:10FDE00073CF88E024D070CFFC010A0167BFE8958B
+:10FDF000112407B600FCFDCF667029F0452B19F4DD
+:10FE000081E187BFE89508959091C00095FFFCCFF0
+:10FE10008093C60008958091C00087FFFCCF809139
+:10FE2000C00084FD01C0A8958091C6000895E0E659
+:10FE3000F0E098E1908380830895EDDF803219F03F
+:10FE400088E0F5DFFFCF84E1DFCFCF93C82FE3DF7A
+:10FE5000C150E9F7CF91F1CFF999"
+9158,github,">
+<p>
+            On POSIX systems, service names are typically defined in the file <code class=""computeroutput"">/etc/services</code>.
+            On Windows, service names may be found in the file <code class=""computeroutput"">c:\windows\system32\drivers\etc\services</code>.
+            Operating systems may use additional locations when resolving service
+            names.
+          </p>
+</div>
+<table xmlns:rev=""http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision"" width=""100%""><tr>
+<td align=""left""></td>
+<td align=""right""><div class=""cop"
+7235,github,"{-# LANGUAGE OverloadedStrings #-}
+
+-- This file is part of the Wire Server implementation.
+--
+-- Copyright (C) 2020 Wire Swiss GmbH <opensource@wire.com>
+--
+-- This program is free software: you can redistribute it and/or modify it under
+-- the terms of the GNU Affero General Public License as published by the Free
+-- Software Foundation, either version 3 of the License, or (at your option) any
+-- later version.
+--
+-- This program is distributed in the hope that it will be useful, but WITHOUT
+-- ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+-- FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more
+-- details.
+--
+-- You should have received a copy of the GNU Affero General Public License along
+-- with this program. If"
+5036,github,"
+ * Copyright (c) 2001-2003 Michael David Adams.
+ * All rights reserved.
+ */
+
+/* __START_OF_JASPER_LICENSE__
+ * 
+ * JasPer License Version 2.0
+ * 
+ * Copyright (c) 1999-2000 Image Power, Inc.
+ * Copyright (c) 1999-2000 The University of British Columbia
+ * Copyright (c) 2001-2003 Michael David Adams
+ * 
+ * All rights reserved.
+ * 
+ * Permission is hereby granted, free of charge, to any person (the
+ * ""User"") obtaining a copy of this software and associated documentation
+ * files (the ""Software""), to deal in the Software without restriction,
+ * including without limitation the rights to use, copy, modify, merge,
+ * publish, distribute, and/or sell copies of the Software, and to permit
+ * persons to whom the Software is furnished to do so, subject"
+4951,github,""":10};
+var tabs = {65535:[""t0"",""All Methods""],1:[""t1"",""Static Methods""],2:[""t2"",""Instance Methods""],8:[""t4"",""Concrete Methods""]};
+var altColor = ""altColor"";
+var rowColor = ""rowColor"";
+var tableTab = ""tableTab"";
+var activeTableTab = ""activeTableTab"";
+var pathtoroot = ""../../../../../"";
+var useModuleDirectories = true;
+loadScripts(document,'script');</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+<header role=""banner"">
+<nav role=""navigation"">
+<div class=""fixedNav"">
+<!-- ========= START OF TOP NAVBAR ======= -->
+<div class=""topNav""><a id=""navbar.top"">
+<"
+12420,github,"ER ====
+ *
+ *  Copyright 2013 Ravenbrook Limited <http://www.ravenbrook.com/>.
+ *  All rights reserved.
+ *  
+ *  Redistribution and use in source and binary forms, with or without
+ *  modification, are permitted provided that the following conditions are
+ *  met:
+ *  
+ *  1. Redistributions of source code must retain the above copyright
+ *     notice, this list of conditions and the following disclaimer.
+ *  
+ *  2. Redistributions in binary form must reproduce the above copyright
+ *     notice, this list of conditions and the following disclaimer in the
+ *     documentation and/or other materials provided with the distribution.
+ *  
+ *  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ""AS
+ *  IS"" AND ANY"
+2060,github,"
+ *
+ * You should have received a copy of the GNU General Public License version
+ * 2 along with this work; if not, write to the Free Software Foundation,
+ * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+ *
+ * Please contact Sun Microsystems, Inc., 4150 Network Circle, Santa Clara,
+ * CA 95054 USA or visit www.sun.com if you need additional information or
+ * have any questions.
+ */
+
+
+
+/*
+ * (C) Copyright Taligent, Inc. 1996, 1997 - All Rights Reserved
+ * (C) Copyright IBM Corp. 1996 - 1998 - All Rights Reserved
+ *
+ * The original version of this source code and documentation
+ * is copyrighted and owned by Taligent, Inc., a wholly-owned
+ * subsidiary of IBM. These materials are provided under terms
+ * of a License Agreement between Taligent and Sun. This technology
+ *"
+7603,github,"=
+github.com/konsorten/go-windows-terminal-sequences v1.0.1 h1:mweAR1A6xJ3oS2pRaGiHgQ4OO8tzTaLawm8vnODuwDk=
+github.com/konsorten/go-windows-terminal-sequences v1.0.1/go.mod h1:T0+1ngSBFLxvqU3pZ+m/2kptfBszLMUkC4ZK/EgS/cQ=
+github.com/kr/pretty v0.1.0 h1:L/CwN0zerZDmRFUapSPitk6f+Q3+0za1rQkzVuMiMFI=
+github.com/kr/pretty v0.1.0/go."
+2095,github,"}
+	return nil
+}
+
+func (m *OneofStdTypes) GetTimestamp() *time.Time {
+	if x, ok := m.GetOneOfStdTimes().(*OneofStdTypes_Timestamp); ok {
+		return x.Timestamp
+	}
+	return nil
+}
+
+func (m *OneofStdTypes) GetDuration() *time.Duration {
+	if x, ok := m.GetOneOfStdTimes().(*OneofStdTypes_Duration); ok {
+		return x.Duration
+	}
+	return nil
+}
+
+// XXX_OneofFuncs is for the internal use of the proto package.
+func (*OneofStdTypes) XXX_OneofFuncs() (func(msg proto.Message, b *proto.Buffer) error, func(msg proto.Message, tag, wire int,"
+13422,github,"/*
+ * Part of Phonk http://www.phonk.io
+ * A prototyping platform for Android devices
+ *
+ * Copyright (C) 2013 - 2017 Victor Diaz Barrales @victordiaz (Protocoder)
+ * Copyright (C) 2017 - Victor Diaz Barrales @victordiaz (Phonk)
+ *
+ * Phonk is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * Phonk is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+"
+12886,github,"/$$/$(EXEEXT)/' \
+	`; \
+	test -n ""$$list"" || exit 0; \
+	echo "" ( cd '$(DESTDIR)$(bindir)' && rm -f"" $$files "")""; \
+	cd ""$(DESTDIR)$(bindir)"" && rm -f $$files
+
+clean-binPROGRAMS:
+	@list='$(bin_PROGRAMS)'; test -n ""$$list"" || exit 0; \
+	echo "" rm -f"" $$list; \
+	rm -f $$list || exit $$?; \
+	test -n ""$(EXEEXT)"" || exit 0; \
+	list=`for p in $$list; do echo ""$$p""; done | sed's/$(EXEEXT)$$//'`; \
+	echo "" rm -f"" $$list"
+6952,github,"
+
+class MyApp extends StatelessWidget {
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return new MaterialApp(
+      title: 'Flutter Demo',
+      theme: new ThemeData(
+        // This is the theme of your application.
+        //
+        // Try running your application with ""flutter run"". You'll see the
+        // application has a blue toolbar. Then, without quitting the app, try
+        // changing the primarySwatch below to Colors.green and then invoke
+        // ""hot reload"" (press ""r"" in the console where you ran ""flutter run"",
+    "
+12644,github,"// Copyright NVIDIA Corporation 2011-2015
+// Redistribution and use in source and binary forms, with or without
+// modification, are permitted provided that the following conditions
+// are met:
+//  * Redistributions of source code must retain the above copyright
+//    notice, this list of conditions and the following disclaimer.
+//  * Redistributions in binary form must reproduce the above copyright
+//    notice, this list of conditions and the following disclaimer in the
+//    documentation and/or other materials provided with the distribution.
+//  * Neither the name of NVIDIA CORPORATION nor the names of its
+//    contributors may be used to endorse or promote products derived
+//    from this software without specific prior written permission.
+//
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS ``AS IS"
+8656,github,"
+           m with arguments F and false.
+    [...]
+
+    Runtime Semantics: PropertyDefinitionEvaluation
+
+    AsyncGeneratorMethod :
+        async [no LineTerminator here] * PropertyName ( UniqueFormalParameters )
+            { AsyncGeneratorBody }
+
+    1. Let propKey be the result of evaluating PropertyName.
+    2. ReturnIfAbrupt(propKey).
+    3. If the function code for this AsyncGeneratorMethod is strict mode code, let strict be true.
+       Otherwise let strict be false.
+    4. Let scope be the running execution context's LexicalEnvironment.
+    5. Let closure be! AsyncGeneratorFunctionCreate(Method, UniqueF"
+13006,github,"li>
+<li><a href=""package-tree.html"">Tree</a></li>
+<li><a href=""../../../../deprecated-list.html"">Deprecated</a></li>
+<li><a href=""../../../../index-all.html"">Index</a></li>
+</ul>
+</div>
+<div class=""subNav"">
+<ul class=""navList"" id=""allclasses_navbar_bottom"">
+<li><a href=""../../../../allclasses.html"">All&nbsp;Classes</a></li>
+</ul>
+<div>
+<script type=""text/javascript""><!--
+  allClassesLink = document.getElementById(""allclasses_navbar_bottom"");
+  if(window==top) {
+    allClassesLink.style.display = ""block"";
+  }
+ "
+14827,github,"asmachers
+ * \date        2011
+ *
+ *
+ * \par Copyright 1995-2017 Shark Development Team
+ * 
+ * <BR><HR>
+ * This file is part of Shark.
+ * <http://shark-ml.org/>
+ * 
+ * Shark is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published 
+ * by the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * Shark is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Lesser General Public License for more details.
+ * 
+ * You should have received a copy of the"
+521,github," a result of your choosing to follow a
+later version.
+
+  15. Disclaimer of Warranty.
+
+  THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
+APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
+HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM ""AS IS"" WITHOUT WARRANTY
+OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
+IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF
+ALL NECESSARY SERVICING, RE"
+4639,github,"<?xml version=""1.0"" encoding=""UTF-8""?>
+<!--
+
+    Licensed to Apereo under one or more contributor license
+    agreements. See the NOTICE file distributed with this work
+    for additional information regarding copyright ownership.
+    Apereo licenses this file to you under the Apache License,
+    Version 2.0 (the ""License""); you may not use this file
+    except in compliance with the License.  You may obtain a
+    copy of the License at the following location:
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    ""AS IS"" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  "
+5828,github,"
+
+/* Copyright (c) 1996 by Internet Software Consortium.
+ *
+ * Permission to use, copy, modify, and distribute this software for any
+ * purpose with or without fee is hereby granted, provided that the above
+ * copyright notice and this permission notice appear in all copies.
+ *
+ * THE SOFTWARE IS PROVIDED ""AS IS"" AND INTERNET SOFTWARE CONSORTIUM DISCLAIMS
+ * ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES
+ * OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL INTERNET SOFTWARE
+ * CONSORTIUM BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL
+ * DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR
+ * PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS
+ * ACTION, AR"
+13612,github,".6</dd></dl>
+</li>
+</ul>
+</div>
+<div class=""summary"">
+<ul class=""blockList"">
+<li class=""blockList"">
+<!-- =========== FIELD SUMMARY =========== -->
+<ul class=""blockList"">
+<li class=""blockList""><a name=""field_summary"">
+<!--   -->
+</a>
+<h3>Field Summary</h3>
+<table class=""overviewSummary"" border=""0"" cellpadding=""3"" cellspacing=""0"" summary=""Field Summary table, listing fields, and an explanation"">
+<caption><span>Fields</span><span class=""tabEnd"">&nbsp;</span></caption>
+<tr>
+<th class=""colFirst"" scope=""col"">Modifier and Type</th>
+<th class=""colLast"" scope=""col"
+12714,github,".dtd"">
+
+<!--
+
+    DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
+
+    Copyright (c) 2017 Oracle and/or its affiliates. All rights reserved.
+
+    The contents of this file are subject to the terms of either the GNU
+    General Public License Version 2 only (""GPL"") or the Common Development
+    and Distribution License(""CDDL"") (collectively, the ""License"").  You
+    may not use this file except in compliance with the License.  You can
+    obtain a copy of the License at
+    https://glassfish.dev.java.net/public/CDDL+GPL_1_1.html
+    or packager/legal/LICENSE.txt.  See the License for the specific
+    language governing permissions and limitations under the License"
+12513,github,"/*
+ * This file is part of the GROMACS molecular simulation package.
+ *
+ * Copyright (c) 2019,2020, by the GROMACS development team, led by
+ * Mark Abraham, David van der Spoel, Berk Hess, and Erik Lindahl,
+ * and including many others, as listed in the AUTHORS file in the
+ * top-level source directory and at http://www.gromacs.org.
+ *
+ * GROMACS is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public License
+ * as published by the Free Software Foundation; either version 2.1
+ * of the License, or (at your option) any later version.
+ *
+ * GROMACS is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY"
+11500,github,"/*
+ * Copyright (c) 2013-2020, xembly.org
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met: 1) Redistributions of source code must retain the above
+ * copyright notice, this list of conditions and the following
+ * disclaimer. 2) Redistributions in binary form must reproduce the above
+ * copyright notice, this list of conditions and the following
+ * disclaimer in the documentation and/or other materials provided
+ * with the distribution. 3) Neither the name of the xembly.org nor
+ * the names of its contributors may be used to endorse or promote
+ * products derived from this software without specific prior written
+ * permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ * ""AS IS"" AND"
+6807,github,"]
+//snippet-sourcetype:[full-example]
+//snippet-sourcedate:[]
+//snippet-sourceauthor:[AWS]
+
+
+/*
+   Copyright 2010-2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+   This file is licensed under the Apache License, Version 2.0 (the ""License"").
+   You may not use this file except in compliance with the License. A copy of
+   the License is located at
+
+    http://aws.amazon.com/apache2.0/
+
+   This file is distributed on an ""AS IS"" BASIS, WITHOUT WARRANTIES OR
+   CONDITIONS OF ANY KIND, either express or implied. See the License for the
+   specific language governing permissions and limitations"
+4534,enron_emails,"rescalante@riobravo-gm.com>, ""'Bob Weisenmiller (E-mail)'"" 
+<rbw@mrwassoc.com>, ""'Curtis Kebler (E-mail)'"" 
+<curtis_l_kebler@reliantenergy.com>, ""Dean. Nistetter (E-mail)"" 
+<Dean.Nistetter@dynegy.com>, ""'Douglas Kerner (E-mail)'"" <DKK@eslawfirm.com>, 
+""'Greg Blue (E-mail)'"" <gtbl@dynegy.com>, ""'Jan Smutny-Jones (E-mail)'"" 
+<smutny@iepa.com>, ""'Jeff Dasovich (E-mail)'"" <Jeff.Dasovich@enron.com>, 
+""'Joe Ronan (E-mail)'"" <joer"
+675,github,"
+|
+| Copyright (c) 2002-2010, Axiomatic Systems, LLC.
+| All rights reserved.
+|
+| Redistribution and use in source and binary forms, with or without
+| modification, are permitted provided that the following conditions are met:
+|     * Redistributions of source code must retain the above copyright
+|       notice, this list of conditions and the following disclaimer.
+|     * Redistributions in binary form must reproduce the above copyright
+|       notice, this list of conditions and the following disclaimer in the
+|       documentation and/or other materials provided with the distribution.
+|     * Neither the name of Axiomatic Systems nor the
+|       names of its contributors may be used to endorse or promote products
+|       derived from"
+3146,github,"/*
+Math-NEON:  Neon Optimised Math Library based on cmath
+Contact:    lachlan.ts@gmail.com
+Copyright (C) 2009  Lachlan Tychsen - Smith aka Adventus
+
+This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 3 of the License, or (at your option) any later version.
+
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public
+License"
+397,github,"case *Value_StructValue:
+		b.EncodeVarint(5<<3 | proto.WireBytes)
+		if err := b.EncodeMessage(x.StructValue); err!= nil {
+			return err
+		}
+	case *Value_ListValue:
+		b.EncodeVarint(6<<3 | proto.WireBytes)
+		if err := b.EncodeMessage(x.ListValue); err!= nil {
+			return err
+		}
+	case nil:
+	default:
+		return fmt.Errorf(""Value.Kind has unexpected type %T"", x)
+	}
+	return nil
+}
+
+func _Value_OneofUnmarshaler(msg proto.Message, tag, wire int, b *proto.Buffer) (bool, error) {
+	m := msg.(*Value)
+"
+7126,github,"/*******************************************************************************
+ * Copyright (c) 2019, 2020 IBM Corp. and others
+ *
+ * This program and the accompanying materials are made available under
+ * the terms of the Eclipse Public License 2.0 which accompanies this
+ * distribution and is available at http://eclipse.org/legal/epl-2.0
+ * or the Apache License, Version 2.0 which accompanies this distribution
+ * and is available at https://www.apache.org/licenses/LICENSE-2.0.
+ *
+ * This Source Code may also be made available under the following Secondary
+ * Licenses when the conditions for such availability set forth in the
+ * Eclipse Public License, v. 2.0 are satisfied: GNU General Public License,
+ * version 2 with the GNU Classpath Exception [1] and GNU General Public
+ * License, version 2 with the OpenJDK Assembly Exception [2].
+ *
+ * [1] https"
+10370,pile-cc,"
+
+This is a work of fan fiction, written because the author has an abiding love for the works of J R R Tolkien. The characters, settings, places, and languages used in this work are the property of the Tolkien Estate, Tolkien Enterprises, and possibly New Line Cinema, except for certain original characters who belong to the author of the said work. The author will not receive any money or other remuneration for presenting the work on this archive site. The work is the intellectual property of the author, is available solely for the enjoyment of Henneth Annûn Story Archive readers, and may not be copied or redistributed by any means without the explicit written consent of the author.
+
+Talk to Larner
+
+If you are a HASA member, you must login to submit a comment.
+
+We're sorry. Only HASA members may post comments. If you would like to speak with the author, please use the ""Email Author"" button in the Reader Toolbox"
+4392,pile-cc,"”
+
+Expert Insight
+
+New rules on labor negotiations in southern China offer a potential solution to the country's growing problem with labor unrest while at the same time illustrating the difficulty the Communist Party faces in effectively addressing workers’ grievances.
+
+For much of the last half-century, changing China through economic reform seemed to make far better sense than transforming the country through political revolution. Xi Jinping is trying to flip that on its head.
+
+About China Real Time Report
+
+China Real Time Report is a vital resource for an expanding global community trying to keep up with a country changing minute by minute. The site offers quick insight and sharp analysis from the wide network of Dow Jones reporters across Greater China, including Dow Jones Newswires’ specialists and The Wall Street Journal’s award-winning team. It also draws on the insights of commentators close to the hot topic of the day in law, policy, economics and culture. Its editors can be reached at chinare"
+11730,github,"oise|violet|wheat|white|whitesmoke|yellow|yellowgreen"";
+var supportConstantFonts = exports.supportConstantFonts = ""arial|century|comic|courier|cursive|fantasy|garamond|georgia|helvetica|impact|lucida|symbol|system|tahoma|times|trebuchet|utopia|verdana|webdings|sans-serif|serif|monospace"";
+
+var numRe = exports.numRe = ""\\-?(?:(?:[0-9]+(?:\\.[0-9]+)?)|(?:\\.[0-9]+))"";
+var pseudoElements = exports.pseudoElements = ""(\\:+)\\b(after|before|first-letter|first-line|moz-selection|selection)\\b"";
+var"
+14752,github," BY ESOTERIC SOFTWARE LLC ""AS IS"" AND ANY
+ * EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED. IN NO EVENT SHALL ESOTERIC SOFTWARE LLC BE LIABLE FOR ANY
+ * DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES,
+ * BUSINESS INTERRUPTION, OR LOSS OF USE, DATA, OR PROFITS) HOWEVER CAUSED AND
+ * ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARIS"
+33,openwebtext2," of it.
+
+Thank you for reading this Techdirt post. With so many things competing for everyone’s attention these days, we really appreciate you giving us your time. We work hard every day to put quality content out there for our community. Techdirt is one of the few remaining truly independent media outlets. We do not have a giant corporation behind us, and we rely heavily on our community to support us, in an age when advertisers are increasingly uninterested in sponsoring small, independent sites — especially a site like ours that is unwilling to pull punches in its reporting and analysis. While other websites have resorted to paywalls, registration requirements, and increasingly annoying/intrusive advertising, we have always kept Techdirt open and available to anyone. But in order to continue doing so, we need your support. We offer a variety of ways for our readers to support us, from direct donations to special subscriptions and cool merchandise — and every little bit helps. Thank you"
+8645,github,"        [...]
+
+    13.3.3.6 Runtime Semantics: IteratorBindingInitialization
+
+    ArrayBindingPattern : [ Elision ]
+
+    1. Return the result of performing
+       IteratorDestructuringAssignmentEvaluation of Elision with iteratorRecord
+       as the argument.
+
+    12.14.5.3 Runtime Semantics: IteratorDestructuringAssignmentEvaluation
+
+    Elision :,
+
+    1. If iteratorRecord.[[done]] is false, then
+       a. Let next be IteratorStep(iteratorRecord.[[iterator]]).
+       b. If next is an abrupt completion, set iteratorRecord.[[done]] to true.
+       c. ReturnIfAbrupt("
+9258,github,"1.ListOptions) (watch.Interface, error)
+	Patch(name string, pt types.PatchType, data []byte, subresources...string) (result *v1.HorizontalPodAutoscaler, err error)
+	HorizontalPodAutoscalerExpansion
+}
+
+// horizontalPodAutoscalers implements HorizontalPodAutoscalerInterface
+type horizontalPodAutoscalers struct {
+	client rest.Interface
+	ns     string
+}
+
+// newHorizontalPodAutoscalers returns a HorizontalPodAutoscalers
+func newHorizontalPodAutoscalers(c *AutoscalingV1Client, namespace string) *horizontalPodAutoscalers {
+	return &horizontalPodAutoscalers{
+		client: c.RESTClient(),
+		ns:     namespace,
+	}
+}
+"
+845,github,"_ou_identifier"": {
+																				""certificate"": ""LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUNVakNDQWZpZ0F3SUJBZ0lSQUxacXlYd1FaS1pwYldEVXI0Z2dGTXd3Q2dZSUtvWkl6ajBFQXdJd2N6RUwKTUFrR0ExVUVCaE1DVlZNeEV6QVJCZ05WQkFnVENrTmhiR2xtYjNKdWFXRXhGakFVQmdOVkJBY1REVk5oYmlCRwpjbU"
+7118,freelaw," costs
+       for the reporter’s record. If appellant is entitled to proceed without payment of costs, the
+       trial court shall make a finding to that effect. Moreover, if appellant is indigent, the trial
+       court is ORDERED to take such measures as may be necessary to assure effective
+       representation, which may include appointment of new counsel. If the trial court finds
+       appellant is not indigent, it shall determine whether retained counsel has abandoned the
+       appeal.
+      The trial court shall next determine: (1) the name and address of each court reporter who
+       recorded the proceedings in this cause; (2) the court reporter’s explanation for the delay
+       in filing the reporter’s record"
+10688,openwebtext2," rights.
+
+Thank you for reading this Techdirt post. With so many things competing for everyone’s attention these days, we really appreciate you giving us your time. We work hard every day to put quality content out there for our community. Techdirt is one of the few remaining truly independent media outlets. We do not have a giant corporation behind us, and we rely heavily on our community to support us, in an age when advertisers are increasingly uninterested in sponsoring small, independent sites — especially a site like ours that is unwilling to pull punches in its reporting and analysis. While other websites have resorted to paywalls, registration requirements, and increasingly annoying/intrusive advertising, we have always kept Techdirt open and available to anyone. But in order to continue doing so, we need your support. We offer a variety of ways for our readers to support us, from direct donations to special subscriptions and cool merchandise — and every little bit helps. Thank you."
+13428,github,"﻿// Artificial Intelligence for Humans
+// Volume 3: Deep Learning and Neural Networks
+// C# Version
+// http://www.aifh.org
+// http://www.jeffheaton.com
+//
+// Code repository:
+// https://github.com/jeffheaton/aifh
+//
+// Copyright 2015 by Jeff Heaton
+//
+// Licensed under the Apache License, Version 2.0 (the ""License"");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an ""AS IS"" BASIS"
+7968,github,"></div>
+</li>
+</ul>
+</div>
+<div class=""summary"">
+<ul class=""blockList"">
+<li class=""blockList"">
+<!-- =========== ENUM CONSTANT SUMMARY =========== -->
+<ul class=""blockList"">
+<li class=""blockList""><a name=""enum.constant.summary"">
+<!--   -->
+</a>
+<h3>Enum Constant Summary</h3>
+<table class=""memberSummary"" border=""0"" cellpadding=""3"" cellspacing=""0"" summary=""Enum Constant Summary table, listing enum constants, and an explanation"">
+<caption><span>Enum Constants</span><span class=""tabEnd"">&nbsp;</span></caption>
+<tr>
+<th class=""colOne"" scope=""col"">Enum Constant and Description</th>
+</"
+3771,openwebtext2,"Welcome to Today’s edition of “Top Shelf Prospects”. As we go through the Summer of 2013 I will be featuring a team-by-team look at the top prospects in the NHL. I will go team by team through the NHL bringing you a look at each Teams Top Prospects. I will be following the order of the first round of the NHL draft (as if there were no traded draft picks). You can find all the articles here. Since we had an extensive NHL Draft preview, I will not be reviewing the players who were drafted in the 2013 draft, as there have been no games since then, and my reports on them will not have changed. What I will be doing is linking you to those articles, as well as taking a look at prospects that were acquired before this year’s draft; their progress, and their chances of making the 2013-14 roster of the NHL team in question. I will also bring you one sleeper pick –"
+11772,github,n\n## Usage\n\n```js\nvar isArray = require('isarray');\n\nconsole.log(isArray([])); // => true\nconsole.log(isArray({})); // => false\n```\n\n## Installation\n\nWith [npm](http://npmjs.org) do\n\n```bash\n$ npm install isarray\n```\n\nThen bundle for the browser with\n[browserify](https://github.com/substack/browserify).\n\nWith [component](http://component.io) do\n\n```bash\n$ component install juliangruber/isarray\n```\n\n## License\n\n(MIT)\n\nCopyright (c) 2013 Julian Gruber &lt;julian@juliang
+13052,github,"
+//  Copyright (c) 2011 Stuart Connolly. All rights reserved.
+//
+//  Permission is hereby granted, free of charge, to any person
+//  obtaining a copy of this software and associated documentation
+//  files (the ""Software""), to deal in the Software without
+//  restriction, including without limitation the rights to use,
+//  copy, modify, merge, publish, distribute, sublicense, and/or sell
+//  copies of the Software, and to permit persons to whom the
+//  Software is furnished to do so, subject to the following
+//  conditions:
+//
+//  The above copyright notice and this permission notice shall be
+//  included in all copies or substantial portions of the Software.
+//
+//  THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND,
+//  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+//"
+4672,github,"tr)
+	}
+}
+
+func (tr *trace) When() string {
+	return tr.Start.Format(""2006/01/02 15:04:05.000000"")
+}
+
+func (tr *trace) ElapsedTime() string {
+	t := tr.Elapsed
+	if t == 0 {
+		// Active trace.
+		t = time.Since(tr.Start)
+	}
+	return fmt.Sprintf(""%.6f"", t.Seconds())
+}
+
+func (tr *trace) Events() []event {
+	tr.mu.RLock()
+	defer tr.mu.RUnlock()
+	return tr.events
+}
+
+var traceFreeList = make(chan *trace, 1000) // TODO(dsymonds): Use sync.Pool?
+
+// newTrace returns a trace ready to use.
+func new"
+5569,openwebtext2," his intention to build a border wall on the US-Mexico border days after taking office Getty Images The controversial orders Donald Trump has already issued Trump and abortion US President Donald Trump signs an executive order as Chief of Staff Reince Priebus looks on in the Oval Office of the White House. Mr Trump reinstated a ban on American financial aide being granted to non-governmental organizations that provide abortion counseling, provide abortion referrals, or advocate for abortion access outside of the United States Getty Images The controversial orders Donald Trump has already issued Trump and the Dakota Access pipeline Opponents of the Keystone XL and Dakota Access pipelines hold a rally as they protest US President Donald Trump's executive orders advancing their construction, at Columbus Circle in New York. US President Donald Trump signed executive orders reviving the construction of two controversial oil pipelines, but said the projects would be subject to renegotiation Getty Images The controversial orders Donald Trump has already issued Trump and 'Obamacare' Nancy Pelosi who is the minority leader of the House of Representatives speaks beside House Democrats"
+13239,github,".c
+ *
+ *  $Id$
+ *
+ *  This file is part of the OpenLink Software Virtuoso Open-Source (VOS)
+ *  project.
+ *
+ *  Copyright (C) 1998-2020 OpenLink Software
+ *
+ *  This project is free software; you can redistribute it and/or modify it
+ *  under the terms of the GNU General Public License as published by the
+ *  Free Software Foundation; only version 2 of the License, dated June 1991.
+ *
+ *  This program is distributed in the hope that it will be useful, but
+ *  WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ *  General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License along
+ *  with this program; if"
+7419,github," You may distribute Covered Code in Executable form only if the requirements of Section 3.1-3.5 have been met for that Covered Code, and if You include a notice stating that the Source Code version of the Covered Code is available under the terms of this License, including a description of how and where You have fulfilled the obligations of Section 3.2. The notice must be conspicuously included in any notice in an Executable version, related documentation or collateral in which You describe recipients' rights relating to the Covered Code. You may distribute the Executable version of Covered Code or ownership rights under a license of Your choice, which may contain terms different from this License, provided that You are in compliance with the terms of this License and that the license for the Executable version does not attempt to limit or alter the recipient's rights in the Source Code version from the rights set forth in this License. If You distribute the Executable version under a different license You must make"
+9426,github,"ul>
+<br>
+<hr size=1 noshade>
+<br><b>Class</b>
+<a href=""../api_cxx/env_class.html"">DbEnv</a>
+<br><b>See Also</b>
+<a href=""../api_cxx/env_list.html"">Database Environments and Related Methods</a>
+</tt>
+<table width=""100%""><tr><td><br></td><td align=right>
+<a href=""../api_cxx/api_core.html""><img src=""../images/api.gif"" alt=""API""></a><a href=""../ref/toc.html""><img src=""../images/ref.gif"" alt=""Ref""></a>
+</td></tr></table>
+<p><font size=1>Copyright (c) 1996,2008 Oracle.  All rights reserved"
+7446,github,"""?>
+<!--
+ -
+ -  $Id$
+ -
+ -  This file is part of the OpenLink Software Virtuoso Open-Source (VOS)
+ -  project.
+ -
+ -  Copyright (C) 1998-2020 OpenLink Software
+ -
+ -  This project is free software; you can redistribute it and/or modify it
+ -  under the terms of the GNU General Public License as published by the
+ -  Free Software Foundation; only version 2 of the License, dated June 1991.
+ -
+ -  This program is distributed in the hope that it will be useful, but
+ -  WITHOUT ANY WARRANTY; without even the implied warranty of
+ -  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ -  General Public License for more details.
+ -
+ -  You should have received a copy of the GNU General Public License along
+ -  with this"
+2984,github,"# coding: utf-8
+
+# Copyright (C) 1994-2020 Altair Engineering, Inc.
+# For more information, contact Altair at www.altair.com.
+#
+# This file is part of both the OpenPBS software (""OpenPBS"")
+# and the PBS Professional (""PBS Pro"") software.
+#
+# Open Source License Information:
+#
+# OpenPBS is free software. You can redistribute it and/or modify it under
+# the terms of the GNU Affero General Public License as published by the
+# Free Software Foundation, either version 3 of the License, or (at your
+# option) any later version.
+#
+# OpenPBS is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+# FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Aff"
+11008,github,"// __BEGIN_LICENSE__
+//  Copyright (c) 2009-2013, United States Government as represented by the
+//  Administrator of the National Aeronautics and Space Administration. All
+//  rights reserved.
+//
+//  The NGT platform is licensed under the Apache License, Version 2.0 (the
+//  ""License""); you may not use this file except in compliance with the
+//  License. You may obtain a copy of the License at
+//  http://www.apache.org/licenses/LICENSE-2.0
+//
+//  Unless required by applicable law or agreed to in writing, software
+//  distributed under the License is distributed on an ""AS IS"" BASIS,
+//  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+//  See the License for the specific language governing permissions and
+//  limitations under the License.
+"
+1826,pubmed_central,"\' to PLOS Genetics. Your manuscript was fully evaluated at the editorial level and by independent peer reviewers. The reviewers appreciated the attention to an important topic but identified some aspects of the manuscript that should be improved.
+
+We therefore ask you to modify the manuscript according to the review recommendations before we can consider your manuscript for acceptance. Your revisions should address the specific points made by each reviewer.
+
+In addition we ask that you:
+
+1\) Provide a detailed list of your responses to the review comments and a description of the changes you have made in the manuscript.
+
+2\) Upload a Striking Image with a corresponding caption to accompany your manuscript if one is available (either a new image or an existing one from within your manuscript). If this image is judged to be suitable, it may be featured on our website. Images should ideally be high resolution, eye-catching, single panel square images. For examples, please browse our [archive](http://www.plosgenetics"
+5745,github,"/**
+ * MIT License
+ * <p>
+ * Copyright (c) 2017-2019 nuls.io
+ * <p>
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the ""Software""), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * <p>
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * <p>
+ * THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MER"
+7292,github,"
+
+</PRE>
+
+
+<!-- =========== NESTED CLASS SUMMARY =========== -->
+
+<A NAME=""nested_summary""><!-- --></A>
+
+
+<!-- =========== ENUM CONSTANT SUMMARY =========== -->
+
+<A NAME=""enum_constant_summary""><!-- --></A>
+
+
+<!-- =========== FIELD SUMMARY =========== -->
+
+<A NAME=""field_summary""><!-- --></A>
+
+
+<!-- =========== PROPERTY SUMMARY =========== -->
+
+<A NAME=""property_summary""><!-- --></A>
+
+    <TABLE BORDER=""1"" WIDTH=""100%"" CELLPADDING=""3"" CELLSPACING=""0"" SUMMARY="""">
+    <TR BGCOLOR=""#CCCCFF"" CLASS=""TableHeadingColor"">"
+13970,github,".h
+
+   Copyright (c) 2005,2006 Sandia Corporation, Kitware Inc.
+   All rights reserved.
+
+   ParaView is a free software; you can redistribute it and/or modify it
+   under the terms of the ParaView license version 1.2.
+
+   See License_v1.2.txt for the full ParaView license.
+   A copy of this license can be obtained by contacting
+   Kitware Inc.
+   28 Corporate Drive
+   Clifton Park, NY 12065
+   USA
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED."
+6701,github,".
+ *
+ * PHP Version 5
+ *
+ * @category   Pami
+ * @package    Message
+ * @subpackage Action
+ * @author     Marcelo Gornstein <marcelog@gmail.com>
+ * @license    http://marcelog.github.com/PAMI/ Apache License 2.0
+ * @version    SVN: $Id$
+ * @link       http://marcelog.github.com/PAMI/
+ *
+ * Copyright 2011 Marcelo Gornstein <marcelog@gmail.com>
+ *
+ * Licensed under the Apache License, Version 2.0 (the ""License"");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/L"
+3884,openwebtext2,"
+
+Supporting KDE
+
+KDE is a Free Software community that exists and grows only because of the help of many volunteers that donate their time and effort. KDE is always looking for new volunteers and contributions, whether it is help with coding, bug fixing or reporting, writing documentation, translations, promotion, money, etc. All contributions are gratefully appreciated and eagerly accepted. Please read through the Supporting KDE page for further information or become a KDE e.V. supporting member through our Join the Game initiative.
+
+About KDE
+
+KDE is an international technology team that creates free and open source software for desktop and portable computing. Among KDE's products are a modern desktop system for Linux and UNIX platforms, comprehensive office productivity and groupware suites and hundreds of software titles in many categories including Internet and web applications, multimedia, entertainment, educational, graphics and software development. KDE software is translated into more than 60 languages and is built with ease of use and modern accessibility principles in mind."
+13027,github,"﻿// /*******************************************************************************
+//  * Copyright 2012-2018 Esri
+//  *
+//  *  Licensed under the Apache License, Version 2.0 (the ""License"");
+//  *  you may not use this file except in compliance with the License.
+//  *  You may obtain a copy of the License at
+//  *
+//  *  http://www.apache.org/licenses/LICENSE-2.0
+//  *
+//  *   Unless required by applicable law or agreed to in writing, software
+//  *   distributed under the License is distributed on an ""AS IS"" BASIS,
+//  *   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+//  *   See the License for the specific language governing permissions and
+//  *   limitations under the License.
+//  ****************************************************************"
+1180,github,"beta2""
+
+import (
+	""bytes""
+	""encoding/json""
+	""errors""
+	""fmt""
+	context ""golang.org/x/net/context""
+	ctxhttp ""golang.org/x/net/context/ctxhttp""
+	gensupport ""google.golang.org/api/gensupport""
+	googleapi ""google.golang.org/api/googleapi""
+	""io""
+	""net/http""
+	""net/url""
+	""strconv""
+	""strings""
+)
+
+// Always reference these packages, just in case the auto-generated code
+// below doesn't.
+var _ = bytes.NewBuffer
+var _ = strconv.Itoa
+var _ = fmt.Sprintf
+var _ = json.NewDecoder
+var _ = io"
+4004,pile-cc,".
+
+_________________________I used to think it was terrible that life was unfair. Then I thought what if life were fair and all of the terrible things that happen came because we really deserved them? Now I take comfort in the general unfairness and hostility of the universe.
+
+Xplain's use of MacNews, AppleCentral and AppleExpo are not affiliated with Apple, Inc. MacTech is a registered trademark of Xplain Corporation. AppleCentral, MacNews, Xplain, ""The journal of Apple technology"", Apple Expo, Explain It, MacDev, MacDev-1, THINK Reference, NetProfessional, MacTech Central, MacTech Domains, MacForge, and the MacTutorMan are trademarks or service marks of Xplain Corp. Sprocket is a registered trademark of eSprocket Corp. Other trademarks and copyrights appearing in this printing or software remain the property of their respective holders.
+
+All contents are Copyright 1984-2010 by Xplain"
+2440,github,"
+// Copyright (c) 2014-2019, Lawrence Livermore National Security, LLC.
+// Produced at the Lawrence Livermore National Laboratory.
+// Written by the LBANN Research Team (B. Van Essen, et al.) listed in
+// the CONTRIBUTORS file. <lbann-dev@llnl.gov>
+//
+// LLNL-CODE-697807.
+// All rights reserved.
+//
+// This file is part of LBANN: Livermore Big Artificial Neural Network
+// Toolkit. For details, see http://software.llnl.gov/LBANN or
+// https://github.com/LLNL/LBANN.
+//
+// Licensed under the Apache License, Version 2.0 (the ""Licensee""); you
+// may not use this file except in compliance with the License.  You may
+// obtain a copy of the License at:
+//
+// http://www.apache"
+1495,github,"/**
+ * Copyright 2005-2020 Talend
+ * 
+ * The contents of this file are subject to the terms of one of the following
+ * open source licenses: Apache 2.0 or or EPL 1.0 (the ""Licenses""). You can
+ * select the license that you prefer but you may not use this file except in
+ * compliance with one of these Licenses.
+ * 
+ * You can obtain a copy of the Apache 2.0 license at
+ * http://www.opensource.org/licenses/apache-2.0
+ * 
+ * You can obtain a copy of the EPL 1.0 license at
+ * http://www.opensource.org/licenses/eclipse-1.0
+ * 
+ * See the Licenses for the specific language governing permissions and
+ * limitations under the Licenses.
+ * 
+ * Alternatively, you can obtain a royalty free commercial license with less
+ *"

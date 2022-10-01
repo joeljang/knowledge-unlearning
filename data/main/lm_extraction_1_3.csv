@@ -1,0 +1,20 @@
+doc_id,corpus,text
+11584,github,"/devel/api-conventions.md#spec-and-status
+  // +optional
+  optional CronJobStatus status = 3;
+}
+
+// CronJobList is a collection of cron jobs.
+message CronJobList {
+  // Standard list metadata.
+  // More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata
+  // +optional
+  optional k8s.io.apimachinery.pkg.apis.meta.v1.ListMeta metadata = 1;
+
+  // items is the list of CronJobs.
+  repeated CronJob items = 2;
+}
+
+// CronJobSpec describes how the job execution will look like and when it will actually run.
+message CronJobSpec {
+  // The schedule in Cron format, see https://en.wikipedia.org/wiki/Cron"

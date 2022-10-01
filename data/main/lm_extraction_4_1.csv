@@ -1,0 +1,61 @@
+doc_id,corpus,text
+7576,pile-cc,".
+
+Cloud Expo, Inc. has announced today that Andi Mann returns to 'DevOps at Cloud Expo 2017' as Conference Chair
+The @DevOpsSummit at Cloud Expo will take place on June 6-8, 2017, at the Javits Center in New York City, NY.
+""DevOps is set to be one of the most profound disruptions to hi...
+
+20th Cloud Expo, taking place June 6-8, 2017, at the Javits Center in New York City, NY, will feature technical sessions from a rock star conference faculty and the leading industry players in the world.
+Cloud computing is now being embraced by a majority of enterprises of all sizes....
+
+With major technology companies and startups seriously embracing IoT strategies, now is the perfect time to attend @ThingsExpo 2016 in New York. Learn what is going on, contribute to the discussions, and ensure that your enterprise is as ""IoT-Ready"" as it can be"
+10509,github,"_PATIENT_VISIT - this is probably a bug in the source code generator."", e);
+	   }
+	}
+
+	///<summary>
+	/// Returns PV1 (Patient visit) - creates it if necessary
+	///</summary>
+	public PV1 PV1 { 
+get{
+	   PV1 ret = null;
+	   try {
+	      ret = (PV1)this.GetStructure(""PV1"");
+	   } catch(HL7Exception e) {
+	      HapiLogFactory.GetHapiLog(GetType()).Error(""Unexpected error accessing data - this is probably a bug in the source code generator."", e);
+	      throw new System.Exception(""An unexpected error ocurred"",e"
+4253,github,"
+ *
+ * Based on libqrencode C library distributed under LGPL 2.1
+ * Copyright (C) 2006, 2007, 2008, 2009 Kentaro Fukuchi <fukuchi@megaui.net>
+ *
+ * PHP QR Code is distributed under LGPL 3
+ * Copyright (C) 2010 Dominik Dzienia <deltalab at poczta dot fm>
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 3 of the License, or any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser"
+5150,github,"</B>()</PRE>
+        <DL>
+        <DD>
+        </DD>
+        <P>
+        </DL>
+        <HR>
+    
+    &nbsp;
+
+
+<!-- ============ METHOD DETAIL ========== -->
+
+<A NAME=""method_detail""><!-- --></A>
+
+    <TABLE BORDER=""1"" WIDTH=""100%"" CELLPADDING=""3"" CELLSPACING=""0"" SUMMARY="""">
+    <TR BGCOLOR=""#CCCCFF"" CLASS=""TableHeadingColor"">
+    <TH ALIGN=""left"" COLSPAN=""1""><FONT SIZE="""
