@@ -78,9 +78,6 @@ class Neo(pl.LightningModule):
 
     def training_step(self, batch, batch_idx):
         loss, score = self._step(batch)
-        ppl = torch.exp(loss)
-        self.log('train_ppl', ppl, on_step=True,
-                 on_epoch=True, prog_bar=True, logger=True, sync_dist=True)
         self.log('train_loss', loss, on_step=True,
                  on_epoch=True, prog_bar=True, logger=True, sync_dist=True)
         if self.hparams.negative_loss:
