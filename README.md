@@ -1,5 +1,7 @@
 # Knowledge Unlearning for Mitigating Privacy Risks in Langauge Models
 
+![alt text](fig1.png "Main Figure")
+
 paper link: https://arxiv.org/abs/2210.01504
 
 In order to reproduce our results, take the following steps:
