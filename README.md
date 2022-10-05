@@ -1,5 +1,7 @@
 # Knowledge Unlearning for Mitigating Privacy Risks in Langauge Models
 
+paper link: https://arxiv.org/abs/2210.01504
+
 In order to reproduce our results, take the following steps:
 ### 1. Create conda environment and install requirements
 ```
