@@ -19,6 +19,8 @@ from Datasets import Custom_Dataset
 # By removing all training related methods, Lightning skips the buggy process
 # If you plan to not use deepspeed offload, you may remove this file and just use
 # Neo_Model.py instead
+# Refer following issue
+# https://github.com/Lightning-AI/lightning/issues/14993
 
 
 class NeoValid(pl.LightningModule):
