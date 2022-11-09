@@ -477,6 +477,118 @@ class Neo(pl.LightningModule):
             sync_dist=True)
         return
 
+    def dialog_evaluation(self, padding_length, task, batch):
+        source_ids = batch["source_ids"].tolist()
+        target_ids = batch["target_ids"].tolist()
+        batch_size = len(source_ids)
+
+        inps, cont_toks_list, inplens = [], [], []
+        for i in range(batch_size):
+            context_enc = self.get_rid_of_pad(source_ids[i])
+            continuation_enc = self.get_rid_of_pad(target_ids[i])
+
+            # sanity check
+            assert len(context_enc) > 0
+            assert len(continuation_enc) > 0
+            assert len(continuation_enc) <= self.max_length
+
+            inp = torch.tensor(
+                (context_enc + continuation_enc)[-(padding_length):],
+                dtype=torch.long
+            ).to(self.device)
+            inplen, = inp.shape
+            cont = continuation_enc
+
+            # pad length from seq to padding_length
+            inp = torch.cat([
+                inp,  # [seq]
+                # [padding_length - seq]
+                torch.zeros(padding_length - inplen,
+                            dtype=torch.long).to(inp.device) + self.tokenizer.pad_token_id
+            ], dim=0)
+            inps.append(inp.unsqueeze(0))  # [1, padding_length]
+            cont_toks_list.append(cont)
+            inplens.append(inplen)
+
+        batched_inps = torch.cat(inps, dim=0)  # [batch, padding_length
+        multi_logits = self._model_call(batched_inps)  # [batch, padding_length, vocab]
+        
+        full_logits, full_cont_toks = [], []
+        for logits, inp, inplen, cont_toks \
+                in zip(multi_logits, inps, inplens, cont_toks_list):
+
+            # Slice to original seq length
+            contlen = len(cont_toks)
+
+            if contlen >= padding_length:
+                cont_toks = cont_toks[:int(padding_length / 2)]
+                contlen = len(cont_toks)
+
+            # [seq, vocab]
+            logits = logits[inplen - contlen - 1:inplen - 1]
+            # Check if per-token argmax is exactly equal to continuation
+            cont_toks = torch.tensor(
+                cont_toks, dtype=torch.long).to(self.device)  # [seq]
+
+            assert logits.shape[0] == cont_toks.shape[0]
+
+            full_logits.append(logits)
+            full_cont_toks.append(cont_toks)
+
+        full_logits = torch.cat(full_logits)
+        full_cont_toks = torch.cat(full_cont_toks)
+
+        loss_fct = torch.nn.CrossEntropyLoss()
+        loss = loss_fct(full_logits, full_cont_toks)
+        
+        generate_input = []
+        for source_id in source_ids:
+            inplen = len(source_id)
+            inp = torch.tensor(source_id, dtype=torch.long).to(self.device)
+            inp = torch.cat([
+                torch.zeros(padding_length - inplen,
+                            dtype=torch.long).to(inp.device) + self.tokenizer.pad_token_id,
+                inp
+            ], dim=0)
+            generate_input.append(inp.unsqueeze(0))  # [1, padding_length]
+
+        inputs = torch.cat(generate_input, dim=0)
+        attention_masks = inputs.ne(self.tokenizer.pad_token_id).long()
+        generated_ids = self.model.generate(inputs, attention_mask=attention_masks, max_new_tokens=32)[:, padding_length:]
+        generated_text = self.tokenizer.batch_decode(generated_ids.tolist(), skip_special_tokens=True)
+        generated_text = [t.split('\nUser ')[0] for t in generated_text]
+        target_text = self.tokenizer.batch_decode(target_ids, skip_special_tokens=True)
+
+        # Debugging
+        source_text = self.tokenizer.batch_decode(source_ids, skip_special_tokens=True)
+        for s, g, t in zip(source_text, generated_text, target_text):
+            print('---------------------')
+            print(f'[Prefix] {s}')
+            print(f'[Ground Truth] {t}')
+            print(f'[Generated] {g}')
+            print('---------------------')
+        
+        f1_batched = 0
+        for g, t in zip(generated_text, target_text):
+            f1_batched += self._f1_score(g, t)
+
+        unigram_f1 = f1_batched / batch_size
+
+        self.log(
+            f'{task}/loss',
+            loss,
+            prog_bar=True,
+            logger=True,
+            add_dataloader_idx=False,
+            sync_dist=True),
+        self.log(
+            f'{task}/f1',
+            unigram_f1,
+            prog_bar=True,
+            logger=True,
+            add_dataloader_idx=False,
+            sync_dist=True)
+
     # Reduce results from gpus to a single dataframe + determine early stopping
     def validation_epoch_end(self, output):
         if self.hparams.mode in ['unlearn']:

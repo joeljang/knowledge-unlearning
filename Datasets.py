@@ -3,6 +3,8 @@ from torch.utils.data import Dataset
 import pandas as pd
 from datasets import load_dataset
 import re
+from utils import normalize_reply, DIALOG_DATASETS
+
 
 
 class Custom_Dataset(Dataset):
@@ -25,6 +27,9 @@ class Custom_Dataset(Dataset):
 
         if self.type_path == 'train':
             self.dataset = pd.read_csv(dataset_name, lineterminator='\n')
+            start_index = self.args.data_index * self.args.train_batch_size
+            end_index = start_index + self.args.train_batch_size
+            self.dataset = self.dataset.iloc[start_index : end_index]
             batch_size = self.args.train_batch_size * \
                 self.args.gradient_accumulation_steps * self.args.ngpu
             if len(self.dataset) != batch_size:
@@ -32,21 +37,25 @@ class Custom_Dataset(Dataset):
                     "Effective batch size should be the same as length of train set")
 
         else:
-            if '.csv' not in self.dataset_name:  # load from huggingface hub
+            if '.csv' in self.dataset_name:
+                self.dataset = pd.read_csv(dataset_name, lineterminator='\n')
+            elif '.json' in self.dataset_name:
+                self.dataset = pd.read_json(dataset_name)
+            else: # load from huggingface hub
                 if valid_subset_path:
                     dataset = load_dataset(
                         self.dataset_name,
                         valid_subset_path,
                         split=type_path,
-                        ignore_verifications=True)
+                        ignore_verifications=True,
+                        cache_dir=args.cache_dir)
                 else:
                     dataset = load_dataset(
                         self.dataset_name,
                         split=type_path,
-                        ignore_verifications=True)
+                        ignore_verifications=True,
+                        cache_dir=args.cache_dir)
                 self.dataset = dataset.to_pandas()
-            else:
-                self.dataset = pd.read_csv(dataset_name, lineterminator='\n')
 
         # About 4 examples have one more or one less class for some reason,
         # they will cause dataloader error
@@ -54,6 +63,8 @@ class Custom_Dataset(Dataset):
             self.dataset['length'] = self.dataset['choices'].apply(
                 lambda x: len(x['text']))
             self.dataset = self.dataset[self.dataset['length'] == 4]
+
+        self.dataset = self.dataset.dropna()
 
     def __len__(self):
         return len(self.dataset)
@@ -63,6 +74,23 @@ class Custom_Dataset(Dataset):
         input_ = " ".join(input_s[:len(input_s) - 1])
         target = " " + input_s[len(input_s) - 1]
         return input_, target
+
+    def create_dialogue_prompt(self, turns):
+        # prompt = 'A converstaion between two Users:\n'
+        prompt = ''
+        for i, turn in enumerate(turns):
+            turn = normalize_reply(turn)
+    
+            if i % 2 == 0:
+                prompt += f'User 1: {turn}\n'
+            else:
+                prompt += f'User 2: {turn}\n'
+
+        if i % 2:
+            prompt += f'User 1:'
+        else:
+            prompt += f'User 2:'
+        return prompt
 
     def convert_to_features(self, example_batch):
         try:
@@ -137,6 +165,11 @@ class Custom_Dataset(Dataset):
                 answer_index = int(example_batch['label'])
                 target_ = choices[answer_index]
                 task_type = 'classification'
+            elif any(d in self.dataset_name for d in DIALOG_DATASETS):
+                input_ = self.create_dialogue_prompt(example_batch['text'][:-1])
+                target_ = normalize_reply(example_batch['text'][-1])
+                task = self.dataset_name.split('.')[0].split('/')[1]
+                task_type = 'dialog'
             elif 'pile' in self.dataset_name:
                 input_, target_ = example_batch['text'], example_batch['text']
                 task = 'pile'
@@ -163,11 +196,10 @@ class Custom_Dataset(Dataset):
             truncation=True,
             return_tensors="pt")
 
-        add_target_special_tokens = False if task_type == 'completion' else True
         targets = self.tokenizer(
             target_,
             max_length=self.output_length,
-            add_special_tokens=add_target_special_tokens,
+            add_special_tokens=False,
             padding='max_length',
             truncation=True,
             return_tensors="pt")
@@ -177,8 +209,11 @@ class Custom_Dataset(Dataset):
 
     def __getitem__(self, index):
         data = self.dataset.iloc[index]
-        source, targets, doc_id, task, task_type, choices, answer_index = self.convert_to_features(
-            data)
+        try:
+            source, targets, doc_id, task, task_type, choices, answer_index = self.convert_to_features(
+                data)
+        except:
+            print(data)
 
         source_ids = source["input_ids"].squeeze()
         target_ids = targets["input_ids"].squeeze()
