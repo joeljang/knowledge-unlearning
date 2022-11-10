@@ -11,6 +11,11 @@ conda create -n ufl python=3.8
 conda activate ufl
 # Install the correct torch version depending on CUDA version from https://pytorch.org/
 conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch 
+# Install customized version of transformers for one of the baseline approaches (DP Decoding)
+cd transformers
+pip install -e .
+cd ..
+# Install the rest of the required libraries
 pip install -r requirements.txt
 ```
 

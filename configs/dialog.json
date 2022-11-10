@@ -1,7 +1,7 @@
 {
     "mode": "general_lm_eval",
     "wandb_project": "Knowledge Unlearning",
-    "wandb_run_name": "example",
+    "wandb_run_name": "dp_decoding_0.5",
     "num_train_epochs": 20,
     "check_val_every_n_epoch": 1,
     "check_validation_only": true,
