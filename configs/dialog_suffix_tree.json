@@ -6,7 +6,7 @@
     "check_val_every_n_epoch": 1,
     "check_validation_only": true,
     "do_init_eval": true,
-    "train_set": "data/main/lm_extraction_32_0.csv",
+    "train_set": "data/main/lm_extraction_8_0.csv",
     "valid_sets": [
         "validation_data/wizard_of_wikipedia.json",
         "validation_data/empathetic_dialogues.json",
@@ -25,7 +25,7 @@
         "",
         ""
     ],
-    "train_batch_size": 32,
+    "train_batch_size": 8,
     "eval_batch_size": 32,
     "gradient_accumulation_steps": 1,
     "ngpu": 1,

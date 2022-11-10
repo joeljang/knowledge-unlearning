@@ -27,9 +27,6 @@ class Custom_Dataset(Dataset):
 
         if self.type_path == 'train':
             self.dataset = pd.read_csv(dataset_name, lineterminator='\n')
-            start_index = self.args.data_index * self.args.train_batch_size
-            end_index = start_index + self.args.train_batch_size
-            self.dataset = self.dataset.iloc[start_index : end_index]
             batch_size = self.args.train_batch_size * \
                 self.args.gradient_accumulation_steps * self.args.ngpu
             if len(self.dataset) != batch_size:
