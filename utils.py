@@ -1,4 +1,29 @@
 from typing import List, Dict
+from pytorch_lightning import Callback
+import pandas as pd
+
+class MetricTracker(Callback):
+
+    def __init__(self, run_name):
+        self.df = None
+        self.run_name = run_name
+
+    def on_fit_end(self, trainer, module):
+        print(trainer.logged_metrics)
+        elogs = trainer.logged_metrics # access it here
+        elogs = {k: [v.item()] for k, v in elogs.items()}
+        new_df = pd.DataFrame(elogs)
+        new_df = new_df[self.df.columns]
+        self.df = pd.concat([self.df, new_df])
+        self.df.to_csv(f'csv_out/{self.run_name}.csv')
+
+
+    # def on_validation_epoch_end(self, trainer, module):
+    #     if isinstance(module, GPT2Valid):
+    #         elogs = trainer.logged_metrics # access it here
+    #         elogs = {k: [v.item()] for k, v in elogs.items()}
+    #         self.df = pd.DataFrame(elogs)
+
 
 DIALOG_DATASETS = [
     'wizard_of_wikipedia',
