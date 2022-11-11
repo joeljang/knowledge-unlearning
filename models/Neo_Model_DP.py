@@ -10,9 +10,8 @@ import re
 import string
 import logging
 from Datasets import Custom_Dataset
-from utils import Trie
-from tqdm import tqdm
-import itertools
+
+from transformers import LogitsProcessor, LogitsWarper
 
 # This file is exactly the same as Neo_Model.py but with training related
 # methods all stripped out.
@@ -25,6 +24,25 @@ import itertools
 # Refer following issue
 # https://github.com/Lightning-AI/lightning/issues/14993
 
+class Logit_DP_Decoding(LogitsProcessor):
+    r"""
+    [`LogitsWarper`] and [`LogitsProcessor`] for normalizing the scores using log-softmax. It's important to normalize
+    the scores during beam search, after applying the logits processors or warpers, since the search algorithm used in
+    this library doesn't do it (it only does it before, but they may need re-normalization) but it still supposes that
+    the scores are normalized when comparing the hypotheses.
+    """
+    def __init__(self, lambda_weight):
+        # Lambda weight between [0,1]
+        self.lambda_weight = lambda_weight
+
+    def __call__(self, input_ids: torch.Tensor, scores: torch.Tensor) -> torch.Tensor:
+        uniform_distribution = torch.ones(scores.shape[0], scores.shape[1]).to('cuda')
+        means = torch.mean(scores, dim=-1).unsqueeze(-1)
+        uniform_distribution = uniform_distribution * means
+        scores = (self.lambda_weight * scores) + (1 - self.lambda_weight) * uniform_distribution
+        m = torch.nn.Softmax(dim=-1)
+        output = m(scores)
+        return scores
 
 class NeoValid(pl.LightningModule):
     def __init__(self, hparams):
@@ -70,8 +88,9 @@ class NeoValid(pl.LightningModule):
         self.el_n = self.hparams.el_n
         # Main N to check for early stopping
         self.el_n_main = self.hparams.el_n[0]
-        self.illegal_dup_len = 10
-        self.construct_trie()
+        self.dp_decoding_logit_processor = Logit_DP_Decoding(lambda_weight=self.hparams.lambda_weight)
+
+
 
     def forward(self, input_ids, attention_mask=None, lm_labels=None):
         return self.model(
@@ -90,40 +109,6 @@ class NeoValid(pl.LightningModule):
         )
         loss, score = outputs[0], outputs[1]
         return loss, score
-
-    def construct_trie(self):
-        dataset = self.hparams.train_set
-        length = self.target_length
-
-        train_dataset = self.get_dataset(
-            dataset_name=dataset,
-            tokenizer=self.tokenizer,
-            valid_subset_path="",
-            type_path="train",
-            length=length)
-
-
-        all_suffixes = []
-        for sample in train_dataset:
-            sample = sample['source_ids'].tolist()
-            for i, _ in enumerate(sample):
-                all_suffixes.append(sample[i:i+self.illegal_dup_len])
-                if len(sample) - i == self.illegal_dup_len:
-                    break
-        
-        print(f'{len(all_suffixes)=}')
-        all_suffixes.sort()
-        all_suffixes = list(k for k, _ in itertools.groupby(all_suffixes))
-        print(f'{len(all_suffixes)=}')
-        self.trie = Trie(all_suffixes)
-        
-    def restrict_vocab(self, batch_idx, prefix_beam):
-        vocabs = range(len(self.tokenizer))
-        most_recent = prefix_beam[-(self.illegal_dup_len - 1):]
-        illegal_toks = self.trie.get(most_recent.tolist())
-        # print(illegal_toks)
-        legal_toks = [v for v in vocabs if v not in illegal_toks]
-        return legal_toks
 
     def validation_step(self, batch, batch_idx, dataloader_idx=-1):
         if self.mode == 'general_lm_eval':
@@ -212,11 +197,11 @@ class NeoValid(pl.LightningModule):
         max_len = self.target_length
 
         labels, preds = [], []
-        for i in tqdm(range(1, max_len)):
+        for i in range(1, max_len):
             label = input_ids[..., i]
             prompt = input_ids[..., :i]
             try:
-                pred = self.model.generate(prompt, max_length=i + 1, prefix_allowed_tokens_fn=self.restrict_vocab)[:, -1]
+                pred = self.model.generate(prompt, max_length=i + 1, logits_processor=[self.dp_decoding_logit_processor], do_sample=True)[:, -1]
             except IndexError:  # if batch == 1
                 pred = self.model.generate(torch.squeeze(
                     prompt), max_length=i + 1).squeeze()[-1]
@@ -248,10 +233,10 @@ class NeoValid(pl.LightningModule):
         N = self.el_n
         numerator = {n: [0] * batch_size for n in N}
 
-        for i in tqdm(reversed(range(1, max_len))):
+        for i in reversed(range(1, max_len)):
             label = input_ids[..., i:max_len]
             prompt = input_ids[..., :i]
-            pred = self.model.generate(prompt, max_length=max_len, prefix_allowed_tokens_fn=self.restrict_vocab)[..., i:]
+            pred = self.model.generate(prompt, max_length=max_len, logits_processor=[self.dp_decoding_logit_processor], do_sample=True)[..., i:]
 
             for example_idx in range(batch_size):
                 p, l = pred[example_idx], label[example_idx]
@@ -600,7 +585,8 @@ class NeoValid(pl.LightningModule):
 
         inputs = torch.cat(generate_input, dim=0)
         attention_masks = inputs.ne(self.tokenizer.pad_token_id).long()
-        generated_ids = self.model.generate(inputs, attention_mask=attention_masks, max_new_tokens=32, prefix_allowed_tokens_fn=self.restrict_vocab)[:, padding_length:]
+        #generated_ids = self.model.generate(inputs, attention_mask=attention_masks, max_new_tokens=32)[:, padding_length:]
+        generated_ids = self.model.generate(inputs, attention_mask=attention_masks, max_new_tokens=32, do_sample=True, logits_processor=[self.dp_decoding_logit_processor])[:, padding_length:]
         generated_text = self.tokenizer.batch_decode(generated_ids.tolist(), skip_special_tokens=True)
         generated_text = [t.split('\nUser ')[0] for t in generated_text]
         target_text = self.tokenizer.batch_decode(target_ids, skip_special_tokens=True)

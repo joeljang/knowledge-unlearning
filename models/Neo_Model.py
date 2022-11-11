@@ -273,6 +273,11 @@ class Neo(pl.LightningModule):
                 padding_length=self.hparams.input_length,
                 task='lambada',
                 batch=batch)
+        elif task_type == 'dialog':
+            self.dialog_evaluation(
+                padding_length=self.hparams.input_length,
+                task=task,
+                batch=batch)
         elif task_type == 'target':
             raise Exception(
                 f'You are evaluating "target" on "general_lm_eval" mode, rerun with "unlearn" mode')

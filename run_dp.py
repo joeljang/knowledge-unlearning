@@ -5,8 +5,8 @@ import json
 import pytorch_lightning as pl
 from pytorch_lightning.loggers import WandbLogger
 from models.Neo_Model import Neo
-# from models.Neo_Model_suffix_tree import NeoValid
-from models.Neo_Model_valid import NeoValid
+from models.Neo_Model_DP import NeoValid
+# from models.Neo_Model_valid import NeoValid
 
 
 if __name__ == '__main__':

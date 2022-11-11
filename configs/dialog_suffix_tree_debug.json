@@ -1,31 +1,20 @@
 {
-    "mode": "general_lm_eval",
-    "wandb_project": "Knowledge Unlearning Dialog",
-    "wandb_run_name": "Dialog Initial",
+    "mode": "unlearn",
+    "wandb_project": "Knowledge Unlearning",
+    "wandb_run_name": "example",
     "num_train_epochs": 20,
     "check_val_every_n_epoch": 1,
     "check_validation_only": true,
     "do_init_eval": true,
     "train_set": "data/main/lm_extraction_32_0.csv",
     "valid_sets": [
-        "validation_data/wizard_of_wikipedia.json",
-        "validation_data/empathetic_dialogues.json",
-        "validation_data/blended_skill_talk.json",
-        "validation_data/wizard_of_internet.json"
+        "data/main/lm_extraction_32_0.csv"
     ],
     "valid_subset_path": [
-        "",
-        "",
-        "",
-        "",
         ""
     ],
     "valid_type_path": [
-        "target",
-        "",
-        "",
-        "",
-        ""
+        "target"
     ],
     "train_batch_size": 32,
     "eval_batch_size": 32,
