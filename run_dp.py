@@ -5,7 +5,7 @@ import json
 import pytorch_lightning as pl
 from pytorch_lightning.loggers import WandbLogger
 from models.Neo_Model import Neo
-from models.Neo_Model_DP import NeoValid
+from models.Neo_Model_DP import NeoDP
 # from models.Neo_Model_valid import NeoValid
 
 
@@ -107,12 +107,12 @@ if __name__ == '__main__':
 
     if config.check_validation_only:
         trainer = pl.Trainer(**train_params)
-        model = NeoValid(config)
+        model = NeoDP(config)
         trainer.validate(model)
     else:
         trainer = pl.Trainer(**train_params)
         if config.do_init_eval:
-            model = NeoValid(config)
+            model = NeoDP(config)
             trainer.validate(model)
         model = Neo(config)
         trainer.fit(model)

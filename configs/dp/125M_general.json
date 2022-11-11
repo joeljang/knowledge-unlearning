@@ -1,9 +1,11 @@
 {
     "mode": "general_lm_eval",
+    "privacy_method": "dp",
     "wandb_project": "Knowledge Unlearning Dialog",
-    "wandb_run_name": "Dialog Initial",
+    "wandb_run_name": "DP-0.2-125M_General",
+    "lambda_weight": 0.2,
     "num_train_epochs": 20,
-    "check_val_every_n_espoch": 1,
+    "check_val_every_n_epoch": 1,
     "check_validation_only": true,
     "do_init_eval": true,
     "train_set": "data/main/lm_extraction_32_0.csv",
@@ -17,11 +19,9 @@
         "",
         "",
         "",
-        "",
         ""
     ],
     "valid_type_path": [
-        "target",
         "",
         "",
         "",

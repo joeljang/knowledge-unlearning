@@ -26,9 +26,9 @@ import itertools
 # https://github.com/Lightning-AI/lightning/issues/14993
 
 
-class NeoValid(pl.LightningModule):
+class NeoST(pl.LightningModule):
     def __init__(self, hparams):
-        super(NeoValid, self).__init__()
+        super(NeoST, self).__init__()
         self.mode = hparams.mode
 
         # Model Initializaion

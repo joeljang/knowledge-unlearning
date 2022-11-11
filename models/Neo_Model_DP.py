@@ -44,9 +44,9 @@ class Logit_DP_Decoding(LogitsProcessor):
         output = m(scores)
         return scores
 
-class NeoValid(pl.LightningModule):
+class NeoDP(pl.LightningModule):
     def __init__(self, hparams):
-        super(NeoValid, self).__init__()
+        super(NeoDP, self).__init__()
         self.mode = hparams.mode
 
         # Model Initializaion

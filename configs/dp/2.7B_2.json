@@ -1,38 +1,29 @@
 {
-    "mode": "general_lm_eval",
+    "mode": "unlearn",
+    "privacy_method": "dp",
     "wandb_project": "Knowledge Unlearning Dialog",
-    "wandb_run_name": "Dialog Initial",
+    "wandb_run_name": "DP-0.2-2.7B_2",
+    "lambda_weight": 0.2,
     "num_train_epochs": 20,
-    "check_val_every_n_espoch": 1,
+    "check_val_every_n_epoch": 1,
     "check_validation_only": true,
     "do_init_eval": true,
-    "train_set": "data/main/lm_extraction_32_0.csv",
+    "train_set": "data/main/lm_extraction_32_2.csv",
     "valid_sets": [
-        "validation_data/wizard_of_wikipedia.json",
-        "validation_data/empathetic_dialogues.json",
-        "validation_data/blended_skill_talk.json",
-        "validation_data/wizard_of_internet.json"
+        "data/main/lm_extraction_32_2.csv"
     ],
     "valid_subset_path": [
-        "",
-        "",
-        "",
-        "",
         ""
     ],
     "valid_type_path": [
-        "target",
-        "",
-        "",
-        "",
-        ""
+        "target"
     ],
     "train_batch_size": 32,
     "eval_batch_size": 32,
     "gradient_accumulation_steps": 1,
     "ngpu": 1,
-    "learning_rate": 5e-5,
-    "model_name_or_path": "EleutherAI/gpt-neo-125M",
+    "learning_rate": 5e-05,
+    "model_name_or_path": "EleutherAI/gpt-neo-2.7B",
     "el_threshold": 0.0499,
     "ma_threshold": 0.2994,
     "input_length": 512,

@@ -8,15 +8,15 @@ class MetricTracker(Callback):
         self.df = None
         self.run_name = run_name
 
-    def on_fit_end(self, trainer, module):
+    def on_validation_end(self, trainer, module):
         print(trainer.logged_metrics)
         elogs = trainer.logged_metrics # access it here
         elogs = {k: [v.item()] for k, v in elogs.items()}
         new_df = pd.DataFrame(elogs)
-        new_df = new_df[self.df.columns]
-        self.df = pd.concat([self.df, new_df])
-        self.df.to_csv(f'csv_out/{self.run_name}.csv')
-
+        # new_df = new_df[self.df.columns]
+        # self.df = pd.concat([self.df, new_df])
+        new_df.to_csv(f'csv_out/{self.run_name}.csv')
+        print('Hello World')
 
     # def on_validation_epoch_end(self, trainer, module):
     #     if isinstance(module, GPT2Valid):
