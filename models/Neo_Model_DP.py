@@ -11,6 +11,8 @@ import string
 import logging
 from Datasets import Custom_Dataset
 
+from transformers import LogitsProcessor, LogitsWarper
+
 # This file is exactly the same as Neo_Model.py but with training related
 # methods all stripped out.
 # The reason for this is, Lightning Deepspeed offload has a bug where
@@ -22,10 +24,29 @@ from Datasets import Custom_Dataset
 # Refer following issue
 # https://github.com/Lightning-AI/lightning/issues/14993
 
+class Logit_DP_Decoding(LogitsProcessor):
+    r"""
+    [`LogitsWarper`] and [`LogitsProcessor`] for normalizing the scores using log-softmax. It's important to normalize
+    the scores during beam search, after applying the logits processors or warpers, since the search algorithm used in
+    this library doesn't do it (it only does it before, but they may need re-normalization) but it still supposes that
+    the scores are normalized when comparing the hypotheses.
+    """
+    def __init__(self, lambda_weight):
+        # Lambda weight between [0,1]
+        self.lambda_weight = lambda_weight
 
-class NeoValid(pl.LightningModule):
+    def __call__(self, input_ids: torch.Tensor, scores: torch.Tensor) -> torch.Tensor:
+        uniform_distribution = torch.ones(scores.shape[0], scores.shape[1]).to('cuda')
+        means = torch.mean(scores, dim=-1).unsqueeze(-1)
+        uniform_distribution = uniform_distribution * means
+        scores = (self.lambda_weight * scores) + (1 - self.lambda_weight) * uniform_distribution
+        m = torch.nn.Softmax(dim=-1)
+        output = m(scores)
+        return scores
+
+class NeoDP(pl.LightningModule):
     def __init__(self, hparams):
-        super(NeoValid, self).__init__()
+        super(NeoDP, self).__init__()
         self.mode = hparams.mode
 
         # Model Initializaion
@@ -67,6 +88,9 @@ class NeoValid(pl.LightningModule):
         self.el_n = self.hparams.el_n
         # Main N to check for early stopping
         self.el_n_main = self.hparams.el_n[0]
+        self.dp_decoding_logit_processor = Logit_DP_Decoding(lambda_weight=self.hparams.lambda_weight)
+
+
 
     def forward(self, input_ids, attention_mask=None, lm_labels=None):
         return self.model(
@@ -177,7 +201,7 @@ class NeoValid(pl.LightningModule):
             label = input_ids[..., i]
             prompt = input_ids[..., :i]
             try:
-                pred = self.model.generate(prompt, max_length=i + 1)[:, -1]
+                pred = self.model.generate(prompt, max_length=i + 1, logits_processor=[self.dp_decoding_logit_processor], do_sample=True)[:, -1]
             except IndexError:  # if batch == 1
                 pred = self.model.generate(torch.squeeze(
                     prompt), max_length=i + 1).squeeze()[-1]
@@ -212,7 +236,7 @@ class NeoValid(pl.LightningModule):
         for i in reversed(range(1, max_len)):
             label = input_ids[..., i:max_len]
             prompt = input_ids[..., :i]
-            pred = self.model.generate(prompt, max_length=max_len)[..., i:]
+            pred = self.model.generate(prompt, max_length=max_len, logits_processor=[self.dp_decoding_logit_processor], do_sample=True)[..., i:]
 
             for example_idx in range(batch_size):
                 p, l = pred[example_idx], label[example_idx]
@@ -561,7 +585,8 @@ class NeoValid(pl.LightningModule):
 
         inputs = torch.cat(generate_input, dim=0)
         attention_masks = inputs.ne(self.tokenizer.pad_token_id).long()
-        generated_ids = self.model.generate(inputs, attention_mask=attention_masks, max_new_tokens=32)[:, padding_length:]
+        #generated_ids = self.model.generate(inputs, attention_mask=attention_masks, max_new_tokens=32)[:, padding_length:]
+        generated_ids = self.model.generate(inputs, attention_mask=attention_masks, max_new_tokens=32, do_sample=True, logits_processor=[self.dp_decoding_logit_processor])[:, padding_length:]
         generated_text = self.tokenizer.batch_decode(generated_ids.tolist(), skip_special_tokens=True)
         generated_text = [t.split('\nUser ')[0] for t in generated_text]
         target_text = self.tokenizer.batch_decode(target_ids, skip_special_tokens=True)

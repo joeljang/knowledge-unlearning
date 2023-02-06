@@ -10,6 +10,9 @@ import re
 import string
 import logging
 from Datasets import Custom_Dataset
+from utils import Trie
+from tqdm import tqdm
+import itertools
 
 # This file is exactly the same as Neo_Model.py but with training related
 # methods all stripped out.
@@ -23,9 +26,9 @@ from Datasets import Custom_Dataset
 # https://github.com/Lightning-AI/lightning/issues/14993
 
 
-class NeoValid(pl.LightningModule):
+class NeoST(pl.LightningModule):
     def __init__(self, hparams):
-        super(NeoValid, self).__init__()
+        super(NeoST, self).__init__()
         self.mode = hparams.mode
 
         # Model Initializaion
@@ -67,6 +70,8 @@ class NeoValid(pl.LightningModule):
         self.el_n = self.hparams.el_n
         # Main N to check for early stopping
         self.el_n_main = self.hparams.el_n[0]
+        self.illegal_dup_len = 10
+        self.construct_trie()
 
     def forward(self, input_ids, attention_mask=None, lm_labels=None):
         return self.model(
@@ -85,6 +90,40 @@ class NeoValid(pl.LightningModule):
         )
         loss, score = outputs[0], outputs[1]
         return loss, score
+
+    def construct_trie(self):
+        dataset = self.hparams.train_set
+        length = self.target_length
+
+        train_dataset = self.get_dataset(
+            dataset_name=dataset,
+            tokenizer=self.tokenizer,
+            valid_subset_path="",
+            type_path="train",
+            length=length)
+
+
+        all_suffixes = []
+        for sample in train_dataset:
+            sample = sample['source_ids'].tolist()
+            for i, _ in enumerate(sample):
+                all_suffixes.append(sample[i:i+self.illegal_dup_len])
+                if len(sample) - i == self.illegal_dup_len:
+                    break
+        
+        print(f'{len(all_suffixes)=}')
+        all_suffixes.sort()
+        all_suffixes = list(k for k, _ in itertools.groupby(all_suffixes))
+        print(f'{len(all_suffixes)=}')
+        self.trie = Trie(all_suffixes)
+        
+    def restrict_vocab(self, batch_idx, prefix_beam):
+        vocabs = range(len(self.tokenizer))
+        most_recent = prefix_beam[-(self.illegal_dup_len - 1):]
+        illegal_toks = self.trie.get(most_recent.tolist())
+        # print(illegal_toks)
+        legal_toks = [v for v in vocabs if v not in illegal_toks]
+        return legal_toks
 
     def validation_step(self, batch, batch_idx, dataloader_idx=-1):
         if self.mode == 'general_lm_eval':
@@ -173,11 +212,11 @@ class NeoValid(pl.LightningModule):
         max_len = self.target_length
 
         labels, preds = [], []
-        for i in range(1, max_len):
+        for i in tqdm(range(1, max_len)):
             label = input_ids[..., i]
             prompt = input_ids[..., :i]
             try:
-                pred = self.model.generate(prompt, max_length=i + 1)[:, -1]
+                pred = self.model.generate(prompt, max_length=i + 1, prefix_allowed_tokens_fn=self.restrict_vocab)[:, -1]
             except IndexError:  # if batch == 1
                 pred = self.model.generate(torch.squeeze(
                     prompt), max_length=i + 1).squeeze()[-1]
@@ -209,10 +248,10 @@ class NeoValid(pl.LightningModule):
         N = self.el_n
         numerator = {n: [0] * batch_size for n in N}
 
-        for i in reversed(range(1, max_len)):
+        for i in tqdm(reversed(range(1, max_len))):
             label = input_ids[..., i:max_len]
             prompt = input_ids[..., :i]
-            pred = self.model.generate(prompt, max_length=max_len)[..., i:]
+            pred = self.model.generate(prompt, max_length=max_len, prefix_allowed_tokens_fn=self.restrict_vocab)[..., i:]
 
             for example_idx in range(batch_size):
                 p, l = pred[example_idx], label[example_idx]
@@ -561,7 +600,7 @@ class NeoValid(pl.LightningModule):
 
         inputs = torch.cat(generate_input, dim=0)
         attention_masks = inputs.ne(self.tokenizer.pad_token_id).long()
-        generated_ids = self.model.generate(inputs, attention_mask=attention_masks, max_new_tokens=32)[:, padding_length:]
+        generated_ids = self.model.generate(inputs, attention_mask=attention_masks, max_new_tokens=32, prefix_allowed_tokens_fn=self.restrict_vocab)[:, padding_length:]
         generated_text = self.tokenizer.batch_decode(generated_ids.tolist(), skip_special_tokens=True)
         generated_text = [t.split('\nUser ')[0] for t in generated_text]
         target_text = self.tokenizer.batch_decode(target_ids, skip_special_tokens=True)

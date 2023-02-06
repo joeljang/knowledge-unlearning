@@ -5,10 +5,9 @@ import json
 import pytorch_lightning as pl
 from pytorch_lightning.loggers import WandbLogger
 from models.Neo_Model import Neo
-from models.Neo_Model_valid import NeoValid
-from models.Neo_Model_suffix_tree import NeoST
 from models.Neo_Model_DP import NeoDP
-from utils import MetricTracker
+# from models.Neo_Model_valid import NeoValid
+
 
 if __name__ == '__main__':
     # Parsing Arguments
@@ -27,8 +26,6 @@ if __name__ == '__main__':
     # Init configs that are not given
     if 'seed' not in config:
         seed = 42
-    if 'privacy_method' not in config:
-        config.privacy_method = None
     if 'train_sets' not in config:
         config.train_sets = ""
     if 'valid_sets' not in config:
@@ -93,8 +90,6 @@ if __name__ == '__main__':
     else:
         wandb_logger = None
 
-    callbacks = [MetricTracker(config.wandb_run_name)]
-
     # Setting for pytorch lightning trainer
     train_params = dict(
         accumulate_grad_batches=config.gradient_accumulation_steps,
@@ -104,28 +99,20 @@ if __name__ == '__main__':
         precision=16 if config.fp16 else 32,
         check_val_every_n_epoch=config.check_val_every_n_epoch,
         enable_checkpointing=False,
-        callbacks=callbacks,
         logger=wandb_logger,
         strategy=config.strategy,
         num_sanity_val_steps=0,
-        limit_val_batches=1,
         log_every_n_steps=1
     )
 
     if config.check_validation_only:
         trainer = pl.Trainer(**train_params)
-        if config.privacy_method == 'dp':
-            model = NeoDP(config)
-        elif config.privacy_method == 'st':
-            model = NeoST(config)
-        else:
-            model = NeoValid(config)
-        model = NeoST(config)
+        model = NeoDP(config)
         trainer.validate(model)
     else:
         trainer = pl.Trainer(**train_params)
         if config.do_init_eval:
-            model = NeoValid(config)
+            model = NeoDP(config)
             trainer.validate(model)
         model = Neo(config)
         trainer.fit(model)
