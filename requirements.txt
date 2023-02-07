@@ -10,7 +10,4 @@ deepspeed
 boto3
 rouge
 lm-eval
-
-#LM-Evaluation
-rouge_score==0.0.4
-datasets==1.15.1
+torchmetrics==0.10.3
